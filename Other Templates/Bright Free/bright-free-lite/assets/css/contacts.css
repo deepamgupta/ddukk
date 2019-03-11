@@ -1,0 +1,63 @@
+.form-control {
+  height: 48px;
+}
+.form-control,
+textarea {
+  background: #F7F7F7;
+  border: none;
+  font-size: 15px;
+  outline: medium none;
+  color: #999;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  padding: 10px 12px;
+  border-radius: 0;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.form-control:focus,
+textarea:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #436eee;
+}
+.contact-datails {
+  margin-bottom: 34px;
+  min-height: 75px;
+  position: relative;
+}
+.contact-datails p {
+  margin-bottom: 1em;
+}
+.contact-datails p i {
+  padding-right: 10px;
+}
+.login a {
+  color: #999;
+}
+.login a:hover {
+  color: #436eee;
+}
+.inline {
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 30px;
+}
+.inline input[type="checkbox"] {
+  width: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+  margin-top: 5px;
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  opacity: 1;
+}
+.text-danger {
+  text-align: left;
+  font-size: 14px;
+}

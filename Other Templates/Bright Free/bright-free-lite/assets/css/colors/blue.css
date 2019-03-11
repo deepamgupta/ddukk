@@ -1,0 +1,233 @@
+a{
+  color: #436EEE;
+}
+a:hover{
+  color: #436EEE;
+}
+.btn-common {
+  background: #436EEE;
+}
+.btn-common::before{
+  background: #5e82ef;
+}
+.btn-border:hover{
+  color: #436EEE;
+}
+/* Back to Top */
+.back-to-top i {
+  background-color: #436EEE;
+}
+#color-style-switcher .bottom a i{
+  color: #436EEE;
+}
+#roof{
+  background: #436EEE;
+}
+/* Navbar */
+.slicknav_btn{
+  border-color: #436EEE;
+  border-radius: 2px;
+}
+.slicknav_menu .slicknav_btn .slicknav_icon-bar{
+  background: #436EEE;
+}
+.slicknav_menu .slicknav_btn:hover{
+  background: #436EEE;
+}
+.slicknav_nav a:hover,.slicknav_nav a.active{
+  color: #436EEE;
+}
+.slicknav_nav ul li a.active{
+  color: #436EEE;
+}
+.full-search{
+  border-color: #436EEE;
+}
+.full-search::before{
+  border-color: transparent transparent #436EEE;
+}
+.full-search input[type="text"]{
+  border-top: 2px solid #436EEE;
+}
+.full-search input[type="text"]:focus{
+  border-top: 2px solid #436EEE;
+}
+.full-search .close-search{
+   color: #436EEE;
+}
+.account-setting a:hover{
+  color: #436EEE;
+}
+/* Navbar */
+.main-navigation .navbar-nav > li > a:hover,
+.main-navigation .navbar-nav > li > a.active,
+.main-navigation .navbar-nav > li.open > a,
+.main-navigation .navbar-nav > .active > a:hover,
+.main-navigation .navbar-nav > .active > a:focus,
+.main-navigation .navbar-nav > .open > a:hover{
+  color: #436EEE;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu> li > a:hover,
+.dropdown-menu> li > a.active{
+  background: #436EEE;
+}
+.open-search{
+  background: #436EEE;
+}
+#carousel-area .carousel-indicators li{
+  background: #436EEE;
+}
+.activity-item{
+  border-color: #436EEE;
+}
+.icon i{
+  background: #436EEE;
+}
+.thumb .courses-price .price{
+  color: #436EEE;
+}
+.coaching-courses .coaching-wrapper h3 span{
+  color: #436EEE;
+}
+.why-wrap:hover h4 a{
+  color: #436EEE;
+}
+.counting .icon-left i{
+  color: #436EEE;
+}
+.teacher .teacher-item .teacher-desc h3 a:hover{
+  color: #436EEE;
+}
+.news-grid-item .news-content .news-title a:hover{
+  color: #436EEE;
+}
+.news-grid-item .news-content .meta .meta-part a:hover{
+  color: #436EEE;
+}
+.meta .meta-part a i{
+  color: #436EEE;
+}
+footer .address li i{
+  color: #436EEE;
+}
+footer .list li a:hover{
+  color: #436EEE;
+}
+.course-list .courses-list-1 .item-list .price{
+  color: #436EEE;
+}
+/* Feature Highlighta */
+.owl-theme .owl-buttons div{
+  background: #436EEE!important;
+}
+/* Gallery */
+.controls a:hover, .controls .active{
+  background: #436EEE;
+}
+.controls a{
+  border-color: #436EEE;
+}
+.portfolio-item .icon i:hover{
+  color: #436EEE;
+  border-color: #436EEE;
+}
+.sup-desc-wrap .sup-link .left-link, .sup-desc-wrap .sup-link .right-link{
+  border-color: #436EEE;
+  background: #436EEE;
+}
+.sup-desc-wrap .sup-link a:hover{
+  color: #436EEE;
+}
+/* Pagination */
+.pagination .active > a, .pagination .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+  background: #436EEE!important;
+}
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover{
+  background: #436EEE!important;
+  border-color: #436EEE!important;
+}
+.breadcrumb-wrapper .current{
+  color: #436EEE;
+}
+#sidebar .tag a:hover{
+  color: #436EEE;
+}
+.widget-area-sidebar .posts-list .widget-content a:hover{
+  color: #436EEE;
+}
+.widget-featured .widget-img .text span{
+  color: #436EEE;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+  background: #436EEE;
+}
+.nav-tabs > li > a{
+  border-color: #436EEE; 
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover{
+  background: #436EEE;
+  border-color: #436EEE; 
+}
+.form-control:focus, textarea:focus{
+  border-color: #436EEE; 
+}
+.panel-default .panel-heading a:hover{
+  color: #436EEE;
+}
+.cta{
+  background: #436EEE; 
+}
+.tp-bullets.preview4 .bullet:hover, .tp-bullets.preview4 .bullet.selected{
+  background: #436EEE!important; 
+  border-color: #436EEE!important; 
+}
+
+.single-course .course-item .topics ul li i{
+  color: #436EEE;
+}
+.course-information .amount{
+  color: #436EEE;
+}
+#sidebar .cat-list li i{
+  color: #436EEE;
+}
+#sidebar .posts-list .widget-content a{
+  color: #436EEE;
+}
+.about .info-list li a i{
+  color: #436EEE;
+}
+.about .info-list li a:hover{
+  color: #436EEE;
+}
+.post-title a:hover{
+  color: #436EEE;
+}
+.meta .meta-part a:hover{
+  color: #436EEE;
+}
+#sidebar .cat-list li a:hover{
+  color: #436EEE;
+}
+#sidebar .tag a{
+  background: #436EEE;
+}
+.event-post .date p{
+  color: #436EEE;
+}
+.event-post .date{
+  border-color: #436EEE;
+}
+.event-grid-item .event-content .heding-title .date{
+  background: #436EEE;
+}
+.event-grid-item .event-content .heding-title h3 a:hover{
+  color: #436EEE;
+}
+#comments .comments-list .media .info-body .reply-link:hover{
+  background: #436EEE;
+}
+.testimonial-item .quote-author .quote-footer span{
+  color: #436EEE;
+}

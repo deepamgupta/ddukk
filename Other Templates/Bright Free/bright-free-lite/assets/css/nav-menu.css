@@ -1,0 +1,298 @@
+/* ==========================================================================
+   Roof Section Start
+   ========================================================================== */
+#roof {
+  color: #fff;
+  font-size: 14px;
+  background: #436eee;
+  padding: 10px 0px;
+}
+#roof .name {
+  font-size: 16px;
+  font-weight: 500;
+}
+#roof .quick-contacts span {
+  padding-left: 15px;
+}
+#roof .quick-contacts span a {
+  color: #fff;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#roof .quick-contacts span a:hover {
+  opacity: 0.8;
+}
+#roof .quick-contacts span i {
+  margin-right: 5px;
+}
+/* ==========================================================================
+   Menu Search 
+   ========================================================================== */
+.search {
+  display: none;
+}
+.header-search {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.open-search {
+  background: #436eee;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  height: 36px;
+  cursor: pointer;
+  line-height: 35px;
+  text-align: center;
+  width: 36px;
+}
+.open-search:hover {
+  color: #fff;
+}
+.full-search {
+  z-index: 9999;
+  position: absolute;
+  top: 70px;
+  display: none;
+  margin-bottom: -1px;
+}
+.full-search:before {
+  position: absolute;
+  top: -8px;
+  right: 38px;
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0px 8px 8px;
+  border-color: transparent transparent #436eee;
+  box-sizing: border-box;
+}
+.full-search .form-control:focus {
+  border: none;
+}
+.full-search .close-search {
+  cursor: pointer;
+  font-size: 24px;
+  color: #436eee;
+  top: 10px;
+  right: 24px;
+  position: absolute;
+}
+.full-search input[type="text"] {
+  outline: none;
+  font-size: 16px;
+  display: inline-block;
+  color: #999;
+  border-top: 2px solid #436eee;
+  background: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  width: 260px;
+  position: absolute;
+  right: 10px;
+}
+.full-search input[type="text"]:focus {
+  border-top: 2px solid #436eee;
+}
+/* ==========================================================================
+   Main Menu 
+   ========================================================================== */
+.main-navigation {
+  position: relative;
+  background: #fff;
+  padding: 0;
+}
+.main-navigation .navbar-brand {
+  width: 142px;
+  height: auto;
+  padding: 0 0 0 15px;
+}
+.main-navigation .navbar-nav > li > a,
+.main-navigation .navbar-nav > li > a:focus {
+  font-size: 14px;
+  padding: 25px 20px;
+  margin: 0px;
+  outline: 0;
+  color: #656565;
+  font-weight: 400;
+  position: relative;
+  background: transparent;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+}
+.main-navigation .navbar-nav > li a:focus > a {
+  background: transparent;
+}
+.main-navigation .navbar-nav > li.open > a:focus,
+.main-navigation .navbar-nav > li.open > a:active {
+  background: transparent!important;
+}
+.main-navigation .navbar-nav > li > a:hover,
+.main-navigation .navbar-nav > .active > a,
+.main-navigation .navbar-nav > li.open > a,
+.main-navigation .navbar-nav > .active > a:hover,
+.main-navigation .navbar-nav > .active > a:focus,
+.main-navigation .navbar-nav > .open > a:hover {
+  background: transparent;
+  color: #436eee;
+}
+.main-navigation .navbar-nav > .dropdown:hover > ul.dropdown-menu {
+  display: block;
+  -webkit-animation: fadeInUpMenu .5s;
+  -moz-animation: fadeInUpMenu .5s;
+  -ms-animation: fadeInUpMenu .5s;
+  -o-animation: fadeInUpMenu .5s;
+  animation: fadeInUpMenu .5s;
+}
+.main-navigation .navbar-nav > li > a:hover,
+.main-navigation .navbar-nav > li > a:focus,
+.main-navigation .navbar-nav > li.active > a,
+.main-navigation .navbar-nav > li.open > a {
+  color: #436eee;
+}
+.main-navigation .dropdown-menu {
+  position: absolute;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 3px;
+  left: 0;
+  min-width: 200px;
+  background: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.main-navigation .dropdown-menu > li > a {
+  padding: 7px 30px 7px 20px;
+  font-size: 14px;
+  color: #656565;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  letter-spacing: .3px;
+  line-height: 32px;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a.active {
+  background: #436eee;
+  color: #fff;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.affix {
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+.affix .navbar-brand {
+  width: 142px;
+}
+.affix .navbar-nav > li > a,
+.affix .navbar-nav > li > a:focus {
+  padding: 18px 20px;
+}
+.affix .header-search {
+  margin-top: 8px;
+}
+@-webkit-keyframes fadeInUpMenu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeInUpMenu {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeInUpMenu {
+  -webkit-animation-name: fadeInUpMenu;
+  animation-name: fadeInUpMenu;
+}
+@-webkit-keyframes MenuFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes MenuFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.active.slicknav_collapsed,
+.slicknav_parent.slicknav_open {
+  background: #eee;
+}
+.wpb-mobile-menu {
+  display: none;
+}
+.wpb-mobile-menu ul li > ul {
+  padding: 0;
+  border-style: solid;
+  border-width: 4px 0 0 0;
+  border-radius: 0;
+  left: 0;
+  right: 0;
+  border-color: transparent;
+}
+.wpb-mobile-menu ul li > ul > li > a {
+  color: #666;
+  padding: 10px 0 10px 15px;
+}
+.wpb-mobile-menu ul li > ul > li > a:hover,
+.wpb-mobile-menu ul li > ul > li > a .active {
+  background: #ecf0f1;
+}
+.wpb-mobile-menu ul li > ul > li.active > a {
+  background: #ecf0f1;
+}
+.slicknav_menu {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    position: absolute;
+    top: 0;
+  }
+  /* #menu is the original menu */
+  #wpb-mobile-menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+}
+/* SlickMenu responsive */
+@media screen and (max-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+}

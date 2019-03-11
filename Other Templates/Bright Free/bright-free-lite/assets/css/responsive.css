@@ -1,0 +1,262 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section {
+    padding: 40px 0;
+  }
+  .header-search {
+    display: none;
+  }
+  .section-title {
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+  .medium-title {
+    font-size: 18px;
+  }
+  .main-navigation .navbar-nav > li > a,
+  .main-navigation .navbar-nav > li > a:focus {
+    padding: 22px 15px;
+  }
+  #carousel-area .item .carousel-caption p {
+    font-size: 16px;
+  }
+  #carousel-area .item .carousel-caption h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #carousel-area i {
+    margin-right: 0;
+  }
+  .activity-item {
+    margin-bottom: 80px;
+  }
+  .features-header h2 {
+    font-size: 22px;
+  }
+  .features-main .info .content h3 {
+    font-size: 16px;
+  }
+  .features-wrapper .img-thumb {
+    margin-top: 15px;
+  }
+  .coaching-courses .coaching-wrapper h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .coaching-courses .timer .time-entry {
+    margin-bottom: 30px;
+  }
+  .coaching-courses .box {
+    margin-top: 30px;
+  }
+  .why-wrap {
+    margin: 0;
+  }
+  .featured-thumb {
+    margin-top: 218px;
+  }
+  .counting {
+    padding: 20px 0;
+  }
+  .teacher .teacher-item .thumb-teacher {
+    height: 255px;
+  }
+  .testimonial-item h2 {
+    font-size: 19px;
+  }
+  .news-grid-item .news-content {
+    padding: 15px 15px 35px 25px;
+  }
+  .cta h3 {
+    font-size: 16px;
+  }
+  .contact-form {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 640px) {
+  #carousel-area .item .carousel-caption p {
+    font-size: 16px;
+  }
+  #carousel-area .item .carousel-caption h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .header-search {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .section {
+    padding: 40px 0;
+  }
+  .header-search {
+    display: none;
+  }
+  .section-title {
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+  #carousel-area .item {
+    height: 370px;
+  }
+  #carousel-area .left.carousel-control {
+    left: 0%;
+  }
+  #carousel-area .right.carousel-control {
+    right: 0%;
+  }
+  #carousel-area .item .carousel-caption p {
+    font-size: 12px;
+  }
+  #carousel-area .item .carousel-caption h1 {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  #carousel-area .item .carousel-caption .btn {
+    margin: 0;
+  }
+  #carousel-area .carousel-indicators {
+    display: none;
+  }
+  .btn-lg {
+    padding: 12px 8px;
+  }
+  #carousel-area i {
+    margin-right: 0;
+  }
+  .activity-item {
+    margin-top: 45px;
+  }
+  .activity-item h3 {
+    font-size: 14px;
+  }
+  .features-wrapper {
+    margin-top: -22px;
+  }
+  .features-header h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .features-main .info .content h3 {
+    font-size: 14px;
+  }
+  .features-wrapper .img-thumb {
+    margin-top: 15px;
+  }
+  .coaching-courses .coaching-wrapper h3 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .coaching-courses .timer .time-entry {
+    padding: 10px 10px 15px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .coaching-courses .box {
+    margin-top: 30px;
+  }
+  .courses-wrap .course-detail-wrap .course-content h3 {
+    font-size: 15px;
+  }
+  .why-wrap {
+    margin: 0;
+  }
+  .why-wrap .why-text h4 {
+    font-size: 16px;
+  }
+  .counting {
+    padding: 20px 0;
+  }
+  .teacher .teacher-item {
+    margin-top: 45px;
+  }
+  .teacher .teacher-item .thumb-teacher {
+    height: 255px;
+  }
+  .teacher .teacher-item .teacher-desc h3 {
+    font-size: 18px;
+  }
+  .testimonial-item h2 {
+    font-size: 19px;
+  }
+  .testimonial-item .quote-author .quote-footer .name {
+    font-size: 11px;
+  }
+  .news-grid-item .news-content {
+    padding: 15px 15px 35px 25px;
+  }
+  .news-grid-item .news-content .news-title {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .subscribe .form-control {
+    width: 100%;
+  }
+  .newsletter h3 {
+    font-size: 24px;
+  }
+  footer #copyright .bottom-social-icons {
+    margin-top: 0px;
+    float: left!important;
+  }
+  .item-body {
+    margin-top: 20px;
+  }
+  .item-body h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .item-body .meta .meta-part {
+    margin-right: 12px;
+  }
+  .course-information h4 {
+    font-size: 20px;
+  }
+  .cta .btn-border {
+    float: left!important;
+  }
+  .controls .btn {
+    padding: 6px 18px;
+    margin-bottom: 5px;
+  }
+  .single-teacher .teacher-info .social-icon {
+    float: left;
+  }
+  .event-grid-item .event-content ul li {
+    padding-right: 10px;
+  }
+  .event-grid-item .event-content ul li:last-child {
+    margin-left: 8px;
+  }
+  .event-grid-item .event-content .heding-title h3 {
+    font-size: 14px;
+  }
+  .time {
+    display: none;
+  }
+  .error-page {
+    padding: 0px;
+  }
+  .error-page h1 {
+    font-size: 90px;
+  }
+  .pagination > li > a,
+  .pagination .pagination > li > span {
+    margin-right: 5px;
+  }
+  .author .author-img {
+    margin-right: 14px;
+  }
+  .author-title h3 {
+    font-size: 13px;
+  }
+  #comments .comments-list li ul {
+    padding-left: 0;
+  }
+  #sidebar {
+    margin-top: 30px;
+  }
+}
