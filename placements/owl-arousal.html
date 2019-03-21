@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Final</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+   <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   -->
+  <script src="new/assets/js/jquery-1.9.1.min.js"></script>
+  <script src="new/owl-carousel/owl.carousel.min.js"></script>
+  <link href="new/owl-carousel/owl.carousel.css" rel="stylesheet">
+  <link href="new/owl-carousel/owl.theme.css" rel="stylesheet">
+  <link href="new/assets/css/bootstrapTheme.css" rel="stylesheet">
+  
+  <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700' rel='stylesheet' type='text/css'> -->
+  <!-- <link href="assets/css/custom.css" rel="stylesheet"> -->
+
+  <!-- <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet"> -->
+
+  <!-- Basic stylesheet -->
+<!-- <link rel="stylesheet" href="owl-carousel/owl.carousel.css">   no ......phokattt -->
+ 
+<!-- Default Theme -->
+<!-- <link rel="stylesheet" href="owl-carousel/owl.theme.css"> phokattt -->
+ 
+<!-- You can use latest version of jQuery  -->
+<!-- <script src="jquery-1.9.1.min.js"></script>  phokattt -->
+ 
+<!-- Include js plugin -->
+<!-- <script src="assets/owl-carousel/owl.carousel.js"></script> phokattt -->
+  <!--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+
+  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script> -->
+  <style>
+ .owl-buttons {
+  display: none;
+}
+.owl-carousel:hover .owl-buttons {
+  display: block;
+}
+
+.owl-item {
+  text-align: center;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  background: transparent;
+  color: #869791;
+  font-size: 40px;
+  line-height: 300px;
+  margin: 0;
+  padding: 0 60px;
+  position: absolute;
+  top: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+  padding-left: 20px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 0;
+  padding-right: 20px;
+}
+  </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Basic Table</h2>
+        <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+  <div class="container">
+ <div align="center" style="padding:4%; color: black; font-weight: 600" >PLACEMENTS</div>
+  </div>
+    <div id="owl-example" class="owl-carousel " >
+      
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+        <div><img src="download.jpg" alt=""></div>
+      
+      </div> 
+      
+  <script>
+$(document).ready(function() {
+ 
+ $("#owl-example").owlCarousel({
+     itemsDesktop : [1499,4],
+     itemsDesktopSmall : [1199,3],
+     itemsTablet : [899,2],
+     itemsMobile : [599,1],
+     navigation : true,
+     navigationText : ['<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse"></i></span>','<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse"></i></span>'],
+ });
+ 
+});
+  </script>
+</body>
+</html>
