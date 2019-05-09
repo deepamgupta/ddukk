@@ -240,7 +240,11 @@ ol {
 .site-logo {
 	display: inline-block;
 	margin-right: 50px;
-	padding-top: 20px;
+	padding-top: 0px;
+}
+
+.site-logo img {
+	height: 140px;
 }
 
 .header-info {
