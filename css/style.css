@@ -239,12 +239,12 @@ ol {
 
 .site-logo {
 	display: inline-block;
-	margin-right: 50px;
 	padding-top: 0px;
 }
 
 .site-logo img {
 	height: 140px;
+	width: auto;
 }
 
 .header-info {
@@ -300,6 +300,14 @@ ol {
 	font-weight: 500;
 }
 
+.ddukk-head{
+	font-size: 1.5em;
+	text-align: center;
+	/* font-family: 'Alegreya', serif; */
+	font-family: 'ABeeZee', sans-serif;
+	color: #721915;
+
+}
 
 
 						/* Navbar */
@@ -1752,7 +1760,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	}
 	.header-info .hf-item p {
 		display: block;
-	}
+	}	
 	.hs-item {
 		height: auto;
 		min-height: auto;
@@ -1903,6 +1911,12 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	.hs-item .hs-title {
 		font-size: 27px;
 	}
+
+	.site-logo img {
+		height: 115px;
+		width: auto;
+	}
+	
 	.counter-section .counter .counter-item {
 		min-width: 65px;
 	}
