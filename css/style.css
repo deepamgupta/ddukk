@@ -235,6 +235,9 @@ ol {
 .header-section {
 	padding: 20px 0;
 	overflow: hidden;
+	/* font-family: 'Alegreya', serif; */
+	font-family: 'ABeeZee', sans-serif;
+	color: #051231;
 }
 
 .site-logo {
@@ -303,10 +306,25 @@ ol {
 .ddukk-head{
 	font-size: 1.5em;
 	text-align: center;
-	/* font-family: 'Alegreya', serif; */
-	font-family: 'ABeeZee', sans-serif;
-	color: #721915;
+}
 
+.ddukk-mainhead{
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.ddukk{
+	font-size: 1.8em;
+}
+
+.ugc{
+	font-size: 0.8em;
+}
+
+.davv{
+	font-size: 1.1em;
+}
+.naac{
+	font-size: 0.9em;
 }
 
 
@@ -1733,11 +1751,19 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	.container {
 		max-width: 1170px;
 	}
+	.ddukk-head{
+		display: none;
+	}
 }
 
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.ddukk-head{
+		display: none;
+	}
+
 	.counter-section .counter {
 		padding-left: 20px;
 	}
@@ -1766,6 +1792,16 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 		min-height: auto;
 		padding: 140px 0;
 	}
+
+	.skill-india{
+		display: none;
+	}
+
+	.ddukk-head{
+		display: none;
+	}
+
+
 	.counter-section .counter {
 		padding-top: 15px;
 		padding-left: 0;
@@ -1806,6 +1842,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	}
 	.site-logo {
 		padding: 15px 0;
+	}
+
+	.ddukk-mainhead{
+		display: none;
 	}
 	.nav-switch {
 		position: absolute;
@@ -1915,6 +1955,10 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	.site-logo img {
 		height: 115px;
 		width: auto;
+	}
+
+	.ddukk-mainhead{
+		display: none;
 	}
 	
 	.counter-section .counter .counter-item {
