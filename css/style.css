@@ -2163,7 +2163,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 }
 #e
 {
-	background-color: #263238;
+	background-color: #020031;
 }
 #cf .row{
 	margin-left: 0px;
@@ -2262,7 +2262,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	{
 		padding-top: 20px; 
 		padding-left: 30px;
-		background-color: #263238;
+		background-color: #020f40;
 		padding-bottom: 20px;
 
 	} 
@@ -2276,7 +2276,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	}
 	#cf .col-md-12
 	{
-		background-color:#1b2e38; 
+		background-color:#0d0c25; 
 	}
 	#cf #it
 	{
@@ -2308,9 +2308,9 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	{
 		color: #fff !important;
 		padding-top: 3px;
-		font-size: 10px !important;
+		/*font-size: 10px !important;*/
 		font-weight:bold; 
-		font: bold 22px 'open-sans' !important; 
+		font: bold 18px 'open-sans' !important; 
 	}
 	.hrstyle
 	{
@@ -2340,6 +2340,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 	}
 	.developers{
 		margin-top: 20px;
+		margin-bottom: 50px;
 	}
 
 	
@@ -2351,7 +2352,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 		#cf .col-md-3{
 			padding-top: 2px; 
 			padding-left: 35px;
-			background-color: #263238;
+			/*background-color: #263238;*/
 			flex: none;	
 			max-width: inherit;
 		}
@@ -2368,6 +2369,6 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 			padding: 0px;
 		}
 		#cf .col-md-4 h4{
-			margin-left: 2em;
+			margin-left: 0em;
 		}
 	}
