@@ -236,7 +236,10 @@ ol {
 	padding: 20px 0;
 	overflow: hidden;
 	/* font-family: 'Alegreya', serif; */
-	font-family: 'ABeeZee', sans-serif;
+	/* font-family: 'ABeeZee', sans-serif; */
+	/* font-family: 'Ubuntu', sans-serif; */
+	font-family: 'Merriweather', serif;
+
 	color: #051231;
 }
 
@@ -308,16 +311,12 @@ ol {
 	text-align: center;
 }
 
-.ddukk-mainhead{
-	font-family: 'ABeeZee', sans-serif;
-}
-
 .ddukk{
-	font-size: 1.8em;
+	font-size: 1.6em;
 }
 
 .ugc{
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 .davv{
@@ -424,7 +423,7 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 -----------------------*/
 
 .hs-item {
-	min-height: 760px;
+	min-height: 930px;
 	position: relative;
 	display: table;
 	width: 100%;
