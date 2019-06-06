@@ -1720,6 +1720,13 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
 }
 
 /*---------------------
+	Feedback Page
+-----------------------*/
+.feedback-accordian{
+	width: 100%;
+}
+
+/*---------------------
 	Blog Page
 -----------------------*/
 
