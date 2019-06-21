@@ -62,9 +62,9 @@
 	  /* overflow: hidden; */
 	  /* background-image: linear-gradient(-55deg, rgba(50,45,55,1) 0%, rgba(101,96,106,1) 100%); */
 	  color: #e3dfdf;
-	  font-family: 'Exo 2';
+	  /* font-family: 'Exo 2'; */
 	  font-weight: 300;
-	  animation: fadeIn .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1;
+	  /* animation: fadeIn .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1; */
 	}
 	
 	.wrapper{
@@ -93,14 +93,17 @@
 	}
 	
 	.front{
-	  background-image: linear-gradient(180deg, rgb(246, 120, 58) 0%, rgb(93, 13, 21) 100%); 
+	  background-image: linear-gradient(180deg, rgb(246, 120, 58) 0%, rgb(237, 110, 26) 100%);
+		/* rgb(114, 50, 7) 100%);  */
 	  /* rgba(145,141,144,1) 0%, rgba(92,91,94,0) 100%); */
 	  transform: rotateY(0deg) translateZ(160px); 
 	  border-radius: 34px 3px 0 0;
 	}
 	
 	.right{ 
-	  background-image: linear-gradient(0deg, rgba(145,141,144,1) 0%, rgba(92,91,94,0) 100%);
+	  /* background-image: linear-gradient(0deg, rgba(145,141,144,1) 0%, rgba(92,91,94,0) 100%); */
+		background-image: linear-gradient(180deg, rgb(246, 120, 58) 0%, rgb(237, 110, 26) 100%);
+		 /* rgb(93, 13, 21) 100%);  */
 	  opacity: 0.08;
 	  transform: rotateY(90deg) translateZ(160px);
 	  border-radius: 0 0 3px 34px;
@@ -122,14 +125,14 @@
 	  margin: 0;
 	  font-size: 38px;
 	  letter-spacing: -.25px;
-	  transform: translateX(-5px);
+	  /* transform: translateX(-5px); */
 	  font-family: 'Sarala'; 
 	  font-weight: 700;
 	}
 	
 	h2{
 	  font-size: 21px;
-	  transform: translateX(0px);
+	  /* transform: translateX(0px); */
 	}
 	
 	p{
@@ -161,10 +164,10 @@
 	
 	@keyframes float{
 	  0%{
-		transform: translateZ(20px);
+		 transform: translateZ(20px);
 	  }
 	  100%{
-		transform: translateY(-21px) translateX(-13px) translateZ(30px);
+		 transform: translateY(-21px) translateX(-13px) translateZ(30px);
 	  }
 	}
 	
@@ -172,9 +175,9 @@
 	  transform: scale(0.9) translateX(77%) translateY(90%) rotateZ(80deg);
 	}
 	
-	ul{
+	.card ul{
 	  margin-left: 21px;
-	  margin-top: 10px;
+	  /* margin-top: 10px; */
 	  padding: 0;
 	  font-size: 16px;
 	  font-weight: 300;
@@ -182,16 +185,17 @@
 	}
 	
 	li{
-	  padding-bottom: 8px;
+	 /* font-family: 'Exo 2'; */
 	  position: relative;
+		
 	}
 	
-	li:before{
+	/* li:before{
 	  content: 'x';
 	  position: absolute;
 	  left: -21px;
 	  opacity: .55;
-	}
+	} */
 	
 	button{
 	  position: absolute;
@@ -203,11 +207,12 @@
 	  color: inherit;
 	  font-family: 'Exo 2';
 	  font-weight: 300;
-	  font-size: 15px;  
+	  font-size: 30px;  
 	  letter-spacing: -.25px;
 	  font-weight: 700;
-	  padding: 13px 34px;
-	  border-radius: 55px 55px 21px 55px;
+	  padding: 3px 12px;
+	  border-radius: 55px 55px 55px 55px;  
+		/* 21 */
 	  background-image: linear-gradient(130deg, rgba(117,51,165,1)  50%, rgba(51,46,57,.89) 100%);
 	  background-size: 125% 100%;
 	  background-position: right;
@@ -238,12 +243,12 @@
 	  opacity: .34;
 	}
 	
-	@keyframes fadeIn{
+	/* @keyframes fadeIn{
 	  0%{
 		opacity: 0.33;
 		transform: scale(.89);
 	  }
-	}
+	} */
 	
 	@media only screen and (max-width: 600px){
 	  body{
@@ -254,6 +259,9 @@
 	 h1, h2, h3, h4, h5, h6 {
 
 		color: #e3dfdf;
+	}
+	.mainc{
+		padding:15px;
 	}	 
 		</style>
 
@@ -357,7 +365,8 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav mr-auto" > 
+						<!-- style="font-size:17px; margin-left:0px;" -->
 					<!-- <li class="nav-item active">
 						<a class="nav-link" href="#">Home </a>
 					</li>
@@ -522,9 +531,9 @@
 
 	<!-- About section -->
 	<section class="about-section spad pt-0">
-		<div class="container">
+		<div class="container" style="font-family: 'Exo 2';">
 			<div class="section-title text-center">
-				<h3>write ur code here</h3>
+				<h3 style="color:#ab3232;">Teaching Section</h3>
 
 
 				
@@ -532,119 +541,36 @@
 			</div>
 			<div class="row">
             
-                  <div class="col-md-4">
-					<div class="wrapper">
-						<div class="card">
-						  <div class="front">
-							<h1>Mr. DUmmy</h1>
-							<p>7.7 deck<span>2018</span></p>
-							<p class="price">$ 89.00</p>
-						  </div>
-						  <div class="right">
-							<h2>Mr. DUmmy</h2>
-							<ul>
-							  <li>Width	7.7"</li>
-							  <li>Length	31.75"</li>
-							  <li>Wheelbase	14"</li>
-							  <li>Nose	6.875"</li>
-							  <li>Tail	6.25"</li>
-							</ul>
-							<button>Add to cart, yo</button>
-						  </div>
-						</div>
-				  </div>
-                </div>
+      
 				<div class="col-md-4">
 					<div class="wrapper">
 						<div class="card">
 						  <div class="front">
 							<h1>Mr. DUmmy</h1>
-							<p>7.7 deck<span>2018</span></p>
-							<p class="price">$ 89.00</p>
+							<p>Guest Faculty<span></span></p>
+							<!-- <p class="price">$ 89.00</p> -->
+							<div>
+								<img src="img/member/4.jpg">
+							</div>
 						  </div>
 						  <div class="right">
 							<h2>Mr. DUmmy</h2>
 							<ul>
-							  <li>Width	7.7"</li>
-							  <li>Length	31.75"</li>
-							  <li>Wheelbase	14"</li>
-							  <li>Nose	6.875"</li>
-							  <li>Tail	6.25"</li>
+							  <li class="mainc">Designation :</li>
+							  <li class="mainc">Graduation &nbsp;:</li>
+							  
+							  <li class="mainc">Research &nbsp;&nbsp;&nbsp;&nbsp;:</li>
+								<li class="mainc">course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+								<li class="mainc"> Skills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;:</li>
 							</ul>
-							<button>Add to cart, yo</button>
+							<button><i class="fab fa-facebook"></i></button>
+							<button style="right:123px;"><i class="fas fa-envelope"></i></button>
+							<button style="right:230px;"><i class="fab fa-linkedin"></i></button>
 						  </div>
 						</div>
 				  </div>
-				</div>
-				<div class="col-md-4">
-					<div class="wrapper">
-						<div class="card">
-						  <div class="front">
-							<h1>Mr. DUmmy</h1>
-							<p>7.7 deck<span>2018</span></p>
-							<p class="price">$ 89.00</p>
-						  </div>
-						  <div class="right">
-							<h2>Mr. DUmmy</h2>
-							<ul>
-							  <li>Width	7.7"</li>
-							  <li>Length	31.75"</li>
-							  <li>Wheelbase	14"</li>
-							  <li>Nose	6.875"</li>
-							  <li>Tail	6.25"</li>
-							</ul>
-							<button>Add to cart, yo</button>
-						  </div>
-						</div>
-				  </div>
-				</div>
+				</div>	
 
-				<div class="col-md-4">
-					<div class="wrapper">
-						<div class="card">
-						  <div class="front">
-							<h1>Mr. DUmmy</h1>
-							<p>7.7 deck<span>2018</span></p>
-							<p class="price">$ 89.00</p>
-						  </div>
-						  <div class="right">
-							<h2>Mr. DUmmy</h2>
-							<ul>
-							  <li>Width	7.7"</li>
-							  <li>Length	31.75"</li>
-							  <li>Wheelbase	14"</li>
-							  <li>Nose	6.875"</li>
-							  <li>Tail	6.25"</li>
-							</ul>
-							<button>Add to cart, yo</button>
-						  </div>
-						</div>
-				  </div>
-				</div>
-				
-				
-				<div class="col-md-4">
-					<div class="wrapper">
-						<div class="card">
-						  <div class="front">
-							<h1>Mr. DUmmy</h1>
-							<p>7.7 deck<span>2018</span></p>
-							<p class="price">$ 89.00</p>
-						  </div>
-						  <div class="right">
-							<h2>Mr. DUmmy</h2>
-							<ul>
-							  <li>Width	7.7"</li>
-							  <li>Length	31.75"</li>
-							  <li>Wheelbase	14"</li>
-							  <li>Nose	6.875"</li>
-							  <li>Tail	6.25"</li>
-							</ul>
-							<button>Add to cart, yo</button>
-						  </div>
-						</div>
-				  </div>
-				</div>				
 
 				<div class="col-md-4">
 					<div class="wrapper">
@@ -660,20 +586,165 @@
 						  <div class="right">
 							<h2>Mr. DUmmy</h2>
 							<ul>
-							  <li>Width	7.7"</li>
-							  <li>Length	31.75"</li>
-							  <li>Wheelbase	14"</li>
-							  <li>Nose	6.875"</li>
-							  <li>Tail	6.25"</li>
+							  <li class="mainc">Designation :</li>
+							  <li class="mainc">Graduation &nbsp;:</li>
+							  
+							  <li class="mainc">Research &nbsp;&nbsp;&nbsp;&nbsp;:</li>
+								<li class="mainc">course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+								<li class="mainc"> Skills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;:</li>
 							</ul>
-							<button>Add to cart, yo</button>
+							<button><i class="fab fa-facebook"></i></button>
+							<button style="right:123px;"><i class="fas fa-envelope"></i></button>
+							<button style="right:230px;"><i class="fab fa-linkedin"></i></button>
+						  </div>
+						</div>
+				  </div>
+				</div>	
+
+
+
+				<div class="col-md-4">
+					<div class="wrapper">
+						<div class="card">
+						  <div class="front">
+							<h1>Mr. DUmmy</h1>
+							<p>Guest Faculty<span></span></p>
+							<!-- <p class="price">$ 89.00</p> -->
+							<div>
+								<img src="img/member/4.jpg">
+							</div>
+						  </div>
+						  <div class="right">
+							<h2>Mr. DUmmy</h2>
+							<ul>
+							  <li class="mainc">Designation :</li>
+							  <li class="mainc">Graduation &nbsp;:</li>
+							  
+							  <li class="mainc">Research &nbsp;&nbsp;&nbsp;&nbsp;:</li>
+								<li class="mainc">course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+								<li class="mainc"> Skills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;:</li>
+							</ul>
+							<button><i class="fab fa-facebook"></i></button>
+							<button style="right:123px;"><i class="fas fa-envelope"></i></button>
+							<button style="right:230px;"><i class="fab fa-linkedin"></i></button>
 						  </div>
 						</div>
 				  </div>
 				</div>				
 
+
+
+
 				
 			</div>
+
+			<div class="section-title text-center">
+				<h3 style="color:#ab3232;">Non Teaching Section</h3>
+
+
+				
+
+			</div>
+
+			<div class="row">
+            
+      
+					<div class="col-md-4">
+						<div class="wrapper">
+							<div class="card">
+								<div class="front">
+								<h1>Mr. DUmmy</h1>
+								<p>Guest Faculty<span></span></p>
+								<!-- <p class="price">$ 89.00</p> -->
+								<div>
+									<img src="img/member/4.jpg">
+								</div>
+								</div>
+								<div class="right">
+								<h2>Mr. DUmmy</h2>
+								<ul>
+									<li class="mainc">Designation :</li>
+									<li class="mainc">Graduation &nbsp;:</li>
+									
+									<li class="mainc">Research &nbsp;&nbsp;&nbsp;&nbsp;:</li>
+									<li class="mainc">course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+									<li class="mainc"> Skills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;:</li>
+								</ul>
+								<button><i class="fab fa-facebook"></i></button>
+								<button style="right:123px;"><i class="fas fa-envelope"></i></button>
+								<button style="right:230px;"><i class="fab fa-linkedin"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>	
+	
+	
+					<div class="col-md-4">
+						<div class="wrapper">
+							<div class="card">
+								<div class="front">
+								<h1>Mr. DUmmy</h1>
+								<p>Guest Faculty<span></span></p>
+								<!-- <p class="price">$ 89.00</p> -->
+								<div>
+									<img src="img/member/4.jpg">
+								</div>
+								</div>
+								<div class="right">
+								<h2>Mr. DUmmy</h2>
+								<ul>
+									<li class="mainc">Designation :</li>
+									<li class="mainc">Graduation &nbsp;:</li>
+									
+									<li class="mainc">Research &nbsp;&nbsp;&nbsp;&nbsp;:</li>
+									<li class="mainc">course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+									<li class="mainc"> Skills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;:</li>
+								</ul>
+								<button><i class="fab fa-facebook"></i></button>
+								<button style="right:123px;"><i class="fas fa-envelope"></i></button>
+								<button style="right:230px;"><i class="fab fa-linkedin"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>	
+	
+	
+	
+					<div class="col-md-4">
+						<div class="wrapper">
+							<div class="card">
+								<div class="front">
+								<h1>Mr. DUmmy</h1>
+								<p>Guest Faculty<span></span></p>
+								<!-- <p class="price">$ 89.00</p> -->
+								<div>
+									<img src="img/member/4.jpg">
+								</div>
+								</div>
+								<div class="right">
+								<h2>Mr. DUmmy</h2>
+								<ul>
+									<li class="mainc">Designation :</li>
+									<li class="mainc">Graduation &nbsp;:</li>
+									
+									<li class="mainc">Research &nbsp;&nbsp;&nbsp;&nbsp;:</li>
+									<li class="mainc">course &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+									<li class="mainc"> Skills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;:</li>
+								</ul>
+								<button><i class="fab fa-facebook"></i></button>
+								<button style="right:123px;"><i class="fas fa-envelope"></i></button>
+								<button style="right:230px;"><i class="fab fa-linkedin"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>				
+	
+	
+	
+	
+					
+				</div>
+	
 		</div>
 	</section>
 	<!-- About section end-->
