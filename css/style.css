@@ -401,6 +401,40 @@ ul, ol {
 	background: #f6783a;
 }
 
+
+/*---------------------
+	Back2Top
+-----------------------*/
+
+#back2Top {
+	width: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	z-index: 999;
+	display: none;
+	cursor: pointer;
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	background-color: #f6993a;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	border-radius: 25px;
+}
+
+#back2Top:hover {
+	background-color: #DDF;
+	color: #000;
+}
+
+
 /*---------------------
 	Hero Section
 -----------------------*/
@@ -1203,6 +1237,7 @@ ul, ol {
 	min-width: 150px;
 }
 
+
 /*---------------------
 	Footer Section
 -----------------------*/
@@ -1702,7 +1737,6 @@ ul, ol {
 .activities-img:hover .middle-over {
 	opacity: 1;
 }
-
 
 /*---------------------
 	Training and Placements Page

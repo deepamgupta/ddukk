@@ -14,8 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=ABeeZee|Alegreya|Ubuntu|Merriweather" rel="stylesheet">
 
 	<!-- Font- Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -39,8 +38,99 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 
 
-	<!-- For photo gallery of training and placements -->
-	<script src="js/photo-gallery.js"></script>
+
+	<!-- gallery stufff style start -->
+
+
+	<style>
+		body {
+			max-width: 100%;
+			overflow-x: hidden;
+			/* font-family:'Times New Roman', Times, serif; */
+		}
+
+		html {
+			box-sizing: border-box;
+		}
+
+		*,
+		*:before,
+		*:after {
+			box-sizing: inherit;
+		}
+
+		.column {
+			float: left;
+			width: 30%;
+			margin-bottom: 50px;
+			padding: 0 30px;
+			margin-left: 20px;
+		}
+
+		@media screen and (max-width: 650px) {
+			.column {
+				width: 100%;
+				display: block;
+			}
+		}
+
+		.card:hover {
+			box-shadow: 2px 2px 5px 2px #bdc3c7;
+		}
+
+		.card {
+			box-shadow: 2px 2px 20px 8px #bdc3c7;
+			/*#8395a7*/
+			border-radius: 0px;
+			transition: 0.1s ease-in;
+		}
+
+		.container {
+			padding: 0 20px;
+		}
+
+		.container::after,
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.title {
+			color: grey;
+		}
+
+		body {
+			/* background-color:#ecf0f1; */
+		}
+
+		.button {
+			border: none;
+			border-radius: 20px;
+			outline: 0;
+			display: inline-block;
+			padding: 8px;
+			color: white;
+			background-color: #e67e22;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		.card img {
+			padding: 7px;
+		}
+
+		.button:hover {
+			background-color: #d35400;
+		}
+
+		/* .row{
+        padding-left: 80px;
+        padding-right: 80px;
+    } */
+	</style>
+	<!-- gallery stufff style end -->
 
 </head>
 
@@ -57,8 +147,7 @@
 
 			<div class="row">
 				<div class="col text-center">
-					<a href="index.html" class="site-logo"><img src="img/logo.png" class="img-fluid"
-							alt=""></a>
+					<a href="index.html" class="site-logo"><img src="img/logo.png" class="img-fluid" alt=""></a>
 				</div>
 				<div class="col-lg-8 col-sm-8 text-center ddukk-mainhead">
 					<section class="ddukk">Deen Dayal Upadhyaya Kaushal Kendra</section>
@@ -67,8 +156,7 @@
 					<section class="naac">(NAAC "A" Grade University of M.P, India)</section>
 				</div>
 				<div class=" col text-center skill-india">
-					<a href="index.html" class="site-logo"><img src="img/skill.jpeg" class="img-fluid"
-							alt=""></a>
+					<a href="index.html" class="site-logo"><img src="img/skill.jpeg" class="img-fluid" alt=""></a>
 				</div>
 			</div>
 			<div class="row">
@@ -132,9 +220,7 @@
 	<nav class="navbar navbar-expand-lg navigation" id="bootnavbar">
 		<div class="container">
 			<a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
-			<button class="navbar-toggler  ml-auto custom-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-				aria-expanded="false" aria-label="Toggle navigation" style="font-size:0.85em;">
+			<button class="navbar-toggler  ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="font-size:0.85em;">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
@@ -186,15 +272,12 @@
  -->
 
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							About Us
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li class="nav-item dropdown">
-								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1"
-									role="button" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
+								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Establishment
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -209,9 +292,7 @@
 							<div class="dropdown-divider"></div>
 							<li><a class="dropdown-item" href="#">Admission</a></li>
 							<li class="nav-item dropdown">
-								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1"
-									role="button" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
+								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Academic
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -224,15 +305,12 @@
 					</li>
 
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Courses
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li class="nav-item dropdown">
-								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1"
-									role="button" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
+								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Regular Courses
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -247,28 +325,24 @@
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="gallery.html" role="button" aria-haspopup="true"
-							aria-expanded="false">
+						<a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 							Gallery
 						</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#" role="button" aria-haspopup="true"
-							aria-expanded="false">
+						<a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 							Training & Placements
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" role="button" aria-haspopup="true"
-							aria-expanded="false">
+						<a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 							Alumni
 						</a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#" role="button" aria-haspopup="true"
-							aria-expanded="false">
+						<a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 							Feedback
 						</a>
 					</li>
@@ -286,87 +360,135 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/bootnavbar.js"></script>
 	<script>
-		$(function () {
+		$(function() {
 			$('#bootnavbar').bootnavbar();
 		})
 	</script>
+
+	<!-- gallery work start -->
 
 
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
 			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
-			<span>About Us</span>
+			<span>Gallery</span>
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->
-
 
 
 	<!-- About section -->
 	<section class="about-section spad pt-0">
 		<div class="container">
 			<div class="section-title text-center">
-				<h3>WELCOME TO DDUKK</h3>
-				<p>Let students be creative and make a difference</p>
+				<h3>Gallery</h3>
+				<!-- <p>What our students think?</p> -->
 			</div>
 			<div class="row">
-					<img class="img-responsive" style="width: 100%;" src="img/about.jpg" alt="">
-			</div>
-			<div class="row about-text pt-5">
-				<div class="col-lg-6">
-					<h5 class="pt-5  pt-lg-0">Our Vision</h5>
-					<p>To contribute effectively to the National Endeavour of producing quality skilled human
-						workforce in demand of world of work by providing them holistic education aligned
-						with skilling competencies as per sectoral demands for employment and
-						entrepreneurship.</p>
 
+
+
+
+				<div class="column">
+					<div class="card">
+						<img src="images/gallery/1.jpg" alt="Jane" style="width:100%;  ">
+						<div class="container">
+							<h2>Runathon </h2>
+							<p class="title">12/12/2018</p>
+							<a href="tournament.html">
+								<p><button class="button">See Photos</button></p>
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="col-lg-6">
-					<h5 class="pt-5  pt-lg-0">Our Mission</h5>
-					<ul class="about-list">
-						<li><i class="fa fa-check-square-o"></i> To develop excellent skilled youth
-							especially in desired sectors by developing them with adequate academic
-							knowledge and vocational skills so as to fulfil the demand of related
-							industries. </li>
-						<li><i class="fa fa-check-square-o"></i> The Institute is committed for the
-							development of the community around by imparting desired skill competencies
-							for the social and economic growth.</li>
-					</ul>
+
+				<div class="column">
+					<div class="card">
+						<img src="images/gallery/2.jpg" alt="Mike" style="width:100%">
+						<div class="container">
+							<h2>PSA </h2>
+							<p class="title">28/12/18</p>
+							<a href="tournament.html">
+								<p><button class="button">See Photos</button></p>
+							</a>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12 about-text mt-5">
-					<h5 class="text-center">About us</h5>
-					<p>Devi Ahilya Vishwavidyalaya (DAVV), Indore is situated in the proximity to huge
-						industrial area with wide opportunity of job requirements and youth aspirations of
-						the region. University Grants Commission (UGC) has established Deen Dayal Upadhyay
-						Kaushal Kendra (DDU-KK) (and Community Colleges under it) as the separate entities
-						in Universities and Colleges in India, emphasizing on skill-based education to the
-						large number of individuals of the community, offer low cost and high quality
-						education locally.
-						<br>
-						<br>
-						Indore is one of the universities to which UGC has
-						permitted to start presently, B.Voc. (Nutrition & Dietetics), B.Voc. (Landscape
-						Design), B.Voc. (Handicraft), B.Voc. (Interior Design) of three years duration each
-						in DDU-KK and a Diploma Course in Logistics & Supply (Cargo Management) (DLS-CM) of
-						one year duration in Community College. These courses are employment oriented with
-						the demand of NSQF Level 5 and above. Fulfilments of total 30 credits, 60 credits,
-						120 credits and 180 credits will lead to offer Certificate, Diploma, Advanced
-						Diploma and B.Voc. degrees as per the guidelines of UGC in respective sectors. These
-						total credits are comprised of Skill Component (60%) and General Education (40%).
-					</p>
-					<!-- <h5 class="pt-4">Our history</h5>
-				<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami
-					suscipit, lectus id efficitur ornare, leo libero convalis nulla, vitae dignissim .
-				</p> -->
+
+				<div class="column">
+					<div class="card">
+						<img src="images/gallery/3.jpg" alt="Mike" style="width:100%">
+						<div class="container">
+							<h2>SAI 2K18</h2>
+							<p class="title">31/12/18</p>
+							<a href="tournament.html">
+								<p><button class="button">See Photos</button></p>
+							</a>
+						</div>
+					</div>
 				</div>
+
+
+				<div class="column">
+					<div class="card">
+						<img src="images/gallery/4.jpg" alt="Mike" style="width:100%">
+						<div class="container">
+							<h2>Saimsthon </h2>
+							<p class="title">10/01/19</p>
+							<a href="tournament.html">
+								<p><button class="button">See Photos</button></p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">
+						<img src="images/gallery/5.jpg" alt="Mike" style="width:100%">
+						<div class="container">
+							<h3>VolleyBall </h3>
+							<p class="title">24/01/19</p>
+							<a href="tournament.html">
+								<p><button class="button">See Photos</button></p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column">
+					<div class="card">
+						<img src="images/gallery/6.jpg" alt="John" style="width:100%">
+						<div class="container">
+							<h2>UTKARSHA</h2>
+							<p class="title">05/02/18</p>
+							<a href="tournament.html">
+								<p><button class="button">See Photos</button></p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
 			</div>
 		</div>
 	</section>
-	<!-- About section end-->
 
+
+
+
+	<!-- gallery work end -->
 
 
 
@@ -380,8 +502,7 @@
 
 					<table align="center">
 						<tr align="center">
-							<td><a href="index.php"><img src="img/logo.png" class="image-responsive"
-										width="128px" height="118px"></a></td>
+							<td><a href="index.php"><img src="img/logo.png" class="image-responsive" width="128px" height="118px"></a></td>
 						</tr>
 						<tr align="center" valign="bottom">
 							<td>
@@ -473,9 +594,7 @@
 				</div>
 
 				<div class="col-md-5">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.046696077626!2d75.86971651443606!3d22.689305534395956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fce8a4750f9f%3A0x93b9fe36af1401f1!2sVigyan+Bhavan%2C+DAVV!5e0!3m2!1sen!2sin!4v1553060800015"
-						frameborder="0" allowfullscreen class="img-thumbnail iframestyle"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.046696077626!2d75.86971651443606!3d22.689305534395956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fce8a4750f9f%3A0x93b9fe36af1401f1!2sVigyan+Bhavan%2C+DAVV!5e0!3m2!1sen!2sin!4v1553060800015" frameborder="0" allowfullscreen class="img-thumbnail iframestyle"></iframe>
 
 					<div class="developers">
 						<a href="team.php" class="effect-shine">Developers</a>
