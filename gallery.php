@@ -43,10 +43,10 @@
 
 
 	<style>
-		body {
+		/* body {
 			max-width: 100%;
 			overflow-x: hidden;
-			/* font-family:'Times New Roman', Times, serif; */
+		
 		}
 
 		html {
@@ -80,7 +80,7 @@
 
 		.card {
 			box-shadow: 2px 2px 20px 8px #bdc3c7;
-			/*#8395a7*/
+		
 			border-radius: 0px;
 			transition: 0.1s ease-in;
 		}
@@ -101,7 +101,7 @@
 		}
 
 		body {
-			/* background-color:#ecf0f1; */
+		
 		}
 
 		.button {
@@ -123,12 +123,97 @@
 
 		.button:hover {
 			background-color: #d35400;
-		}
+		} */
 
 		/* .row{
         padding-left: 80px;
         padding-right: 80px;
     } */
+	body{
+            /* font-family:'Times New Roman', Times, serif; */
+        }
+        /* html {
+            box-sizing: border-box;
+        } */
+
+        /* *, *:before, *:after {
+            box-sizing: inherit;
+        } */
+
+        .column {
+            float: left;
+            width: 30%;
+            margin-bottom: 50px;
+            padding: 0 30px;
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                 width: 100%; 
+                display: block;
+                padding:0px 0px;
+                margin-left: 0px;
+            }
+            body{
+            
+            overflow-x:hidden;
+             }
+            /* iframe{
+                position:relative;
+                left:-15%;
+            }  */
+        }
+        .card:hover{
+            box-shadow: 2px 2px 5px 2px #bdc3c7;
+        }
+
+        .card {
+            box-shadow: 2px 2px 20px 8px #bdc3c7 ;    /*#8395a7*/
+            border-radius: 0px;
+            transition: 0.3s ease-in;
+        }
+
+        .container {
+            padding: 0 20px;
+        }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+        body{
+            background-color:#ecf0f1;
+            overflow-x:hidden;
+        }
+        .button {
+            border: none;
+            border-radius: 20px;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #1E90FF; 
+            /* #e67e22; */
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+        .card img{
+            padding:7px;
+        }
+        .button:hover {
+            background-color: #0c579f;
+        }
+        .ok {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
 	</style>
 	<!-- gallery stufff style end -->
 
@@ -390,86 +475,44 @@
 
 
 
-				<div class="column">
-					<div class="card">
-						<img src="images/gallery/1.jpg" alt="Jane" style="width:100%;  ">
-						<div class="container">
-							<h2>Runathon </h2>
-							<p class="title">12/12/2018</p>
-							<a href="tournament.html">
-								<p><button class="button">See Photos</button></p>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="column">
-					<div class="card">
-						<img src="images/gallery/2.jpg" alt="Mike" style="width:100%">
-						<div class="container">
-							<h2>PSA </h2>
-							<p class="title">28/12/18</p>
-							<a href="tournament.html">
-								<p><button class="button">See Photos</button></p>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="column">
-					<div class="card">
-						<img src="images/gallery/3.jpg" alt="Mike" style="width:100%">
-						<div class="container">
-							<h2>SAI 2K18</h2>
-							<p class="title">31/12/18</p>
-							<a href="tournament.html">
-								<p><button class="button">See Photos</button></p>
-							</a>
-						</div>
-					</div>
-				</div>
+				    <div class="row ok">
 
 
-				<div class="column">
-					<div class="card">
-						<img src="images/gallery/4.jpg" alt="Mike" style="width:100%">
-						<div class="container">
-							<h2>Saimsthon </h2>
-							<p class="title">10/01/19</p>
-							<a href="tournament.html">
-								<p><button class="button">See Photos</button></p>
-							</a>
-						</div>
-					</div>
-				</div>
+<?php
 
-				<div class="column">
-					<div class="card">
-						<img src="images/gallery/5.jpg" alt="Mike" style="width:100%">
-						<div class="container">
-							<h3>VolleyBall </h3>
-							<p class="title">24/01/19</p>
-							<a href="tournament.html">
-								<p><button class="button">See Photos</button></p>
-							</a>
-						</div>
-					</div>
-				</div>
+$fo=opendir("images/gallery");
+//$ns = 1;
+while($file=readdir($fo) )
+{  //$dir_name=preg_replace('/.[^.]*$/', '', basename($file)); 
 
 
-				<div class="column">
-					<div class="card">
-						<img src="images/gallery/6.jpg" alt="John" style="width:100%">
-						<div class="container">
-							<h2>UTKARSHA</h2>
-							<p class="title">05/02/18</p>
-							<a href="tournament.html">
-								<p><button class="button">See Photos</button></p>
-							</a>
-						</div>
-					</div>
-				</div>
+if($file!="." && $file!=".." && $file!="Thumbs.db"){
 
+$dir_name = basename($file);
+
+$fofo=opendir("images/gallery/$dir_name");
+while($filefile=readdir($fofo)){
+	if($filefile!="." && $filefile!=".." && $filefile!="Thumbs.db"){ $photo=$filefile; break;}
+}
+
+
+echo "<div class='column'>";
+echo "<a href ='tout.php?option=";
+echo basename($file);
+echo "' style='margin-left:10px ; color:black; text-decoration:none; '>";
+
+echo  "   <div class='card'>
+<img src='images/gallery/$dir_name/$photo' alt='Jane' style='width:100%;  '> 
+<div class='container'>
+<h2 style='font-size:25px; margin-bottom:5px;'>";
+echo basename($file);
+echo "</h2><p><button class='button' >View more</button></p> </div></div>";
+
+echo "</a></div>";
+}
+}
+?>
+</div>
 
 
 
