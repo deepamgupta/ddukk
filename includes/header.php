@@ -4,7 +4,7 @@
 
             <div class="row">
                   <div class="col text-center">
-                        <a href="index.html" class="site-logo"><img src="img/logo.png" class="img-fluid" alt=""></a>
+                        <a href="https://www.dauniv.ac.in/" target="_blank" class="site-logo"><img src="img/logo.png" class="img-fluid" alt=""></a>
                   </div>
                   <div class="col-lg-8 col-sm-8 text-center ddukk-mainhead">
                         <section class="ddukk">Deen Dayal Upadhyaya Kaushal Kendra</section>
@@ -13,7 +13,7 @@
                         <section class="naac">(NAAC "A" Grade University of M.P, India)</section>
                   </div>
                   <div class=" col text-center skill-india">
-                        <a href="index.html" class="site-logo"><img src="img/skill.jpeg" class="img-fluid" alt=""></a>
+                        <a href="index.php" class="site-logo"><img src="img/skill.jpeg" class="img-fluid" alt=""></a>
                   </div>
             </div>
             <div class="row">
