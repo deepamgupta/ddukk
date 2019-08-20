@@ -16,7 +16,14 @@
 	<?php include 'includes/navbar.php'; ?>
 
 	
-
+            <!-- Breadcrumb section -->
+	<div class="site-breadcrumb">
+		<div class="container">
+			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<span>Gallery</span>
+		</div>
+	</div>
+	<!-- Breadcrumb section end -->
 
 	<!-- Footer section -->
 	<?php include 'includes/footer.php'; ?>
