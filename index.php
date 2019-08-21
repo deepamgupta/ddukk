@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- Head -->
+
 <head>
 	<?php include 'includes/head.php'; ?>
 </head>
@@ -82,41 +83,50 @@
 	</section>
 	<!-- Hero section end -->
 
-
-	<!-- Counter section  -->
-	<section class="counter-section">
+	<!-- Fact section -->
+	<section class="fact-section spad set-bg" data-setbg="img/fact-bg.jpg">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7 col-md-6">
-					<div class="big-icon">
-						<i class="fa fa-graduation-cap"></i>
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-crown"></i>
 					</div>
-					<div class="counter-content">
-						<h2>NEXT COUSRE: Sales & Marketing Alignment</h2>
-						<p><i class="fa fa-calendar-o"></i>07:00 PM - 09:00 PM</p>
+					<div class="fact-text">
+						<h2>50</h2>
+						<p>YEARS</p>
 					</div>
 				</div>
-				<div class="col-lg-5 col-md-6">
-					<div class="counter">
-						<div class="counter-item">
-							<h4>20</h4>Days
-						</div>
-						<div class="counter-item">
-							<h4>08</h4>Hrs
-						</div>
-						<div class="counter-item">
-							<h4>40</h4>Mins
-						</div>
-						<div class="counter-item">
-							<h4>56</h4>secs
-						</div>
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-briefcase"></i>
+					</div>
+					<div class="fact-text">
+						<h2>80</h2>
+						<p>TEACHERS</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-user"></i>
+					</div>
+					<div class="fact-text">
+						<h2>500</h2>
+						<p>STUDENTS</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-pencil-alt"></i>
+					</div>
+					<div class="fact-text">
+						<h2>800+</h2>
+						<p>LESSONS</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Counter section end -->
-
+	<!-- Fact section end-->
 
 	<!-- Latest Courses -->
 	<section class="blog-section spad">
@@ -191,8 +201,87 @@
 	</section>
 	<!-- Latest Courses -->
 
+	<!-- About Us section -->
+	<section class="enroll-section spad set-bg" data-setbg="img/enroll-bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="section-title text-white">
+						<h3>About Us</h3>
+						<p>Know who we are</p>
+					</div>
+					<div class="enroll-list text-white">
+						<div class="enroll-list-item">
+							<span>1</span>
+							<h5>Vision</h5>
+							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
+								interdum ultrices
+								augue.</p>
+						</div>
+						<div class="enroll-list-item">
+							<span>2</span>
+							<h5>Mission</h5>
+							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
+								interdum ultrices
+								augue.</p>
+						</div>
+						<div class="enroll-list-item">
+							<span>3</span>
+							<h5>Messege from Head</h5>
+							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
+								interdum ultrices
+								augue.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
+					<img src="img/encroll-img.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Us section end -->
+
+
+	<!-- Counter section  -->
+	<!-- <section class="counter-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-md-6">
+					<div class="big-icon">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+					<div class="counter-content">
+						<h2>NEXT COUSRE: Sales & Marketing Alignment</h2>
+						<p><i class="fa fa-calendar-o"></i>07:00 PM - 09:00 PM</p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-6">
+					<div class="counter">
+						<div class="counter-item">
+							<h4>20</h4>Days
+						</div>
+						<div class="counter-item">
+							<h4>08</h4>Hrs
+						</div>
+						<div class="counter-item">
+							<h4>40</h4>Mins
+						</div>
+						<div class="counter-item">
+							<h4>56</h4>secs
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Counter section end -->
+
+
+
+
 	<!-- Services section -->
-	<section class="service-section spad">
+	<!-- <section class="service-section spad">
 		<div class="container services">
 			<div class="section-title text-center">
 				<h3>OUR SERVICES</h3>
@@ -267,50 +356,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Services section end -->
-
-	<!-- Enroll section -->
-	<section class="enroll-section spad set-bg" data-setbg="img/enroll-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5">
-					<div class="section-title text-white">
-						<h3>About Us</h3>
-						<p>Know who we are</p>
-					</div>
-					<div class="enroll-list text-white">
-						<div class="enroll-list-item">
-							<span>1</span>
-							<h5>Vision</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
-						</div>
-						<div class="enroll-list-item">
-							<span>2</span>
-							<h5>Mission</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
-						</div>
-						<div class="enroll-list-item">
-							<span>3</span>
-							<h5>Messege from Head</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
-					<img src="img/encroll-img.jpg" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Enroll section end -->
-
 
 	<!-- Courses section -->
 	<section class="courses-section spad">
@@ -410,50 +457,7 @@
 	<!-- Courses section end-->
 
 
-	<!-- Fact section -->
-	<section class="fact-section spad set-bg" data-setbg="img/fact-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-crown"></i>
-					</div>
-					<div class="fact-text">
-						<h2>50</h2>
-						<p>YEARS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-briefcase"></i>
-					</div>
-					<div class="fact-text">
-						<h2>80</h2>
-						<p>TEACHERS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-user"></i>
-					</div>
-					<div class="fact-text">
-						<h2>500</h2>
-						<p>STUDENTS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-pencil-alt"></i>
-					</div>
-					<div class="fact-text">
-						<h2>800+</h2>
-						<p>LESSONS</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Fact section end-->
+
 
 
 	<!-- Event section -->
