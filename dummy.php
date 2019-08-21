@@ -2,7 +2,9 @@
 <html lang="en">
 
 <!-- Head -->
-<?php include 'includes/head.php'; ?>
+<head>
+	<?php include 'includes/head.php'; ?>
+</head>
 
 <body>
 
@@ -15,12 +17,12 @@
 	<!-- Navbar -->
 	<?php include 'includes/navbar.php'; ?>
 
-	
-            <!-- Breadcrumb section -->
+
+	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
-			<span>Gallery</span>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<span>Regular Courses</span>
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->

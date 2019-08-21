@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <!-- Head -->
 <?php include 'includes/head.php'; ?>
 <style>
@@ -252,8 +253,7 @@
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->
-
-
+    <!-- ***************************OUTLOOK OF ALBUM END*************** -->
         <!-- ***************************OUTLOOK OF ALBUM START*************** -->
         <h2 style="text-align:center ;  padding: 2%;">GALLERY</h2>
         

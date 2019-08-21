@@ -2,7 +2,9 @@
 <html lang="en">
 
 <!-- Head -->
-<?php include 'includes/head.php'; ?>
+<head>
+	<?php include 'includes/head.php'; ?>
+</head>
 
 <body>
 
@@ -268,66 +270,6 @@
 	</section>
 	<!-- Services section end -->
 
-	<!--courses offered section-->
-	<section>
-		<div class="container-fluid coursecover">
-			<div class="container">
-
-				<div class="row">
-					<div class="col-md subhead">
-						<h1 style="color: white; font-weight: 300; "><strong>Courses Offered</strong></h1>
-					</div>
-				</div>
-
-				<div class="row coursecover">
-
-					<div class="col-md-3 frosted-glass">
-						<h2>B.VOC</h2>
-						<div class="overlay">
-							<div class="info" href="#">
-								<ul style="text-align: -webkit-auto; padding-left: 15px;">
-									<li>B.Voc. (Nutrition & Dietetics)</li>
-									<li>B.Voc. (Landscape Design)</li>
-									<li>B.Voc. (Interior Design)</li>
-									<li>B.Voc. (Handicrafts))</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-1 testcover">
-					</div>
-
-					<div class="col-md-3 frosted-glass">
-						<h2>SHORT TERM COURSES</h2>
-						<div class="overlay">
-							<div class="info" href="#">
-								<p style="color: white;">Registration Form to be downloaded & submit its
-									duly filled
-									HARDCOPY at DDU-KK,DAVV, 2nd Floor, Vigyan Bhawan, Khandwa Road,
-									Indore.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-1 testcover">
-					</div>
-					<div class="col-md-3 frosted-glass">
-						<h2>DIPLOMA COURSES</h2>
-						<div class="overlay">
-							<div class="info" href="#">
-								<ul style="padding-left: 15px; line-height: 2;">
-									<li>Scheme</li>
-									<li>Syllabus</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--courses offered section end-->
-
 	<!-- Enroll section -->
 	<section class="enroll-section spad set-bg" data-setbg="img/enroll-bg.jpg">
 		<div class="container">
@@ -557,7 +499,7 @@
 
 
 	<!-- Gallery section -->
-	<div class="gallery-section">
+	<!-- <div class="gallery-section">
 		<div class="gallery">
 			<div class="grid-sizer"></div>
 			<div class="gallery-item gi-big set-bg" data-setbg="img/gallery/1.jpg">
@@ -585,29 +527,8 @@
 				<a class="img-popup" href="img/gallery/7.jpg"><i class="ti-plus"></i></a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- Gallery section -->
-
-	<!-- Newsletter section -->
-	<section class="newsletter-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-lg-7">
-					<div class="section-title mb-md-0">
-						<h3>NEWSLETTER</h3>
-						<p>Subscribe and get the latest news and useful tips, advice and best offer.</p>
-					</div>
-				</div>
-				<div class="col-md-7 col-lg-5">
-					<form class="newsletter">
-						<input type="text" placeholder="Enter your email">
-						<button class="site-btn">SUBSCRIBE</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Newsletter section end -->
 
 	<!-- Footer section -->
 	<?php include 'includes/footer.php'; ?>

@@ -2,7 +2,14 @@
 <html lang="en">
 
 <!-- Head -->
-<?php include 'includes/head.php'; ?>
+<head>
+	<?php include 'includes/head.php'; ?>
+</head>
+
+<?php
+	$conn = mysqli_connect("localhost", "root", "root", "students");
+	if(isset($_POST[""]))
+?>
 
 <body>
 
@@ -32,16 +39,16 @@
 				<p>What our students think?</p>
 			</div>
 			<div class="row">
-				<form>
+				<form method="POST" action="form.php">
 					<div class="group">
-						<input type="text"><span class="highlight"></span><span class="bar"></span>
+						<input type="text" name="username"><span class="highlight"></span><span class="bar"></span>
 						<label>Username</label>
 					</div>
 					<div class="group">
-						<input type="password"><span class="highlight"></span><span class="bar"></span>
+						<input type="password" name="password"><span class="highlight"></span><span class="bar"></span>
 						<label>Password</label>
 					</div>
-					<button type="button" class="button buttonBlue">Login
+					<button type="submit" class="button buttonBlue">Login
 						<div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
 					</button>
 				</form>
