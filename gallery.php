@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!-- Head -->
 <head>
 	<?php include 'includes/head.php'; ?>
 
@@ -93,11 +95,13 @@
         padding-left: 80px;
         padding-right: 80px;
     } */
+
 		body {
 			/* font-family:'Times New Roman', Times, serif; */
 		}
 
 		/* html {
+
             box-sizing: border-box;
         } */
 
@@ -130,6 +134,7 @@
                 position:relative;
                 left:-15%;
             }  */
+
 		}
 
 		.card:hover {
@@ -207,12 +212,11 @@
 
 
 	<!-- gallery work start -->
-
-
-	<!-- Breadcrumb section -->
+	
+      <!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Gallery</span>
 		</div>
 	</div>
@@ -269,6 +273,7 @@
 
 	<!-- gallery work end -->
 
+
 	<!-- Footer section -->
 	<?php include 'includes/footer.php'; ?>
 
@@ -277,6 +282,7 @@
 
 	<!--====== Javascripts & Jquery ======-->
 	<?php include 'includes/javascripts.php'; ?>
+
 </body>
 
 </html>

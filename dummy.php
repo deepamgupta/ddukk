@@ -17,6 +17,7 @@
 	<!-- Navbar -->
 	<?php include 'includes/navbar.php'; ?>
 
+
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
@@ -25,10 +26,6 @@
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->
-
-
-
-
 
 	<!-- Footer section -->
 	<?php include 'includes/footer.php'; ?>
