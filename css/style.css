@@ -2133,52 +2133,6 @@ ul, ol {
 	margin-bottom: 0;
 }
 
-/* ------------------
-	Regular Courses
---------------------- */
-
-.mylist {
-	list-style-type: disc;
-}
-
-#regular li {
-	padding: 10px;
-}
-
-.list-unstyled {
-	padding-left: 14px;
-}
-
-.mybtn {
-	background-color: rgb(243, 247, 246);
-	outline: none;
-	border: none;
-	color: black;
-	margin-top: 15px;
-	margin-left: 19px;
-}
-
-.mybtn:hover {
-	background-color: rgb(181, 184, 183);
-}
-
-.mybtn:active {
-	background-color: #020032;
-}
-
-.mybtn:focus {
-	background-color: #020032;
-	box-shadow: 0 0 0 0.2rem rgba(38, 47, 58, 0.5);
-}
-
-.download-arrow {
-	padding: inherit;
-}
-
-.list-arrow {
-	padding-right: 1rem;
-}
-
 /*------------------
 	Responsive
 ---------------------*/

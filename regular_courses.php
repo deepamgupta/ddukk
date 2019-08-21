@@ -2,7 +2,54 @@
 <html lang="en">
 
 <!-- Head -->
-<?php include 'includes/head.php'; ?>
+
+<head>
+	<?php include 'includes/head.php'; ?>
+
+	<style>
+		.mylist {
+			list-style-type: disc;
+		}
+
+		#regular li {
+			padding: 10px;
+		}
+
+		.list-unstyled {
+			padding-left: 14px;
+		}
+
+		.mybtn {
+			background-color: rgb(243, 247, 246);
+			outline: none;
+			border: none;
+			color: black;
+			margin-top: 15px;
+			margin-left: 19px;
+		}
+
+		.mybtn:hover {
+			background-color: rgb(181, 184, 183);
+		}
+
+		.mybtn:active {
+			background-color: #020032;
+		}
+
+		.mybtn:focus {
+			background-color: #020032;
+			box-shadow: 0 0 0 0.2rem rgba(38, 47, 58, 0.5);
+		}
+
+		.download-arrow {
+			padding: inherit;
+		}
+
+		.list-arrow {
+			padding-right: 1rem;
+		}
+	</style>
+</head>
 
 <body>
 
@@ -38,8 +85,8 @@
 					<ul class="list-unstyled" id="regular">
 						<li>
 							<h5><i class='fas fa-caret-right list-arrow'></i>Diploma</h5>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 						</li>
 						<li>
 							<h5><i class='fas fa-caret-right list-arrow'></i>B.Voc</h5>
@@ -47,26 +94,26 @@
 								<ul class="list-unstyled mylist">
 									<li>
 										<h6>L.D</h6>
-										<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-										<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SCHEME.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SYLLABUS.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 									</li>
 									<li>
 										<h6>N.D</h6>
-										<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-										<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/ND SCHEME.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/ND SYLLABUS.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 									</li>
 									<li>
 										<h6>Handicaps</h6>
-										<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-										<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 									</li>
 								</ul>
 							</div>
 						</li>
 						<li>
 							<h5><i class='fas fa-caret-right list-arrow'></i>M.Voc</h5>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 						</li>
 						<li>
 							<h5><i class='fas fa-caret-right list-arrow'></i>Ph.D.</h5>

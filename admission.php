@@ -2,7 +2,9 @@
 <html lang="en">
 
 <!-- Head -->
-<?php include 'includes/head.php'; ?>
+<head>
+	<?php include 'includes/head.php'; ?>
+</head>
 
 <body>
 
