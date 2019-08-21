@@ -42,7 +42,7 @@
             list-style-type:disc;
 
         }
-        ul li{
+        #regular li{
             padding: 10px;
         }
         .list-unstyled
@@ -88,241 +88,14 @@
 
 <body>
 	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
+	<?php include 'includes/preloader.php'; ?>
 
-	<!-- header section -->
-	<header class="header-section">
-		<div class="container">
-			<!-- logo -->
+	<!-- Header -->
+	<?php include 'includes/header.php'; ?>
 
-			<div class="row">
-				<div class="col text-center">
-					<a href="index.html" class="site-logo"><img src="img/logo.png" class="img-fluid"
-							alt=""></a>
-				</div>
-				<div class="col-lg-8 col-sm-8 text-center ddukk-mainhead">
-					<section class="ddukk">Deen Dayal Upadhyaya Kaushal Kendra</section>
-					<section class="ugc">(Under UGC Scheme for Skill Development)</section>
-					<section class="davv">Devi Ahilaya Vishwavidhyalaya, Indore</section>
-					<section class="naac">(NAAC "A" Grade University of M.P, India)</section>
-				</div>
-				<div class=" col text-center skill-india">
-					<a href="index.html" class="site-logo"><img src="img/skill.jpeg" class="img-fluid"
-							alt=""></a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="ddukk-head text-centre col">DDU-KK, DAVV,<br> Indore (M.P.)</div>
-			</div>
+	<!-- Navbar -->
+	<?php include 'includes/navbar.php'; ?>
 
-			<!-- <div class="nav-switch">
-				<i class="fa fa-bars"></i>
-			</div>
-			<div class="header-info">
-				<div class="hf-item">
-					<i class="fa fa-clock-o"></i>
-					<p><span>Working time:</span>Monday - Friday: 08 AM - 06 PM</p>
-				</div>
-				<div class="hf-item">
-					<i class="fa fa-map-marker"></i>
-					<p><span>Find us:</span>40 Baria Street 133/2, New York City, US</p>
-				</div>
-			</div> -->
-		</div>
-	</header>
-	<!-- header section end-->
-
-
-	<!-- Header section  -->
-	<!-- <nav class="nav-section nav-bar">
-		<div class="container">
-			<div class="nav-right">
-				<a href=""><i class="fa fa-search"></i></a>
-				<a href=""><i class="fa fa-shopping-cart"></i></a>
-			</div>
-			<ul class="main-menu">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="#">Event</a></li>
-				<li class="dropdown"><a class="dropdown-toggle" id="course" href="javascript:void(0)"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">COURSES</a>
-					<ul class="dropdown-menu sub-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li><a href="#">Separated link</a></li>
-						<li><a href="#">One more separated link</a></li>
-					</ul>
-				</li>
-				<li><a href="blog.html">blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav> -->
-	<!-- Header section end -->
-
-
-
-	<!-- Deepam ============ -->
-
-
-	<!-- DONOT TOUCH THE COMMENTED CODE BELOW -->
-
-
-	<nav class="navbar navbar-expand-lg navigation" id="bootnavbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
-			<button class="navbar-toggler  ml-auto custom-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-				aria-expanded="false" aria-label="Toggle navigation" style="font-size:0.85em;">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<!-- <li class="nav-item active">
-						<a class="nav-link" href="#">Home </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<div class="dropdown-divider"></div>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-							<li class="nav-item dropdown">
-								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button"
-									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Dropdown
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
-									<div class="dropdown-divider"></div>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
-									<li class="nav-item dropdown">
-										<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown2"
-											role="button" data-toggle="dropdown" aria-haspopup="true"
-											aria-expanded="false">
-											Dropdown
-										</a>
-										<ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-											<li><a class="dropdown-item" href="#">Action</a></li>
-											<li><a class="dropdown-item" href="#">Another action</a></li>
-											<div class="dropdown-divider"></div>
-											<li><a class="dropdown-item" href="#">Something else here</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
- -->
-
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							About Us
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li class="nav-item dropdown">
-								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1"
-									role="button" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Establishment
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-									<li><a class="dropdown-item" href="#">Vision</a></li>
-									<li><a class="dropdown-item" href="#">Mission</a></li>
-									<li><a class="dropdown-item" href="#">Messege from Head</a></li>
-								</ul>
-							</li>
-							<div class="dropdown-divider"></div>
-							<li><a class="dropdown-item" href="#">Board of Advisory Comittee</a></li>
-							<li><a class="dropdown-item" href="#">Board of Studies</a></li>
-							<div class="dropdown-divider"></div>
-							<li><a class="dropdown-item" href="#">Admission</a></li>
-							<li class="nav-item dropdown">
-								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1"
-									role="button" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Academic
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-									<li><a class="dropdown-item" href="#">Faculty</a></li>
-									<li><a class="dropdown-item" href="#">Activities</a></li>
-								</ul>
-							</li>
-							<li><a class="dropdown-item" href="#">Facilities</a></li>
-						</ul>
-					</li>
-
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Courses
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li class="nav-item dropdown">
-								<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1"
-									role="button" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Regular Courses
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-									<li><a class="dropdown-item" href="#">Diploma Courses</a></li>
-									<li><a class="dropdown-item" href="#">B.Voc. Courses</a></li>
-									<li><a class="dropdown-item" href="#">M.Voc. Courses</a></li>
-									<li><a class="dropdown-item" href="#">Ph.D.</a></li>
-								</ul>
-							</li>
-							<li><a class="dropdown-item" href="#">Short Term Courses</a></li>
-						</ul>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#" role="button" aria-haspopup="true"
-							aria-expanded="false">
-							Gallery
-						</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#" role="button" aria-haspopup="true"
-							aria-expanded="false">
-							Training & Placements
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#" role="button" aria-haspopup="true"
-							aria-expanded="false">
-							Alumni
-						</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#" role="button" aria-haspopup="true"
-							aria-expanded="false">
-							Feedback
-						</a>
-					</li>
-
-				</ul>
-				<!-- <form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form> -->
-			</div>
-		</div>
-	</nav>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -338,7 +111,7 @@
 	<div class="site-breadcrumb">
 		<div class="container">
 			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
-			<span>Feedback</span>
+			<span>Regular Courses</span>
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->
@@ -354,7 +127,7 @@
 			<div class="row">
 			<div class="container">
        
-        <ul class="list-unstyled">
+        <ul class="list-unstyled" id="regular">
             <li>
                 <h5><i class='fas fa-caret-right list-arrow'></i>Diploma</h5>
                 <button type="button" class="btn btn-primary btn-block mybtn"  onclick="">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'  ></i></button>
