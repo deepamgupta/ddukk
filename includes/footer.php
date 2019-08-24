@@ -9,7 +9,7 @@
                               </tr>
                               <tr align="center" valign="bottom">
                                     <td>
-                                          <h3 class="sobstyle">Deen dayal upadhyaya Kaushal Kendra</h3>
+                                          <h3 class="sobstyle">Deen Dayal Upadhyay Kaushal Kendra</h3>
                                     </td>
                               </tr>
 
@@ -66,30 +66,24 @@
                                           <a href="aboutus.php">
                                                 <li>About Us</li>
                                           </a>
-                                          <a href="msc.php">
-                                                <li>Boac</li>
+                                          <a href="boac.php">
+                                                <li>BOAC</li>
                                           </a>
-                                          <a href="notices.php">
-                                                <li>bos</li>
-                                          </a>
-                                          <a href="notices.php">
-                                                <li>ESt.</li>
+                                          <a href="admission.php">
+                                                <li>Admission</li>
                                           </a>
                                     </ul>
                               </div>
                               <div class="rowstylef">
                                     <ul id="ql">
-                                          <a href="http://www.dauniv.ac.in/" target="_blank">
-                                                <li>Courses</li>
+                                          <a href="http://www.clib.dauniv.ac.in" target="_blank">
+                                                <li>Central Library</li>
                                           </a>
-                                          <a href="phd.php">
-                                                <li>Admission</li>
+                                          <a href="bos.php">
+                                                <li>BOS</li>
                                           </a>
                                           <a href="activities.php">
-                                                <li>Activities</li>
-                                          </a>
-                                          <a href="notices.php">
-                                                <li>Gallery</li>
+                                                <li>Achievements</li>
                                           </a>
                                     </ul>
                               </div>

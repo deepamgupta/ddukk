@@ -69,7 +69,7 @@
 						<tr>
 							<th scope="row">1</th>
 							<td>Dr. Maya Ingle</td> 
-							<td>Principal Coordinator DLS(CM), Community College, DAVV, Indore- 452001
+							<td>Director, Deen Dayal Upadhyay Kaushal Kendra DAVV, Indore- 452001
 							</td>
 						</tr>
 						<tr>
@@ -106,12 +106,6 @@
 							<th scope="row">7</th>
 							<td>Mr. Atul Goyal</td>
 							<td>Assistant Manager Thomas Cook India ltd. Vijay Nagar- Branch, In front of Landmark Fortune Hotel, Vijay Nagar - Indore.
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">8</th>
-							<td>Dr. Preeti Singh	</td>
-							<td>Secretary, Coordinator, DLS(CM) Community College, DAVV, Indore- 452001
 							</td>
 						</tr>
 					</tbody>

@@ -27,15 +27,15 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
-								<h2 class="hs-title">An investment in knowledge pays the best interest.
+								<h2 class="hs-title">An educated person is respected everywhere, it beats the beauty and the youth.
 								</h2>
-								<p class="hs-des">Education is not just about going to school and
+								<div class="hs-subtitle">CHANAKYA</div>
+								<!-- <p class="hs-des">Education is not just about going to school and
 									getting a degree. It's
 									about widening your<br> knowledge and absorbing the truth about
 									life. Knowledge is
-									power.</p>
-								<div class="site-btn">GET STARTED</div>
+									power.</p> -->
+								<!-- <div class="site-btn">GET STARTED</div> -->
 							</div>
 						</div>
 					</div>
@@ -46,15 +46,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
-								<h2 class="hs-title">An investment in knowledge pays the best interest.
+							<h2 class="hs-title">An investment in knowledge pays the best interest.
 								</h2>
-								<p class="hs-des">Education is not just about going to school and
-									getting a degree. It's
-									about widening your<br> knowledge and absorbing the truth about
-									life. Knowledge is
-									power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="hs-subtitle">BENJAMIN FRANKLIN</div>
 							</div>
 						</div>
 					</div>
@@ -65,15 +59,22 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
-								<h2 class="hs-title">An investment in knowledge pays the best interest.
+							<h2 class="hs-title">A person who won't read has no advantage over the person who can't read.
 								</h2>
-								<p class="hs-des">Education is not just about going to school and
-									getting a degree. It's
-									about widening your<br> knowledge and absorbing the truth about
-									life. Knowledge is
-									power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="hs-subtitle">Mark Twain</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="img/hero-slider/4.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+							<h2 class="hs-title">Learning is the new skill. Imagination, creation and asking new questions are at its core.
+								</h2>
+								<div class="hs-subtitle">Sugata Mitra</div>
 							</div>
 						</div>
 					</div>
@@ -92,8 +93,8 @@
 						<i class="ti-crown"></i>
 					</div>
 					<div class="fact-text">
-						<h2>50</h2>
-						<p>YEARS</p>
+						<h2>80+</h2>
+						<p>ALUMNI</p>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3 fact">
@@ -101,8 +102,8 @@
 						<i class="ti-briefcase"></i>
 					</div>
 					<div class="fact-text">
-						<h2>80</h2>
-						<p>TEACHERS</p>
+						<h2>4</h2>
+						<p>YEARS</p>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3 fact">
@@ -110,7 +111,7 @@
 						<i class="ti-user"></i>
 					</div>
 					<div class="fact-text">
-						<h2>500</h2>
+						<h2>80+</h2>
 						<p>STUDENTS</p>
 					</div>
 				</div>
@@ -119,8 +120,8 @@
 						<i class="ti-pencil-alt"></i>
 					</div>
 					<div class="fact-text">
-						<h2>800+</h2>
-						<p>LESSONS</p>
+						<h2>20+</h2>
+						<p>COURSES</p>
 					</div>
 				</div>
 			</div>
@@ -202,7 +203,7 @@
 	<!-- Latest Courses -->
 
 	<!-- About Us section -->
-	<section class="enroll-section spad set-bg" data-setbg="img/enroll-bg.jpg">
+	<section class="enroll-section spad set-bg" data-setbg="img/enroll-bg.jpg" style="background-attachment : fixed;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
@@ -214,16 +215,17 @@
 						<div class="enroll-list-item">
 							<span>1</span>
 							<h5>Vision</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
+							<p>To contribute effectively to the National Endeavour of producing quality skilled human workforce...</p>
 						</div>
 						<div class="enroll-list-item">
 							<span>2</span>
 							<h5>Mission</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
+							<p>
+								<ul>
+									<li>To develop excellent skilled youth especially in desired sectors...</li>
+									<li> Institute is committed for the development of the community...</li>
+									<ul>
+							</p>
 						</div>
 						<div class="enroll-list-item">
 							<span>3</span>
@@ -368,87 +370,59 @@
 			</div>
 			<div class="row">
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
+				<div class="col-md-6 course-item">
 					<div class="course-thumb">
 						<img src="img/course/1.jpg" alt="">
 						<div class="course-cat">
-							<span>BUSINESS</span>
+							<span>INTERIOR DESIGN</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Certificate Course in Writing<br>for a Global Market</h4>
-						<h4 class="cource-price">$100<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Master of Vocation<br> in Interior Design</h4>
+						<!-- <h4 class="cource-price">$100<span>/month</span></h4> -->
 					</div>
 				</div>
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
+				<div class="col-md-6 course-item">
 					<div class="course-thumb">
 						<img src="img/course/2.jpg" alt="">
 						<div class="course-cat">
-							<span>Marketing</span>
+							<span>LANDCAPE DESIGN & NUTRITION DIETEICS</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Google AdWords: Get More<br> Customers with Search Marketing </h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Bachelor of Vocation<br> in Landscape Design & Nutrition Dietetics</h4>
+						<!-- <h4 class="cource-price">$150<span>/month</span></h4> -->
 					</div>
 				</div>
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
+				<div class="col-md-6 course-item">
 					<div class="course-thumb">
 						<img src="img/course/3.jpg" alt="">
 						<div class="course-cat">
-							<span>DESIGN</span>
+							<span>LOGISTICS & SUPPLY</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>The Ultimate Drawing Course<br> Beginner to Advanced</h4>
-						<h4 class="cource-price">$180<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Diploma Course<br> Logistic & Supply (Cargo Management)</h4>
+						<!-- <h4 class="cource-price">$180<span>/month</span></h4> -->
 					</div>
 				</div>
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
+				<div class="col-md-6 course-item">
 					<div class="course-thumb">
 						<img src="img/course/4.jpg" alt="">
 						<div class="course-cat">
-							<span>DATABASE</span>
+							<span>SHORT TERM COURSES</span>
 						</div>
 					</div>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
-					</div>
-				</div>
-				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/5.jpg" alt="">
-						<div class="course-cat">
-							<span>PROGRAM</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Web Developer Bootcamp<br>Make web applications</h4>
-						<h4 class="cource-price">$250<span>/month</span></h4>
-					</div>
-				</div>
-				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/6.jpg" alt="">
-						<div class="course-cat">
-							<span>BUSINESS</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>How to Start an Amazon<br>FBA Store on a Tight Budget</h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Short Term Courses in various skills</h4>
+						<!-- <h4 class="cource-price">$150<span>/month</span></h4> -->
 					</div>
 				</div>
 			</div>
@@ -461,7 +435,7 @@
 
 
 	<!-- Event section -->
-	<section class="event-section spad">
+	<!-- <section class="event-section spad">
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>OUR EVENTS</h3>
@@ -498,7 +472,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Event section end -->
 
 

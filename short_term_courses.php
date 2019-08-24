@@ -190,97 +190,97 @@
 							<td>31</td>
 							<td>New Era Consultancy, Indore</td>
 						</tr>
-						<!-- <tr>
+						<tr>
 							<td>8.</td>
 							<td>Website Design & Development at DAVV, Indore</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>8 Oct 2018(20 days)</td>
+							<td>16</td>
+							<td>Workholics Infocorp, Indore</td>
 						</tr>
 						<tr>
 							<td>9.</td>
 							<td>Nourishing Yourself at Mata Gujari College, Indore</td>
-							<td></td>
-							<td></td>
+							<td>12 Oct 2018</td>
+							<td>95</td>
 							<td></td>
 						</tr>
 						<tr>
 							<td>10.</td>
 							<td>Workshop on Zangle/ Doodle Art</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>23-25 Oct 2018</td>
+							<td>54</td>
+							<td>GJ Design Studio, Indore</td>
 						</tr>
 						<tr>
 							<td>11.</td>
 							<td>Entrepreneurship Development Program</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>15-30 Nov</td>
+							<td>4</td>
+							<td>LIC of India, Indore</td>
 						</tr>
 						<tr>
 							<td>12.</td>
 							<td>Creative Craft Creation at NEEV Foundation</td>
-							<td></td>
-							<td></td>
+							<td>15 Jan 2019</td>
+							<td>54</td>
 							<td></td>
 						</tr>
 						<tr>
 							<td>13.</td>
 							<td>Englistia</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>1-5 Feb 2019</td>
+							<td>47</td>
+							<td>Quest Edustation, Indore</td>
 						</tr>
 						<tr>
 							<td>14.</td>
-							<td>Personality Development Thru Drametics</td>
-							<td></td>
-							<td></td>
+							<td>Personality Development Thru Dramatics</td>
+							<td>ew Era Consultancy, Indore26 Feb 2019</td>
+							<td>55</td>
 							<td></td>
 						</tr>
 						<tr>
 							<td>15.</td>
 							<td>PHOTOSHOP at Shri Vaishnav Institute of Management</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>23-29 April 2019</td>
+							<td>22</td>
+							<td>N</td>
 						</tr>
 						<tr>
 							<td>16.</td>
 							<td>TALLY</td>
-							<td></td>
-							<td></td>
+							<td>1-31 May</td>
+							<td>33</td>
 							<td></td>
 						</tr>
 						<tr>
 							<td>17.</td>
 							<td>Website Design & Development</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>20 May- 20 June 2019</td>
+							<td>42</td>
+							<td>Workholics Infocorp, Indore</td>
 						</tr>
 <tr>
 							<td>18.</td>
 							<td>GST</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>10-14 June 2019</td>
+							<td>22</td>
+							<td>Institute of Charted Accountants of India, indore Branch</td>
 						</tr>
 						<tr>
 							<td>19.</td>
 							<td>TALLY</td>
-							<td></td>
-							<td></td>
+							<td>15 July -16 Aug 2019</td>
+							<td>16</td>
 							<td></td>
 						</tr>
 						<tr>
 							<td>20.</td>
 							<td>Environment Best Out of Waste</td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr> -->
+							<td>28 July 2019</td>
+							<td>104</td>
+							<td>Inner Wheel Club of Indore Uptown, Indore</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>

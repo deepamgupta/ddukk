@@ -26,6 +26,9 @@
 			color: black;
 			margin-top: 15px;
 			margin-left: 19px;
+			margin-bottom: 1.5rem;
+			box-shadow: 0 0 6px 0;
+
 		}
 
 		.mybtn:hover {
@@ -84,26 +87,33 @@
 
 					<ul class="list-unstyled" id="regular">
 						<li>
-							<h5><i class='fas fa-caret-right list-arrow'></i>Diploma</h5>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-						</li>
-						<li>
-							<h5><i class='fas fa-caret-right list-arrow'></i>B.Voc</h5>
+							<h4><i class='fas fa-caret-right list-arrow'></i>Diploma</h4>
 							<div class="container">
 								<ul class="list-unstyled mylist">
 									<li>
-										<h6>L.D</h6>
+										<h5>Logistics and Supply (Cargo Management)</h5>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SCHEME.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SYLLABUS.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<h4><i class='fas fa-caret-right list-arrow'></i>Bachelor of Vocation</h4>
+							<div class="container">
+								<ul class="list-unstyled mylist">
+									<li>
+										<h5>Landscape and Design</h5>
 										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SCHEME.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SYLLABUS.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 									</li>
 									<li>
-										<h6>N.D</h6>
+										<h5>Nutrition and Dietetics</h5>
 										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/ND SCHEME.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/ND SYLLABUS.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 									</li>
 									<li>
-										<h6>Handicaps</h6>
+										<h5>Handicaps</h5>
 										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
 									</li>
@@ -111,12 +121,19 @@
 							</div>
 						</li>
 						<li>
-							<h5><i class='fas fa-caret-right list-arrow'></i>M.Voc</h5>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
-							<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+							<h4><i class='fas fa-caret-right list-arrow'></i>Master of Vocation</h4>
+							<div class="container">
+								<ul class="list-unstyled mylist">
+									<li>
+										<h5>Interior Designing</h5>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SCHEME.pdf')">Scheme<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+										<button type="button" class="btn btn-primary btn-block mybtn" onclick="window.open('docs/courses/LD SYLLABUS.pdf')">Syllabus<i class='fas fa-arrow-alt-circle-down download-arrow'></i></button>
+									</li>
+								</ul>
+							</div>
 						</li>
 						<li>
-							<h5><i class='fas fa-caret-right list-arrow'></i>Ph.D.</h5>
+							<h4><i class='fas fa-caret-right list-arrow'></i>Ph.D.</h4>
 						</li>
 					</ul>
 
