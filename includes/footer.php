@@ -20,11 +20,11 @@
                         <table align="center" id="it">
                               <tr>
                                     <td width="58px" valign="top">
-                                          <i class="fa fa-map-marker-alt "></i>
+                                          <i class="fas fa-map-marker-alt "></i>
                                     </td>
                                     <td class="tdstyle">
                                           <span>Deen Dayal Upadhyay Kaushal Kendra(DDU-KK), Devi Ahilya
-                                                Vishwavidyalaya
+                                                Vishwavidhyalaya
                                                 Takshashila Parisar,Indore(M.P.)-452001, india</span>
                                     </td>
                               </tr>

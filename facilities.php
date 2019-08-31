@@ -49,7 +49,7 @@
 								echo '<div class="col-md-6" style="margin-bottom: 30px;">
 								<div class="card no-border">
 									<div class="card-body">
-										<h5 class="card-title">'.basename($file, ".jpg").'</h5>
+										<h5 class="card-title">'.pathinfo($file)['filename'].'</h5>
 										<!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
 										<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 									</div>

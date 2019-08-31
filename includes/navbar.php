@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navigation navbar-fixed-top" style="position:sticky; top: 0; width:100%;" id="bootnavbar">
+<nav class="navbar navbar-expand-lg navigation fixed-top" style="position:sticky; top: 0; width:100%;" id="bootnavbar">
       <div class="container">
             <a class="navbar-brand" href="index.php"><i class="fas fa-home"></i></a>
             <button class="navbar-toggler  ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="font-size:0.85em;">
