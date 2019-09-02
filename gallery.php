@@ -3,6 +3,7 @@
 
 
 <!-- Head -->
+
 <head>
 	<?php include 'includes/head.php'; ?>
 
@@ -84,6 +85,7 @@
 		body {
 			/* font-family:'Times New Roman', Times, serif; */
 		}
+
 		/* html {
             box-sizing: border-box;
         } */
@@ -97,6 +99,7 @@
 			padding: 0 30px;
 			margin-left: 20px;
 		}
+
 		@media screen and (max-width: 650px) {
 			.column {
 				width: 100%;
@@ -104,39 +107,48 @@
 				padding: 0px 0px;
 				margin-left: 0px;
 			}
+
 			body {
 				overflow-x: hidden;
 			}
+
 			/* iframe{
                 position:relative;
                 left:-15%;
             }  */
 		}
+
 		.card:hover {
 			box-shadow: 2px 2px 5px 2px #bdc3c7;
 		}
+
 		.card {
 			box-shadow: 2px 2px 20px 8px #bdc3c7;
 			/*#8395a7*/
 			border-radius: 0px;
 			transition: 0.3s ease-in;
 		}
+
 		.container {
 			padding: 0 20px;
 		}
+
 		.container::after,
 		.row::after {
 			content: "";
 			clear: both;
 			display: table;
 		}
+
 		.title {
 			color: grey;
 		}
+
 		body {
 			/* background-color: #ecf0f1; */
 			overflow-x: hidden;
 		}
+
 		.button {
 			border: none;
 			border-radius: 20px;
@@ -150,12 +162,15 @@
 			cursor: pointer;
 			width: 100%;
 		}
+
 		.card img {
 			padding: 7px;
 		}
+
 		.button:hover {
 			background-color: #0c579f;
 		}
+
 		.ok {
 			padding-left: 50px;
 			padding-right: 50px;
@@ -178,8 +193,8 @@
 
 
 	<!-- gallery work start -->
-	
-      <!-- Breadcrumb section -->
+
+	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
 			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
@@ -217,9 +232,9 @@
 							echo basename($file);
 							echo "' style='margin-left:10px ; color:black; text-decoration:none; '>";
 							echo  "   <div class='card'>
-<img src='img/gallery/$dir_name/$photo' alt='Jane' style='width:100%;  '> 
-<div class='container'>
-<h2 style='font-size:25px; margin-bottom:5px;'>";
+									<img src='img/gallery/$dir_name/$photo' alt='Jane' style='width:100%;'> 
+									<div class='container'>
+									<h2 style='font-size:25px; margin-bottom:5px;'>";
 							echo basename($file);
 							echo "</h2><p><button class='button' >View more</button></p> </div></div>";
 							echo "</a></div>";
