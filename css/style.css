@@ -1523,6 +1523,7 @@ ul, ol {
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
+	font-size: 2rem !important;
 }
 
 .member .member-social a:hover {

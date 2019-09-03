@@ -16,20 +16,6 @@
 			}
 		}
 
-		/* 
-		body {
-			font-family: Arial;
-			margin: 0;
-		}
-
-		* {
-			box-sizing: border-box;
-		} */
-		/* 
-		img {
-			vertical-align: middle;
-		} */
-
 		/* Position the image container (needed to position the left and right arrows) */
 		.activities-container {
 			position: relative;
@@ -38,28 +24,17 @@
 		/* Hide the images by default */
 		.mySlides {
 			display: none;
+			margin: auto;
+			/* transition: visibility 0.3s linear, opacity 0.3s linear; */
+		}
+
+		.mySlides img {
+			height: 35rem;
 		}
 
 		/* Add a pointer when hovering over the thumbnail images */
 		.cursor {
 			cursor: pointer;
-		}
-
-		/* Next & previous buttons */
-		.prev,
-		.next {
-			user-select: none;
-			-webkit-user-select: none;
-		}
-
-		.prev {
-			float: left;
-		}
-
-		/* Position the "next button" to the right */
-		.next {
-			float: right;
-			border-radius: 3px 0 0 3px;
 		}
 
 		/* Number text (1/3 etc) */
@@ -68,18 +43,21 @@
 			font-size: 12px;
 			padding: 8px 12px;
 			position: absolute;
-			background :#f6993a;
-			opacity: 0.9;
+			background: #f6993a;
 			/* top: 0; */
 		}
 
 		/* Container for image text */
 		.caption-container {
 			text-transform: uppercase;
-			text-align: center;
-			background-color: #222;
-			padding: 2px 16px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 2rem;
+			background-color: #f6993a;
+			padding: 10px 16px;
 			color: white;
+			width: 30rem;
+			border-radius: 7px;
 		}
 
 		.activity-row:after {
@@ -88,18 +66,12 @@
 			clear: both;
 		}
 
-		/* Six columns side by side */
-		.column {
-			float: left;
-			width: 16.66%;
-		}
-
 		/* Add a transparency effect for thumnbail images */
 		.demo {
-			opacity: 0.6;
-			padding: 0.3rem;
-			height: 4rem;
+			opacity: 0.9;
+			/* padding: 0.1rem; */
 			height: 12rem;
+			margin-bottom: 10%;
 		}
 
 		.active,
@@ -107,7 +79,12 @@
 			opacity: 1;
 		}
 
-
+		.card{
+			transition: transform 0.1s linear;
+		}
+		.card:hover{
+			transform: scale(0.97);
+		}
 
 
 
@@ -116,21 +93,21 @@
 			height: 100%;
 			width: 0;
 			position: fixed;
-			z-index: 600;
+			z-index: 1000;
 			top: 0;
 			left: 0;
 			background-color: rgb(0, 0, 0);
 			background-color: rgba(0, 0, 0, 0.9);
 			overflow-x: hidden;
-			transition: 0.5s;
+			transition: 0.3s;
 		}
 
 		.overlay-content {
 			position: relative;
-			top: 25%;
+			top: 11%;
 			width: 100%;
 			text-align: center;
-			margin-top: 30px;
+			/* margin-top: 30px; */
 		}
 
 		.overlay a {
@@ -149,12 +126,12 @@
 
 		.overlay .closebtn {
 			position: absolute;
-			top: 20px;
-			right: 45px;
+			top: 0px;
+			right: 2rem;
 			font-size: 60px;
 		}
 
-		@media screen and (max-height: 450px) {
+		@media screen and (max-width: 450px) {
 			.overlay a {
 				font-size: 20px
 			}
@@ -163,6 +140,10 @@
 				font-size: 40px;
 				top: 15px;
 				right: 35px;
+			}
+
+			.mySlides img {
+				height: 15rem;
 			}
 		}
 	</style>
@@ -219,21 +200,21 @@
 
 
 			echo '<div class="col-sm-6 col-md-4 col-lg-3 pl-4 pr-4 mt-4">
-				<div class="card border-' . $color . '">
-					<div class="card-body">
-						<h6 class="card-title">' . $detail["name"] . '</h6>
-						<div class="activities-img">
-							<img src="' . $detail["folder"] . scandir($detail["folder"])[2] . '" alt="Avatar" class="image-over" style="height:inherit;">
-							<div class="middle-over">
-								<a href="javascript:void(0)" class="btn btn-' . $color . ' btn-sm" onclick="openNav(\'' . $detail["folder"] . '\',\'' . $detail["name"] . '\')"><i class="fas fa-plus"></i></a>
+					<div class="card border-' . $color . '">
+						<div class="card-body">
+							<h6 class="card-title">' . $detail["name"] . '</h6>
+							<div class="activities-img">
+								<img src="' . $detail["folder"] . scandir($detail["folder"])[2] . '" alt="Avatar" class="image-over" style="height:inherit;">
+								<div class="middle-over">
+									<a href="javascript:void(0)" class="btn btn-' . $color . ' btn-lg" onclick="openNav(\'' . $detail["folder"] . '\',\'' . $detail["name"] . '\')"><i class="fas fa-plus"></i></a>
+								</div>
 							</div>
 						</div>
+						<div class="card-footer">
+							<small class="text-muted">' . date("d/m/y", $detail["date"]) . '</small>
+						</div>
 					</div>
-					<div class="card-footer">
-						<small class="text-muted">' . date("d/m/y", $detail["date"]) . '</small>
-					</div>
-				</div>
-			</div>';
+				</div>';
 		}
 	}
 	?>
@@ -251,13 +232,11 @@
 			<div class="row">
 				<?php display_activity("expert_lectures", "info"); ?>
 			</div>
-			<hr>
 			<h5 class="text-center mt-5 pt-4">FIELD VISITS</h5>
 			<hr>
 			<div class="row">
 				<?php display_activity("field_visits", "success"); ?>
 			</div>
-			<hr>
 			<h5 class="text-center mt-5 pt-4">ACHIEVEMENTS</h5>
 			<hr>
 			<div class="row">
@@ -272,8 +251,12 @@
 	<div id="myNav" class="overlay">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<div class="overlay-content">
-			<div class="activities-container container" id="slideshow">
-
+			<div class="activities-container container-fluid">
+				<div class="row">
+					<div class="col-lg-2" onclick="closeNav()"></div>
+					<div class="col-lg-8" id="slideshow"></div>
+					<div class="col-lg-2" onclick="closeNav()"></div>
+				</div>
 			</div>
 		</div>
 
@@ -320,10 +303,7 @@
 
 	<script>
 		function openNav(folder, name) {
-			// alert(name);
-
 			// AJAX
-
 			var xmlhttp = new XMLHttpRequest();
 			xmlhttp.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
@@ -334,7 +314,6 @@
 			xmlhttp.open("GET", "activities_slideshow.php?folder=" + folder + "&name=" + name, true);
 			xmlhttp.send();
 			document.getElementById("myNav").style.width = "100%";
-
 			// AJAX
 		}
 

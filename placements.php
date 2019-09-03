@@ -4,6 +4,7 @@
 <!-- Head -->
 <head>
 	<?php include 'includes/head.php'; ?>
+	<script src="./js/placements.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
 	<div class="site-breadcrumb">
 		<div class="container">
 			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
-			<span>Feedback</span>
+			<span>Trainings & Placements</span>
 		</div>
 	</div>
 	<!-- Breadcrumb section end -->

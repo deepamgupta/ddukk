@@ -59,6 +59,11 @@
                               </a>
                         </li>
                         <li class="nav-item">
+                              <a class="nav-link" href="press_news.php" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Press News
+                              </a>
+                        </li>
+                        <li class="nav-item">
                               <a class="nav-link" href="https://www.dauniv.ac.in/" target="_blank" role="button" aria-haspopup="true" aria-expanded="false">
                                     DAVV
                               </a>
