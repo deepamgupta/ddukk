@@ -59,6 +59,7 @@
                               </a>
                               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="remedial.php">Remedial Classes</a></li>
+                                    <li><a class="dropdown-item" href="achievements.php">Student Achievements</a></li>
                                     <li><a class="dropdown-item" href="sports.php">Sports</a></li>
                                     <li><a class="dropdown-item disabled" href="alumni.php">Alumni</a></li>
                               </ul>
