@@ -107,6 +107,9 @@
 	<!-- Navbar -->
 	<?php include 'includes/navbar.php'; ?>
 
+	<!-- Side Nav -->
+	<?php include 'includes/sidenav.php'; ?>
+
 
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
@@ -157,7 +160,7 @@
 							<td>Network Routing & Switching</td>
 							<td>2-4 July 2018</td>
 							<td>28</td>
-							<td>pasmes</td>
+							<td>Networkers Champ, Indore</td>
 						</tr>
 
 						<tr>
@@ -202,7 +205,7 @@
 							<td>Nourishing Yourself at Mata Gujari College, Indore</td>
 							<td>12 Oct 2018</td>
 							<td>95</td>
-							<td></td>
+							<td>NA</td>
 						</tr>
 						<tr>
 							<td>10.</td>
@@ -223,7 +226,7 @@
 							<td>Creative Craft Creation at NEEV Foundation</td>
 							<td>15 Jan 2019</td>
 							<td>54</td>
-							<td></td>
+							<td>NA</td>
 						</tr>
 						<tr>
 							<td>13.</td>
@@ -235,23 +238,23 @@
 						<tr>
 							<td>14.</td>
 							<td>Personality Development Thru Dramatics</td>
-							<td>ew Era Consultancy, Indore26 Feb 2019</td>
+							<td>26 Feb 2019</td>
 							<td>55</td>
-							<td></td>
+							<td>New Era Consultancy, Indore</td>
 						</tr>
 						<tr>
 							<td>15.</td>
 							<td>PHOTOSHOP at Shri Vaishnav Institute of Management</td>
 							<td>23-29 April 2019</td>
 							<td>22</td>
-							<td>N</td>
+							<td>NA</td>
 						</tr>
 						<tr>
 							<td>16.</td>
 							<td>TALLY</td>
 							<td>1-31 May</td>
 							<td>33</td>
-							<td></td>
+							<td>NA</td>
 						</tr>
 						<tr>
 							<td>17.</td>
@@ -272,7 +275,7 @@
 							<td>TALLY</td>
 							<td>15 July -16 Aug 2019</td>
 							<td>16</td>
-							<td></td>
+							<td>NA</td>
 						</tr>
 						<tr>
 							<td>20.</td>

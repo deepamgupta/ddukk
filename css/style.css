@@ -410,6 +410,51 @@ ul, ol {
 	background: #f6783a;
 }
 
+/*--------------------
+-------SIDE NAV-------
+----------------------*/
+
+.side-nav {
+	position: fixed;
+	top: 58%;
+	transform: translateY(-50%);
+	z-index: 1000;
+	right: 0;
+}
+
+.side-nav a {
+	display: block;
+	text-align: center;
+	padding: 2px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.side-nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.side-nav-title{
+	font-size: 10px;
+	font-weight: bolder;
+}
+
+.side-nav-1 {
+	background: #f6783a;
+	color: white;
+	border-radius: 10px 0px 0px 0px;
+}
+
+.side-nav-2 {
+	background: #0075b8;
+	color: white;
+	border-radius: 0px 0px 0px 10px;
+}
+
+
 /*---------------------
 	Back2Top
 -----------------------*/
@@ -2153,6 +2198,14 @@ ul, ol {
 	.map-section .map {
 		height: 300px;
 	}
+
+	/*----------Side Nav-----------*/
+	.side-nav a {
+		font-size: 17px;
+	}
+	.side-nav-title{
+		font-size: 9px;	
+	}
 }
 
 /* small Mobile :320px. */
@@ -2206,5 +2259,12 @@ ul, ol {
 	}
 	.post-item .post-author .pa-content, .comment-warp .comment .comment-content {
 		padding-left: 0;
+	}
+	/*----------Side Nav-----------*/
+	.side-nav a {
+		font-size: 14px;
+	}
+	.side-nav-title{
+		font-size: 7px;
 	}
 }

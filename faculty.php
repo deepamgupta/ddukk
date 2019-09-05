@@ -256,6 +256,9 @@
 	<!-- Navbar -->
 	<?php include 'includes/navbar.php'; ?>
 
+	<!-- Side Nav -->
+	<?php include 'includes/sidenav.php'; ?>
+
 
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">

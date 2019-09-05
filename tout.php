@@ -265,6 +265,8 @@
     <!-- Navbar -->
     <?php include 'includes/navbar.php'; ?>
 
+    <!-- Side Nav -->
+    <?php include 'includes/sidenav.php'; ?>
 
     <!-- gallery extra view work start  -->
     <!-- Breadcrumb section -->

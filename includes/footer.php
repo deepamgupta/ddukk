@@ -23,9 +23,11 @@
                                           <i class="fas fa-map-marker-alt "></i>
                                     </td>
                                     <td class="tdstyle">
-                                          <span>Deen Dayal Upadhyay Kaushal Kendra(DDU-KK), Devi Ahilya
-                                                Vishwavidhyalaya
-                                                Takshashila Parisar,Indore(M.P.)-452001, india</span>
+                                          <span>Deen Dayal Upadhyay Kaushal Kendra(DDU-KK), 
+                                                2nd Floor, Vigyan Bhavan
+                                                Takshashila Parisar,
+                                                Khandwa Road,
+                                                Indore(M.P.)-452001, India</span>
                                     </td>
                               </tr>
 
@@ -35,7 +37,7 @@
                                     </td>
                                     <td>
 
-                                          <span>(0731)2438531&nbsp;&nbsp;,&nbsp;&nbsp;(0731)2461888</span>
+                                          <span>+91 9424889872</span>
                                     </td>
                               </tr>
                               <tr class="trstyle">
@@ -43,17 +45,17 @@
                                           <i class="fas fa-envelope-open"></i>
                                     </td>
                                     <td>
-                                          <span>principal_cc@dauniv.ac.in</span>
+                                          <span>ddukkdavv@gmail.com</span>
                                     </td>
                               </tr>
-                              <tr class="trstyle">
+                              <!-- <tr class="trstyle">
                                     <td>
                                           <i class="fas fa-fax"></i>
                                     </td>
                                     <td>
-                                          <span>0731-2761358</span>
+                                          <span>+91 9424889872</span>
                                     </td>
-                              </tr>
+                              </tr> -->
                         </table>
                   </div>
                   <div class="col-md-4">
@@ -72,6 +74,9 @@
                                           <a href="admission.php">
                                                 <li>Admission</li>
                                           </a>
+                                          <a href="http://www.sports.dauniv.ac.in/" target="_blank">
+                                                <li>Sports</li>
+                                          </a>
                                     </ul>
                               </div>
                               <div class="rowstylef">
@@ -84,6 +89,9 @@
                                           </a>
                                           <a href="activities.php">
                                                 <li>Achievements</li>
+                                          </a>
+                                          <a href="https://www.dauniv.ac.in/" target="_blank">
+                                                <li>DAVV</li>
                                           </a>
                                     </ul>
                               </div>
@@ -110,8 +118,8 @@
                                           <i class="far fa-copyright" id="c"></i>
                                     </td>
                                     <td>
-                                          <em>&nbsp;2018 Registrar,Deen Dayal Upadhyay Kaushal
-                                                Kendra,Indore(MP)India 452001</em>
+                                          <em>&nbsp;2019 Registrar, Deen Dayal Upadhyay Kaushal
+                                                Kendra, Indore(MP), India - 452001</em>
                                     </td>
                               </tr>
                         </table>

@@ -53,10 +53,15 @@
                                     Training & Placements
                               </a>
                         </li>
-                        <li class="nav-item">
-                              <a class="nav-link disabled" href="alumni.php" role="button" aria-haspopup="true" aria-expanded="false">
-                                    Alumni
+                        <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Student Life
                               </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="remedial.php">Remedial Classes</a></li>
+                                    <li><a class="dropdown-item" href="sports.php">Sports</a></li>
+                                    <li><a class="dropdown-item disabled" href="alumni.php">Alumni</a></li>
+                              </ul>
                         </li>
                         <li class="nav-item">
                               <a class="nav-link" href="press_news.php" role="button" aria-haspopup="true" aria-expanded="false">
