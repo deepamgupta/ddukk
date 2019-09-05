@@ -117,7 +117,35 @@
 				<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami
 					suscipit, lectus id efficitur ornare, leo libero convalis nulla, vitae dignissim .
 				</p> -->
-				</di>
+				</div>
+			</div>
+			<div class="row about-text pt-5">
+				<div class="col-lg-12">
+					<h5 class="pt-5  pt-lg-0" id="mission">Objectives</h5>
+					<p class="lead">
+						<ul class="about-list">
+							<li class="text-primary"><i class="fa fa-check-square-o"></i> To create work ready skilled manpower for industry requirements at various levels. </li>
+							<li class="text-success"><i class="fa fa-check-square-o"></i> To execute courses at PG level as per the need of industry in various sectors. </li>
+							<li class="text-danger"><i class="fa fa-check-square-o"></i> To undertake R&D in the areas related to skill education & development, entrepreneurship, employability, labour, market trends, etc. at PG &research level also. </li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="row about-text pt-5">
+				<div class="col-lg-12">
+					<h5 class="pt-5  pt-lg-0" id="mission">Salient Features</h5>
+					<p class="lead">
+						<ul class="about-list">
+							<li class="text-info"><i class="fa fa-check-square-o"></i> Syllabuses of variuos courses are designed by Senior Academicians and related Industry Experts.</li>
+							<li class="text-danger"><i class="fa fa-check-square-o"></i> Classes are held regularly by inviting Senior Academicians and Professionals. </li>
+							<li class="text-success"><i class="fa fa-check-square-o"></i> Weightage of skill component in each course is 60% whereas of general components is 40%. </li>
+							<li class="text-muted"><i class="fa fa-check-square-o"></i> Industry visits and expert lectures are regular in teaching-learning process. </li>
+							<li class="text-primary"><i class="fa fa-check-square-o"></i> Pursuing project in each semester is mandatory. </li>
+							<li class="text-info"><i class="fa fa-check-square-o"></i> Encouraging students to participate in short term courses. </li>
+							<li class="text-success"><i class="fa fa-check-square-o"></i> Internship is an essential an indispensible part of each course. </li>
+						</ul>
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
