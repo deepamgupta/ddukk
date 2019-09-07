@@ -1,6 +1,6 @@
 <?php
 $dir= $_GET['option'];
-$fo=opendir("images/gallery/$dir");
+$fo=opendir("img/gallery/$dir");
 //$ns = 1;
 while($file=readdir($fo) )
 {
@@ -10,7 +10,7 @@ while($file=readdir($fo) )
 		<div class='numbertext' >1/ 36</div>
 		<div class='row'>
 
-		<div class='col-md-12 modal-grid'> <img src='images/gallery/$dir/$file' style='width:100%'></div> 
+		<div class='col-md-12 modal-grid'> <img src='img/gallery/$dir/$file' style='width:100%'></div> 
 		</div>
 		</div>";
 	}

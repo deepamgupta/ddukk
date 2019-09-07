@@ -9,7 +9,7 @@
                               </tr>
                               <tr align="center" valign="bottom">
                                     <td>
-                                          <h3 class="sobstyle">Deen dayal upadhyaya Kaushal Kendra</h3>
+                                          <h3 class="sobstyle">Deen Dayal Upadhyay Kaushal Kendra</h3>
                                     </td>
                               </tr>
 
@@ -20,12 +20,14 @@
                         <table align="center" id="it">
                               <tr>
                                     <td width="58px" valign="top">
-                                          <i class="fa fa-map-marker-alt "></i>
+                                          <i class="fas fa-map-marker-alt "></i>
                                     </td>
                                     <td class="tdstyle">
-                                          <span>Deen Dayal Upadhyay Kaushal Kendra(DDU-KK), Devi Ahilya
-                                                Vishwavidyalaya
-                                                Takshashila Parisar,Indore(M.P.)-452001, india</span>
+                                          <span>Deen Dayal Upadhyay Kaushal Kendra(DDU-KK), 
+                                                2nd Floor, Vigyan Bhavan
+                                                Takshashila Parisar,
+                                                Khandwa Road,
+                                                Indore(M.P.)-452001, India</span>
                                     </td>
                               </tr>
 
@@ -35,7 +37,7 @@
                                     </td>
                                     <td>
 
-                                          <span>(0731)2438531&nbsp;&nbsp;,&nbsp;&nbsp;(0731)2461888</span>
+                                          <span>+91 9424889872</span>
                                     </td>
                               </tr>
                               <tr class="trstyle">
@@ -43,17 +45,17 @@
                                           <i class="fas fa-envelope-open"></i>
                                     </td>
                                     <td>
-                                          <span>principal_cc@dauniv.ac.in</span>
+                                          <span>ddukkdavv@gmail.com</span>
                                     </td>
                               </tr>
-                              <tr class="trstyle">
+                              <!-- <tr class="trstyle">
                                     <td>
                                           <i class="fas fa-fax"></i>
                                     </td>
                                     <td>
-                                          <span>0731-2761358</span>
+                                          <span>+91 9424889872</span>
                                     </td>
-                              </tr>
+                              </tr> -->
                         </table>
                   </div>
                   <div class="col-md-4">
@@ -66,30 +68,30 @@
                                           <a href="aboutus.php">
                                                 <li>About Us</li>
                                           </a>
-                                          <a href="msc.php">
-                                                <li>Boac</li>
+                                          <a href="boac.php">
+                                                <li>BOAC</li>
                                           </a>
-                                          <a href="notices.php">
-                                                <li>bos</li>
+                                          <a href="admission.php">
+                                                <li>Admission</li>
                                           </a>
-                                          <a href="notices.php">
-                                                <li>ESt.</li>
+                                          <a href="http://www.sports.dauniv.ac.in/" target="_blank">
+                                                <li>Sports</li>
                                           </a>
                                     </ul>
                               </div>
                               <div class="rowstylef">
                                     <ul id="ql">
-                                          <a href="http://www.dauniv.ac.in/" target="_blank">
-                                                <li>Courses</li>
+                                          <a href="http://www.clib.dauniv.ac.in" target="_blank">
+                                                <li>Central Library</li>
                                           </a>
-                                          <a href="phd.php">
-                                                <li>Admission</li>
+                                          <a href="bos.php">
+                                                <li>BOS</li>
                                           </a>
                                           <a href="activities.php">
-                                                <li>Activities</li>
+                                                <li>Achievements</li>
                                           </a>
-                                          <a href="notices.php">
-                                                <li>Gallery</li>
+                                          <a href="https://www.dauniv.ac.in/" target="_blank">
+                                                <li>DAVV</li>
                                           </a>
                                     </ul>
                               </div>
@@ -116,8 +118,8 @@
                                           <i class="far fa-copyright" id="c"></i>
                                     </td>
                                     <td>
-                                          <em>&nbsp;2018 Registrar,Deen Dayal Upadhyay Kaushal
-                                                Kendra,Indore(MP)India 452001</em>
+                                          <em>&nbsp;2019 Registrar, Deen Dayal Upadhyay Kaushal
+                                                Kendra, Indore(MP), India - 452001</em>
                                     </td>
                               </tr>
                         </table>

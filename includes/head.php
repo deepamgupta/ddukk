@@ -8,7 +8,8 @@
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=ABeeZee|Alegreya|Ubuntu|Merriweather" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Hepta+Slab:600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
 <!-- Font- Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 

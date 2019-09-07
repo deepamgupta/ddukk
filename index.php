@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- Head -->
+
 <head>
 	<?php include 'includes/head.php'; ?>
 </head>
@@ -17,6 +18,8 @@
 	<!-- Navbar -->
 	<?php include 'includes/navbar.php'; ?>
 
+	<!-- Side Nav -->
+	<?php include 'includes/sidenav.php'; ?>
 
 	<!-- Hero section -->
 	<section class="hero-section">
@@ -26,15 +29,15 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
-								<h2 class="hs-title">An investment in knowledge pays the best interest.
+								<h2 class="hs-title">An educated person is respected everywhere, it beats the beauty and the youth.
 								</h2>
-								<p class="hs-des">Education is not just about going to school and
+								<div class="hs-subtitle">CHANAKYA</div>
+								<!-- <p class="hs-des">Education is not just about going to school and
 									getting a degree. It's
 									about widening your<br> knowledge and absorbing the truth about
 									life. Knowledge is
-									power.</p>
-								<div class="site-btn">GET STARTED</div>
+									power.</p> -->
+								<!-- <div class="site-btn">GET STARTED</div> -->
 							</div>
 						</div>
 					</div>
@@ -45,15 +48,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
 								<h2 class="hs-title">An investment in knowledge pays the best interest.
 								</h2>
-								<p class="hs-des">Education is not just about going to school and
-									getting a degree. It's
-									about widening your<br> knowledge and absorbing the truth about
-									life. Knowledge is
-									power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="hs-subtitle">BENJAMIN FRANKLIN</div>
 							</div>
 						</div>
 					</div>
@@ -64,15 +61,22 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
-								<h2 class="hs-title">An investment in knowledge pays the best interest.
+								<h2 class="hs-title">A person who won't read has no advantage over the person who can't read.
 								</h2>
-								<p class="hs-des">Education is not just about going to school and
-									getting a degree. It's
-									about widening your<br> knowledge and absorbing the truth about
-									life. Knowledge is
-									power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="hs-subtitle">Mark Twain</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="img/hero-slider/4.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<h2 class="hs-title">Learning is the new skill. Imagination, creation and asking new questions are at its core.
+								</h2>
+								<div class="hs-subtitle">Sugata Mitra</div>
 							</div>
 						</div>
 					</div>
@@ -82,9 +86,205 @@
 	</section>
 	<!-- Hero section end -->
 
+	<!-- Fact section -->
+	<section class="fact-section spad set-bg" data-setbg="img/fact-bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-crown"></i>
+					</div>
+					<div class="fact-text">
+						<h2>80+</h2>
+						<p>ALUMNI</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-briefcase"></i>
+					</div>
+					<div class="fact-text">
+						<h2>4</h2>
+						<p>YEARS</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-user"></i>
+					</div>
+					<div class="fact-text">
+						<h2>80+</h2>
+						<p>STUDENTS</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3 fact">
+					<div class="fact-icon">
+						<i class="ti-pencil-alt"></i>
+					</div>
+					<div class="fact-text">
+						<h2>20+</h2>
+						<p>COURSES</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Fact section end-->
+
+	<!-- Latest Courses -->
+	<section class="blog-section spad">
+		<div class="container">
+			<div class="section-title text-center">
+				<h3>LATEST @ DDU-KK</h3>
+				<p>Get updated with the latest and upcoming events at DDU-KK</p>
+			</div>
+			<div class="row">
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/latest/1.jpg"></div>
+						<div class="blog-content">
+							<h5>One Month Training Program on Stepping Stones in "JAVA" in collaboration with Sterling Institute- A Development Venture</h5>
+							<div class="blog-meta">
+								<span><i class="fa fa-calendar-o"></i>2 Sep 2019 - 30 Sep 2019</span>
+								<span><i class="fa fa-user"></i> Sterling Institute</span>
+							</div>
+							<p>
+								<!-- <ul>
+									<li><a href="./docs/latest/Instructions for Java Training.pdf" target="_blank">Instructions</a></li>
+									<li><a href="./docs/latest/Registration Form Java Training.pdf" target="_blank">Registration Form</a></li>
+									<li><a href="./docs/latest/Syllabus Java Training.pdf" target="_blank"></a>Syllabus</li>
+								</ul> -->
+							</p>
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="btn btn-info" onclick="window.open('./docs/latest/Syllabus Java Training.pdf', '_blank')">Syllabus</button>
+								<button type="button" class="btn btn-warning" onclick="window.open('./docs/latest/Instructions Java Training.pdf', '_blank')">Instructions</button>
+								<button type="button" class="btn btn-success" onclick="window.open('./docs/latest/Registration Form Java Training.pdf', '_blank')">Form</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/latest/2.jpg"></div>
+						<div class="blog-content">
+							<h5>Hands-on Android Programming Workshop</h5>
+							<div class="blog-meta">
+								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
+								<span><i class="fa fa-user"></i> coming soon...</span>
+							</div>
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
+								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
+								<button type="button" class="disabled btn btn-success" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Form</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/latest/3.jpg"></div>
+						<div class="blog-content">
+							<h5>Digital Marketing</h5>
+							<div class="blog-meta">
+								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
+								<span><i class="fa fa-user"></i> coming soon...</span>
+							</div>
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
+								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
+								<button type="button" class="disabled btn btn-success" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Form</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/latest/4.jpg"></div>
+						<div class="blog-content">
+							<h5>Advance Training on Excel</h5>
+							<div class="blog-meta">
+								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
+								<span><i class="fa fa-user"></i> coming soon...</span>
+							</div>
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
+								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
+								<button type="button" class="disabled btn btn-success" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Form</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/latest/4.jpg"></div>
+						<div class="blog-content">
+							<h5>Advance Training on Excel</h5>
+							<div class="blog-meta">
+								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
+								<span><i class="fa fa-user"></i> coming soon...</span>
+							</div>
+							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco
+								lacus sit amet.
+								Aenean interdus mid vitae sed accumsan...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Latest Courses -->
+
+	<!-- About Us section -->
+	<section class="enroll-section spad set-bg" data-setbg="img/enroll-bg.jpg" style="background-attachment : fixed;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="section-title text-white">
+						<h3>About Us</h3>
+						<p>Know who we are</p>
+					</div>
+					<div class="enroll-list text-white">
+						<div class="enroll-list-item">
+							<a href="about.php#vision">
+								<span>V</span>
+								<h5>Vision</h5>
+							</a>
+							<p>To contribute effectively to the National Endeavour of producing quality skilled human workforce...</p>
+						</div>
+						<div class="enroll-list-item">
+							<a href="about.php#mission">
+								<span>M</span>
+								<h5>Mission</h5>
+							</a>
+							<p>
+								<ul>
+									<li>To develop excellent skilled youth especially in desired sectors...</li>
+									<li> Institute is committed for the development of the community...</li>
+									<ul>
+							</p>
+						</div>
+						<div class="enroll-list-item">
+							<a href="about.php#head">
+								<span>H</span>
+								<h5>Messege from Head</h5>
+							</a>
+							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
+								interdum ultrices
+								augue.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
+					<img src="img/encroll-img.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Us section end -->
+
 
 	<!-- Counter section  -->
-	<section class="counter-section">
+	<!-- <section class="counter-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 col-md-6">
@@ -114,85 +314,14 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Counter section end -->
 
 
-	<!-- Latest Courses -->
-	<section class="blog-section spad">
-		<div class="container">
-			<div class="section-title text-center">
-				<h3>LATEST @ DDU-KK</h3>
-				<p>Get updated with the latest and upcoming courses at DDU-KK</p>
-			</div>
-			<div class="row">
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/1.jpg"></div>
-						<div class="blog-content">
-							<h4>Short Term Course on website Design and Development</h4>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 24 Mar 2018</span>
-								<span><i class="fa fa-user"></i> Owen Wilson</span>
-							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco
-								lacus sit amet.
-								Aenean interdus mid vitae sed accumsan...</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/2.jpg"></div>
-						<div class="blog-content">
-							<h4>One Month Program on Accounting Software Tally</h4>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 23 Mar 2018</span>
-								<span><i class="fa fa-user"></i> Owen Wilson</span>
-							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco
-								lacus sit amet.
-								Aenean interdus mid vitae sed accumsan...</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/3.jpg"></div>
-						<div class="blog-content">
-							<h4>Quotations are invited for Structured cabling LAN (33 points) work</h4>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 24 Mar 2018</span>
-								<span><i class="fa fa-user"></i> Owen Wilson</span>
-							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco
-								lacus sit amet.
-								Aenean interdus mid vitae sed accumsan...</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/blog/4.jpg"></div>
-						<div class="blog-content">
-							<h4>Cambridge digs in at the top of university league table</h4>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> 23 Mar 2018</span>
-								<span><i class="fa fa-user"></i> Owen Wilson</span>
-							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco
-								lacus sit amet.
-								Aenean interdus mid vitae sed accumsan...</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Latest Courses -->
+
 
 	<!-- Services section -->
-	<section class="service-section spad">
+	<!-- <section class="service-section spad">
 		<div class="container services">
 			<div class="section-title text-center">
 				<h3>OUR SERVICES</h3>
@@ -267,50 +396,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Services section end -->
-
-	<!-- Enroll section -->
-	<section class="enroll-section spad set-bg" data-setbg="img/enroll-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5">
-					<div class="section-title text-white">
-						<h3>About Us</h3>
-						<p>Know who we are</p>
-					</div>
-					<div class="enroll-list text-white">
-						<div class="enroll-list-item">
-							<span>1</span>
-							<h5>Vision</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
-						</div>
-						<div class="enroll-list-item">
-							<span>2</span>
-							<h5>Mission</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
-						</div>
-						<div class="enroll-list-item">
-							<span>3</span>
-							<h5>Messege from Head</h5>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 offset-lg-1 p-lg-0 p-4">
-					<img src="img/encroll-img.jpg" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Enroll section end -->
-
 
 	<!-- Courses section -->
 	<section class="courses-section spad">
@@ -321,87 +408,68 @@
 			</div>
 			<div class="row">
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/1.jpg" alt="">
-						<div class="course-cat">
-							<span>BUSINESS</span>
+				<div class="col-md-6 course-item">
+					<a href="admission.php#interior">
+						<div class="course-thumb">
+							<img src="img/course/1.jpg" alt="">
+							<div class="course-cat">
+								<span>INTERIOR DESIGN</span>
+							</div>
 						</div>
-					</div>
+					</a>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Certificate Course in Writing<br>for a Global Market</h4>
-						<h4 class="cource-price">$100<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Master of Vocation<br> in Interior Design</h4>
+						<!-- <h4 class="cource-price">$100<span>/month</span></h4> -->
 					</div>
 				</div>
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/2.jpg" alt="">
-						<div class="course-cat">
-							<span>Marketing</span>
+				<div class="col-md-6 course-item">
+					<a href="admission.php#landscape">
+						<div class="course-thumb">
+							<img src="img/course/2.jpg" alt="">
+							<div class="course-cat">
+								<span>LANDCAPE DESIGN & NUTRITION DIETEICS</span>
+							</div>
 						</div>
-					</div>
+					</a>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Google AdWords: Get More<br> Customers with Search Marketing </h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Bachelor of Vocation<br> in Landscape Design & Nutrition Dietetics</h4>
+						<!-- <h4 class="cource-price">$150<span>/month</span></h4> -->
 					</div>
 				</div>
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/3.jpg" alt="">
-						<div class="course-cat">
-							<span>DESIGN</span>
+				<div class="col-md-6 course-item">
+					<a href="admission.php#logistics">
+						<div class="course-thumb">
+							<img src="img/course/3.jpg" alt="">
+							<div class="course-cat">
+								<span>LOGISTICS & SUPPLY</span>
+							</div>
 						</div>
-					</div>
+					</a>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>The Ultimate Drawing Course<br> Beginner to Advanced</h4>
-						<h4 class="cource-price">$180<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Diploma Course<br> Logistic & Supply (Cargo Management)</h4>
+						<!-- <h4 class="cource-price">$180<span>/month</span></h4> -->
 					</div>
 				</div>
 				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/4.jpg" alt="">
-						<div class="course-cat">
-							<span>DATABASE</span>
+				<div class="col-md-6 course-item">
+					<a href="short_term_courses.php">
+						<div class="course-thumb">
+							<img src="img/course/4.jpg" alt="">
+							<div class="course-cat">
+								<span>SHORT TERM COURSES</span>
+							</div>
+
 						</div>
-					</div>
+					</a>
 					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
-					</div>
-				</div>
-				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/5.jpg" alt="">
-						<div class="course-cat">
-							<span>PROGRAM</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>Web Developer Bootcamp<br>Make web applications</h4>
-						<h4 class="cource-price">$250<span>/month</span></h4>
-					</div>
-				</div>
-				<!-- course item -->
-				<div class="col-lg-4 col-md-6 course-item">
-					<div class="course-thumb">
-						<img src="img/course/6.jpg" alt="">
-						<div class="course-cat">
-							<span>BUSINESS</span>
-						</div>
-					</div>
-					<div class="course-info">
-						<div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div>
-						<h4>How to Start an Amazon<br>FBA Store on a Tight Budget</h4>
-						<h4 class="cource-price">$150<span>/month</span></h4>
+						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
+						<h4>Short Term Courses in various skills</h4>
+						<!-- <h4 class="cource-price">$150<span>/month</span></h4> -->
 					</div>
 				</div>
 			</div>
@@ -410,54 +478,11 @@
 	<!-- Courses section end-->
 
 
-	<!-- Fact section -->
-	<section class="fact-section spad set-bg" data-setbg="img/fact-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-crown"></i>
-					</div>
-					<div class="fact-text">
-						<h2>50</h2>
-						<p>YEARS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-briefcase"></i>
-					</div>
-					<div class="fact-text">
-						<h2>80</h2>
-						<p>TEACHERS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-user"></i>
-					</div>
-					<div class="fact-text">
-						<h2>500</h2>
-						<p>STUDENTS</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3 fact">
-					<div class="fact-icon">
-						<i class="ti-pencil-alt"></i>
-					</div>
-					<div class="fact-text">
-						<h2>800+</h2>
-						<p>LESSONS</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Fact section end-->
+
 
 
 	<!-- Event section -->
-	<section class="event-section spad">
+	<!-- <section class="event-section spad">
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>OUR EVENTS</h3>
@@ -494,7 +519,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Event section end -->
 
 
