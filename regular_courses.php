@@ -27,23 +27,25 @@
 			margin-top: 15px;
 			margin-left: 19px;
 			margin-bottom: 1.5rem;
-			box-shadow: 0 0 6px 0;
+			box-shadow: 0 0 2px 0;
 
 		}
 
 		.mybtn:hover {
 			background-color: rgb(181, 184, 183);
+
 		}
 
-		.mybtn:active {
-			background-color: #020032;
+		.mybtn:active
+		{
+			background-color: rgb(181, 184, 183);
 		}
 
 		.mybtn:focus {
-			background-color: #020032;
+			background-color: rgb(181, 184, 183);
+
 			box-shadow: 0 0 0 0.2rem rgba(38, 47, 58, 0.5);
 		}
-
 		.download-arrow {
 			padding: inherit;
 		}
