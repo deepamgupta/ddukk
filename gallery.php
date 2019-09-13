@@ -132,7 +132,7 @@
 		.container {
 			padding: 0 20px;
 		}
-
+           
 		.container::after,
 		.row::after {
 			content: "";
@@ -230,16 +230,16 @@
 									break;
 								}
 							}
-							echo "<div class='column'>";
+							echo "<div class='column oak'>";
 							echo "<a href ='tout.php?option=";
 							echo basename($file);
 							echo "' style='margin-left:10px ; color:black; text-decoration:none; '>";
 							echo  "   <div class='card'>
-									<img src='img/gallery/$dir_name/$photo' alt='Jane' style='width:100%;'> 
+									<img src='img/gallery/$dir_name/$photo' alt='Jane' style='width:100%; height:200px;'> 
 									<div class='container'>
-									<h2 style='font-size:25px; margin-bottom:5px;'>";
+									<p style=' margin-bottom:5px;'>";
 							echo basename($file);
-							echo "</h2><p><button class='button' >View more</button></p> </div></div>";
+							echo "</p><p><button class='button' >View more</button></p> </div></div>";
 							echo "</a></div>";
 						}
 					}
