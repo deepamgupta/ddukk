@@ -81,9 +81,9 @@
 					<div class="member">
 						<div class="member-pic set-bg" data-setbg="img/member/4.jpg">
 							<div class="member-social">
-								<a target="_blank" href=""><i class="fab fa-linkedin"></i></a>
-								<a target="_blank" href=""><i class="fab fa-github"></i></a>
-								<a target="_blank" href=""><i class="fa fa-facebook"></i></a>
+								<a target="_blank" href="https://www.linkedin.com/in/samyak-jain-abaa6716a"><i class="fab fa-linkedin"></i></a>
+								<a target="_blank" href="https://github.com/Samyak109"><i class="fab fa-github"></i></a>
+								<a target="_blank" href="https://www.facebook.com/samyak.jain.5245"><i class="fa fa-facebook"></i></a>
 							</div>
 						</div>
 						<h5>Samyak Jain</h5>
