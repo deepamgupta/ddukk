@@ -71,7 +71,7 @@
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Regular Courses</span>
 		</div>
 	</div>
@@ -83,7 +83,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>REGULAR COURSES</h3>
-				<p>What our students think?</p>
+				<p>Make yourself skillful, the world needs you</p>
 			</div>
 			<div class="row">
 				<div class="container">

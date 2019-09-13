@@ -56,7 +56,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Press News</h3>
-				<p>Let students be creative and make a difference</p>
+				<p>We in the media</p>
 			</div>
 
 			<div class="row">

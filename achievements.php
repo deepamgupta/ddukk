@@ -167,7 +167,7 @@
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Student Achievements</span>
 		</div>
 	</div>
@@ -229,13 +229,26 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Student Achievements</h3>
-				<p>What our students think?</p>
+				<p>Our students have that Extra Potential</p>
 			</div>
-			<h5 class="text-center">Shivani Pawar - Yoga</h5>
+
+
+
+			<h5 class="text-center mt-5">Shivani Pawar - Yoga</h5>
 			<hr>
 			<div class="row">
 				<?php display_activity("Shivani Pawar - Yoga", "warning"); ?>
 			</div>
+
+
+			<h5 class="text-center mt-5">Eshika Raghuvanshi - Volleyball</h5>
+			<hr>
+			<div class="row">
+				<?php display_activity("Eshika Raghuvanshi - Volleyball", "danger"); ?>
+			</div>
+
+
+
 		</div>
 	</section>
 	<!-- Activities section end-->

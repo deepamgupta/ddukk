@@ -55,11 +55,23 @@
 					function addCounter()
 					{
 						global $counter;
-						echo '<mark>'.++$counter . ')</mark>&nbsp;&nbsp;';
+						echo '<mark class="bg-warning">' . ++$counter . ')</mark>&nbsp;&nbsp;';
 					}
 					?>
 					<tbody>
 						<tr>
+							<td><?php addCounter(); ?>Hellolis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 1</td>
+						</tr>
+						<tr>
+							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 2</td>
+						</tr>
+						<tr>
+							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 3 </td>
+						</tr>
+						<tr>
+							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 4</td>
+						</tr>
+						<tr>
 							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 1</td>
 						</tr>
 						<tr>
@@ -104,69 +116,7 @@
 						<tr>
 							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 15</td>
 						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 16</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 17</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 18</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 1</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 2</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 3 </td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 4</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 5</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 6</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 7</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 8</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 9</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 10</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 11</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 12</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 13</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 14</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 15</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 16</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 17</td>
-						</tr>
-						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 18</td>
-						</tr>
+						
 					</tbody>
 				</table>
 			</div>

@@ -167,7 +167,7 @@
 					<div class="blog-item">
 						<div class="blog-thumb set-bg" data-setbg="img/latest/2.jpg"></div>
 						<div class="blog-content">
-							<h5>Hands-on Android Programming Workshop</h5>
+							<h5>Tally (GST version)</h5>
 							<div class="blog-meta">
 								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
 								<span><i class="fa fa-user"></i> coming soon...</span>
@@ -180,6 +180,7 @@
 						</div>
 					</div>
 				</div>
+				
 				<div class="col-xl-6">
 					<div class="blog-item">
 						<div class="blog-thumb set-bg" data-setbg="img/latest/3.jpg"></div>
@@ -206,6 +207,7 @@
 								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
 								<span><i class="fa fa-user"></i> coming soon...</span>
 							</div>
+							<p>Clear your concepts with professionals in Advanced Excel.</p>
 							<div class="btn-group btn-group-sm">
 								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
 								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
@@ -214,21 +216,26 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/4.jpg"></div>
+						<div class="blog-thumb set-bg" data-setbg="img/latest/5.jpg"></div>
 						<div class="blog-content">
-							<h5>Advance Training on Excel</h5>
+							<h5>Hands-on Android Programming Workshop</h5>
 							<div class="blog-meta">
 								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
 								<span><i class="fa fa-user"></i> coming soon...</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco
-								lacus sit amet.
-								Aenean interdus mid vitae sed accumsan...</p>
+							<p>Hands-on Programming workshop with latest trends in Android.</p>
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
+								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
+								<button type="button" class="disabled btn btn-success" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Form</button>
+							</div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</section>

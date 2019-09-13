@@ -114,7 +114,7 @@
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Short Term Courses</span>
 		</div>
 	</div>
@@ -126,7 +126,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Short Term Courses</h3>
-				<!-- <p>What our students think?</p> -->
+				<p>Level-up your value</p>
 			</div>
 			<div class="row roow">
 
