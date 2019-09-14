@@ -80,23 +80,27 @@
 			</div>
 		</div>
 
-	</section>
-
-	<div class="container text-center mt-4 mb-4" id="mentors">
-		<a href="#mentors-dropdown" class="btn btn-success" data-toggle="collapse">Mentors</a>
-		<div id="mentors-dropdown" class="collapse">
-			<div class="mt-3">
-				Dr. Vrinda Tokkekar<br>
-				Dr. Maya Ingle<br>
-				Mr. Sachin Mandwariya<br>(CEO, Workaholics Infocorp.)<br>
-				Miss Anshika Jain<br>
+		<div class="text-center mt-2 mb-4" id="mentors">
+			<a href="#mentors-dropdown" class="btn btn-success" data-toggle="collapse">Mentors</a>
+			<div id="mentors-dropdown" class="collapse">
+				<div class="mt-3">
+					Dr. Vrinda Tokkekar<br>
+					Dr. Maya Ingle<br>
+					Mr. Sachin Mandwariya<br>(CEO, Workaholics Infocorp.)<br>
+					Miss Anshika Jain<br>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="container text-center p-2">
-		<a href="https://github.com/deepamgupta/ddukk" target="_blank"><img class="img-fluid" style="height:3rem;" src="./img/fork.png"> this project on <img class="img-fluid" style="height:3rem;" src="./img/github.png"></a>
-	</div>
+		<div class="text-center">
+			<a href="https://github.com/deepamgupta/ddukk" target="_blank"><img class="img-fluid" style="height:3rem;" src="./img/fork.png"> this project on <img class="img-fluid" style="height:3rem;" src="./img/github.png"></a>
+		</div>
+
+	</section>
+
+
+
+
 
 
 
