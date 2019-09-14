@@ -61,7 +61,7 @@
 							</div>
 						</div>
 						<h5>Deepam Gupta</h5>
-						<p>IET-DAVV</p>
+						<p>IET-DAVV, Indore</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-6">
@@ -74,7 +74,7 @@
 							</div>
 						</div>
 						<h5>Pratik Mehta</h5>
-						<p>IET-DAVV</p>
+						<p>IET-DAVV, Indore</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-6">
@@ -87,12 +87,26 @@
 							</div>
 						</div>
 						<h5>Samyak Jain</h5>
-						<p>IET-DAVV</p>
+						<p>IET-DAVV, Indore</p>
 					</div>
 				</div>
 			</div>
 		</div>
+
 	</section>
+
+	<div class="container text-center mt-4 mb-4" id="mentors">
+		<a href="#mentors-dropdown" class="btn btn-success" data-toggle="collapse">Mentors</a>
+		<div id="mentors-dropdown" class="collapse">
+			<div class="mt-3">
+				Dr. Vrinda Tokkekar<br>
+				Dr. Maya Ingle<br>
+				Mr. Sachin Mandwariya<br>(CEO, Workaholics Infocorp.)<br>
+				Miss Anshika Jain<br>
+			</div>
+		</div>
+	</div>
+
 
 
 	<!-- Footer section -->

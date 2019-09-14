@@ -9,6 +9,12 @@
 		#data tr {
 			display: none;
 		}
+		.new{
+			content: url(./img/new.png);
+			display: inline-block;
+			height: 2rem;
+			vertical-align: bottom;
+		}
 	</style>
 </head>
 
@@ -59,67 +65,85 @@
 					}
 					?>
 					<tbody>
+
+
+
+
+
+
 						<tr>
-							<td><?php addCounter(); ?>Hellolis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 1</td>
+							<td><?php addCounter(); ?>DDU-KK starts III batch of TALLY (GST Version) very soon...<span class="new"></span> </td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 2</td>
+							<td><?php addCounter(); ?>One Month Training Program on Stepping Stones in "'JAVA" in collaboration with Sterling Institute- A development Venture<span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 3 </td>
+							<td><?php addCounter(); ?>Fees Refund Notice for C.E.T. Exam - 2019<span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 4</td>
+							<td><?php addCounter(); ?>Notice Regarding Induction Program Dated 04.09.2019<span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 1</td>
+							<td><?php addCounter(); ?>One Week Training Program on GST from 10 June to 14 June, 2019<span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 2</td>
+							<td><?php addCounter(); ?>Short Term Course on Website Design & Development<span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 3 </td>
+							<td><?php addCounter(); ?>Quotations are invited for Structured cabling LAN (33 points) work <span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 4</td>
+							<td><?php addCounter(); ?>One Month Program on Accounting Software Tally<span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 5</td>
+							<td><?php addCounter(); ?>Dummy Row 5</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 6</td>
+							<td><?php addCounter(); ?>Dummy Row 6</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 7</td>
+							<td><?php addCounter(); ?>Dummy Row 7</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 8</td>
+							<td><?php addCounter(); ?>Dummy Row 8</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 9</td>
+							<td><?php addCounter(); ?>Dummy Row 9</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 10</td>
+							<td><?php addCounter(); ?>Dummy Row 10</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 11</td>
+							<td><?php addCounter(); ?>Dummy Row 11</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 12</td>
+							<td><?php addCounter(); ?>Dummy Row 12</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 13</td>
+							<td><?php addCounter(); ?>Dummy Row 13</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 14</td>
+							<td><?php addCounter(); ?>Dummy Row 14</td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Voluptate quia quo vel minus ut. Facilis quisquam tempore id in id tempora similique ut. Est placeat facilis nesciunt itaque earum consequatur laudantium nam. Dolor esse enim enim sunt cum ipsa non quia. Row 15</td>
+							<td><?php addCounter(); ?>Dummy Row 15</td>
 						</tr>
+						
+
+
+
+
+
 						
 					</tbody>
 				</table>
 			</div>
+
+
+
+
+
+
 
 			<script>
 				$(document).ready(function() {
