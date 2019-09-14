@@ -35,25 +35,12 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>OUR TEAM</h3>
-				<p>The professional standards and expectations</p>
+				<p>Bringing out the best in each other!</p>
 			</div>
 			<div class="row">
-				<!-- <div class="col-md-6 col-lg-3">
-					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/1.jpg">
-							<div class="member-social">
-								<a href=""><i class="fab fa-linkedin"></i></a>
-								<a href=""><i class="fab fa-github"></i></a>
-								<a href=""><i class="fa fa-facebook"></i></a>
-							</div>
-						</div>
-						<h5>Sasha Johnson</h5>
-						<p>Literature Teacher</p>
-					</div>
-				</div> -->
 				<div class="col-md-12 col-lg-12">
 					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/2.jpg">
+						<div class="member-pic set-bg" data-setbg="img/team/1.jpg">
 							<div class="member-social">
 								<a target="_blank" href="https://www.linkedin.com/in/deepamgupta/"><i class="fab fa-linkedin"></i></a>
 								<a target="_blank" href="https://github.com/deepamgupta"><i class="fab fa-github"></i></a>
@@ -66,7 +53,7 @@
 				</div>
 				<div class="col-md-6 col-lg-6">
 					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/3.jpg">
+						<div class="member-pic set-bg" data-setbg="img/team/2.jpg">
 							<div class="member-social">
 								<a target="_blank" href=""><i class="fab fa-linkedin"></i></a>
 								<a target="_blank" href=""><i class="fab fa-github"></i></a>
@@ -79,7 +66,7 @@
 				</div>
 				<div class="col-md-6 col-lg-6">
 					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/4.jpg">
+						<div class="member-pic set-bg" data-setbg="img/team/3.jpg">
 							<div class="member-social">
 								<a target="_blank" href="https://www.linkedin.com/in/samyak-jain-abaa6716a"><i class="fab fa-linkedin"></i></a>
 								<a target="_blank" href="https://github.com/Samyak109"><i class="fab fa-github"></i></a>
@@ -105,6 +92,10 @@
 				Miss Anshika Jain<br>
 			</div>
 		</div>
+	</div>
+
+	<div class="container text-center p-2">
+		<a href="https://github.com/deepamgupta/ddukk" target="_blank"><img class="img-fluid" style="height:3rem;" src="./img/fork.png"> this project on <img class="img-fluid" style="height:3rem;" src="./img/github.png"></a>
 	</div>
 
 
