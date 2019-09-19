@@ -10,7 +10,7 @@
 			display: none;
 		}
 		.new{
-			content: url(./img/new.png);
+			content: url("./img/new.png");
 			display: inline-block;
 			height: 2rem;
 			vertical-align: bottom;

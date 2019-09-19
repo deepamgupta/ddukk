@@ -55,9 +55,9 @@
 					<div class="member">
 						<div class="member-pic set-bg" data-setbg="img/team/2.jpg">
 							<div class="member-social">
-								<a target="_blank" href=""><i class="fab fa-linkedin"></i></a>
-								<a target="_blank" href=""><i class="fab fa-github"></i></a>
-								<a target="_blank" href=""><i class="fa fa-facebook"></i></a>
+								<a target="_blank" href="https://www.linkedin.com/in/pratik-mehta-983211166/"><i class="fab fa-linkedin"></i></a>
+								<a target="_blank" href="https://github.com/Pratikmehta1729"><i class="fab fa-github"></i></a>
+								<a target="_blank" href="https://www.facebook.com/profile.php?id=100006228130872"><i class="fa fa-facebook"></i></a>
 							</div>
 						</div>
 						<h5>Pratik Mehta</h5>
