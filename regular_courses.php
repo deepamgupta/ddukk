@@ -27,23 +27,25 @@
 			margin-top: 15px;
 			margin-left: 19px;
 			margin-bottom: 1.5rem;
-			box-shadow: 0 0 6px 0;
+			box-shadow: 0 0 2px 0;
 
 		}
 
 		.mybtn:hover {
 			background-color: rgb(181, 184, 183);
+
 		}
 
-		.mybtn:active {
-			background-color: #020032;
+		.mybtn:active
+		{
+			background-color: rgb(181, 184, 183);
 		}
 
 		.mybtn:focus {
-			background-color: #020032;
+			background-color: rgb(181, 184, 183);
+
 			box-shadow: 0 0 0 0.2rem rgba(38, 47, 58, 0.5);
 		}
-
 		.download-arrow {
 			padding: inherit;
 		}
@@ -71,7 +73,7 @@
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Regular Courses</span>
 		</div>
 	</div>
@@ -83,7 +85,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>REGULAR COURSES</h3>
-				<p>What our students think?</p>
+				<p>Make yourself skillful, the world needs you</p>
 			</div>
 			<div class="row">
 				<div class="container">

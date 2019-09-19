@@ -212,7 +212,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Gallery</h3>
-				<!-- <p>What our students think?</p> -->
+				<p>Memories</p>
 			</div>
 			<div class="row">
 

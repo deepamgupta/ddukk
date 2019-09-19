@@ -166,7 +166,7 @@
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Activities</span>
 		</div>
 	</div>
@@ -228,7 +228,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Activities</h3>
-				<p>What our students think?</p>
+				<p>70% Pratical 30% Theory</p>
 			</div>
 			<h5 class="text-center">EXPERT LECTURES</h5>
 			<hr>
@@ -239,11 +239,6 @@
 			<hr>
 			<div class="row">
 				<?php display_activity("field_visits", "success"); ?>
-			</div>
-			<h5 class="text-center mt-5 pt-4">ACHIEVEMENTS</h5>
-			<hr>
-			<div class="row">
-				<?php display_activity("achievements", "warning"); ?>
 			</div>
 		</div>
 	</section>

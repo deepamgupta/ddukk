@@ -35,25 +35,12 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>OUR TEAM</h3>
-				<p>The professional standards and expectations</p>
+				<p>Bringing out the best in each other!</p>
 			</div>
 			<div class="row">
-				<!-- <div class="col-md-6 col-lg-3">
-					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/1.jpg">
-							<div class="member-social">
-								<a href=""><i class="fab fa-linkedin"></i></a>
-								<a href=""><i class="fab fa-github"></i></a>
-								<a href=""><i class="fa fa-facebook"></i></a>
-							</div>
-						</div>
-						<h5>Sasha Johnson</h5>
-						<p>Literature Teacher</p>
-					</div>
-				</div> -->
 				<div class="col-md-12 col-lg-12">
 					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/2.jpg">
+						<div class="member-pic set-bg" data-setbg="img/team/1.jpg">
 							<div class="member-social">
 								<a target="_blank" href="https://www.linkedin.com/in/deepamgupta/"><i class="fab fa-linkedin"></i></a>
 								<a target="_blank" href="https://github.com/deepamgupta"><i class="fab fa-github"></i></a>
@@ -61,12 +48,12 @@
 							</div>
 						</div>
 						<h5>Deepam Gupta</h5>
-						<p>IET-DAVV</p>
+						<p>IET-DAVV, Indore</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-6">
 					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/3.jpg">
+						<div class="member-pic set-bg" data-setbg="img/team/2.jpg">
 							<div class="member-social">
 								<a target="_blank" href=""><i class="fab fa-linkedin"></i></a>
 								<a target="_blank" href=""><i class="fab fa-github"></i></a>
@@ -74,25 +61,47 @@
 							</div>
 						</div>
 						<h5>Pratik Mehta</h5>
-						<p>IET-DAVV</p>
+						<p>IET-DAVV, Indore</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-6">
 					<div class="member">
-						<div class="member-pic set-bg" data-setbg="img/member/4.jpg">
+						<div class="member-pic set-bg" data-setbg="img/team/3.jpg">
 							<div class="member-social">
-								<a target="_blank" href=""><i class="fab fa-linkedin"></i></a>
-								<a target="_blank" href=""><i class="fab fa-github"></i></a>
-								<a target="_blank" href=""><i class="fa fa-facebook"></i></a>
+								<a target="_blank" href="https://www.linkedin.com/in/samyak-jain-abaa6716a"><i class="fab fa-linkedin"></i></a>
+								<a target="_blank" href="https://github.com/Samyak109"><i class="fab fa-github"></i></a>
+								<a target="_blank" href="https://www.facebook.com/samyak.jain.5245"><i class="fa fa-facebook"></i></a>
 							</div>
 						</div>
 						<h5>Samyak Jain</h5>
-						<p>IET-DAVV</p>
+						<p>IET-DAVV, Indore</p>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="text-center mt-2 mb-4" id="mentors">
+			<a href="#mentors-dropdown" class="btn btn-success" data-toggle="collapse">Mentors</a>
+			<div id="mentors-dropdown" class="collapse">
+				<div class="mt-3">
+					Dr. Vrinda Tokkekar<br>
+					Dr. Maya Ingle<br>
+					Mr. Sachin Mandwariya<br>(CEO, Workaholics Infocorp.)<br>
+					Miss Anshika Jain<br>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center">
+			<a href="https://github.com/deepamgupta/ddukk" target="_blank"><img class="img-fluid" style="height:3rem;" src="./img/fork.png"> this project on <img class="img-fluid" style="height:3rem;" src="./img/github.png"></a>
+		</div>
+
 	</section>
+
+
+
+
+
 
 
 	<!-- Footer section -->
