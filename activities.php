@@ -194,7 +194,7 @@
 
 
 		usort($details, function ($a, $b) {
-			return -($a["date"] <=> $b["date"]);
+			return -($a["date"] <= $b["date"]);
 		});
 
 
