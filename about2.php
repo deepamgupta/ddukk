@@ -39,10 +39,93 @@
 				<h3>WELCOME TO DDUKK</h3>
 				<p>Let students be creative and make a difference</p>
 			</div>
+
+
 			<!-- <div class="row">
 				<img class="img-responsive" style="width: 100%;" src="img/about.jpg" alt="">
 			</div> -->
 
+
+			<div class="row about-text pt-5">
+
+				<div class="col-lg-6">
+					<div class="col-lg">
+						<h5 class="pt-5  pt-lg-0" id="vision">Our Vision</h5>
+						<p>To contribute effectively to the National Endeavour of producing quality skilled human
+							workforce in demand of world of work by providing them holistic education aligned
+							with skilling competencies as per sectoral demands for employment and
+							entrepreneurship.</p>
+
+					</div>
+					<div class="col-lg">
+						<h5 class="pt-5  pt-lg-0" id="mission">Our Mission</h5>
+						<ul class="about-list">
+							<li><i class="fa fa-check-square-o"></i> To develop excellent skilled youth
+								especially in desired sectors by developing them with adequate academic
+								knowledge and vocational skills so as to fulfil the demand of related
+								industries. </li>
+							<li><i class="fa fa-check-square-o"></i> The Institute is committed for the
+								development of the community around by imparting desired skill competencies
+								for the social and economic growth.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 about-text mt-5">
+					<h5 class="text-center">Message from the Head</h5>
+					<!-- <div class="text-center"><img class="img-fluid img-thumbnail" src="img/head.jpeg" style="height:17rem;"></div> -->
+					<p><img class="img-fluid img-thumbnail" src="img/head.jpeg" style="height:17rem; float:left; margin:1rem;">Devi Ahilya Vishwavidyalaya (DAVV), Indore is situated in the proximity to huge
+						industrial area with wide opportunity of job requirements and youth aspirations of
+						the region. University Grants Commission (UGC) has established Deen Dayal Upadhyay
+						Kaushal Kendra (DDU-KK) (and Community Colleges under it) as the separate entities
+						in Universities and Colleges in India, emphasizing on skill-based education to the
+						large number of individuals of the community, offer low cost and high quality
+						education locally.
+						<br>
+						<br>
+						Indore is one of the universities to which UGC has
+						permitted to start presently, B.Voc. (Nutrition & Dietetics), B.Voc. (Landscape
+						Design), B.Voc. (Handicraft), B.Voc. (Interior Design) of three years duration each
+						in DDU-KK and a Diploma Course in Logistics & Supply (Cargo Management) (DLS-CM) of
+						one year duration in Community College. These courses are employment oriented with
+						the demand of NSQF Level 5 and above. Fulfilments of total 30 credits, 60 credits,
+						120 credits and 180 credits will lead to offer Certificate, Diploma, Advanced
+						Diploma and B.Voc. degrees as per the guidelines of UGC in respective sectors. These
+						total credits are comprised of Skill Component (60%) and General Education (40%).
+					</p>
+					<!-- <h5 class="pt-4">Our history</h5>
+				<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami
+					suscipit, lectus id efficitur ornare, leo libero convalis nulla, vitae dignissim .
+				</p> -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 about-text mt-5">
+					<h5 class="text-center">About us</h5>
+					<p>Devi Ahilya Vishwavidyalaya (DAVV), Indore is situated in the proximity to huge
+						industrial area with wide opportunity of job requirements and youth aspirations of
+						the region. University Grants Commission (UGC) has established Deen Dayal Upadhyay
+						Kaushal Kendra (DDU-KK) (and Community Colleges under it) as the separate entities
+						in Universities and Colleges in India, emphasizing on skill-based education to the
+						large number of individuals of the community, offer low cost and high quality
+						education locally.
+						<br>
+						<br>
+						Indore is one of the universities to which UGC has
+						permitted to start presently, B.Voc. (Nutrition & Dietetics), B.Voc. (Landscape
+						Design), B.Voc. (Handicraft), B.Voc. (Interior Design) of three years duration each
+						in DDU-KK and a Diploma Course in Logistics & Supply (Cargo Management) (DLS-CM) of
+						one year duration in Community College. These courses are employment oriented with
+						the demand of NSQF Level 5 and above. Fulfilments of total 30 credits, 60 credits,
+						120 credits and 180 credits will lead to offer Certificate, Diploma, Advanced
+						Diploma and B.Voc. degrees as per the guidelines of UGC in respective sectors. These
+						total credits are comprised of Skill Component (60%) and General Education (40%).
+					</p>
+					<!-- <h5 class="pt-4">Our history</h5>
+				<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami
+					suscipit, lectus id efficitur ornare, leo libero convalis nulla, vitae dignissim .
+				</p> -->
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-lg-12 about-text mt-5">
 					<h5 class="text-center">Message from the Head</h5>
@@ -72,88 +155,6 @@
 				</p> -->
 				</div>
 			</div>
-
-			<div class="row about-text pt-5">
-				<div class="col-lg-6">
-					<h5 class="pt-5  pt-lg-0" id="vision">Our Vision</h5>
-					<p>To contribute effectively to the National Endeavour of producing quality skilled human
-						workforce in demand of world of work by providing them holistic education aligned
-						with skilling competencies as per sectoral demands for employment and
-						entrepreneurship.</p>
-
-				</div>
-				<div class="col-lg-6">
-					<h5 class="pt-5  pt-lg-0" id="mission">Our Mission</h5>
-					<ul class="about-list">
-						<li><i class="fa fa-check-square-o"></i> To develop excellent skilled youth
-							especially in desired sectors by developing them with adequate academic
-							knowledge and vocational skills so as to fulfil the demand of related
-							industries. </li>
-						<li><i class="fa fa-check-square-o"></i> The Institute is committed for the
-							development of the community around by imparting desired skill competencies
-							for the social and economic growth.</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-12 about-text mt-5">
-					<h5 class="text-center">About us</h5>
-					<p>Devi Ahilya Vishwavidyalaya (DAVV), Indore is situated in the proximity to huge
-						industrial area with wide opportunity of job requirements and youth aspirations of
-						the region. University Grants Commission (UGC) has established Deen Dayal Upadhyay
-						Kaushal Kendra (DDU-KK) (and Community Colleges under it) as the separate entities
-						in Universities and Colleges in India, emphasizing on skill-based education to the
-						large number of individuals of the community, offer low cost and high quality
-						education locally.
-						<br>
-						<br>
-						Indore is one of the universities to which UGC has
-						permitted to start presently, B.Voc. (Nutrition & Dietetics), B.Voc. (Landscape
-						Design), B.Voc. (Handicraft), B.Voc. (Interior Design) of three years duration each
-						in DDU-KK and a Diploma Course in Logistics & Supply (Cargo Management) (DLS-CM) of
-						one year duration in Community College. These courses are employment oriented with
-						the demand of NSQF Level 5 and above. Fulfilments of total 30 credits, 60 credits,
-						120 credits and 180 credits will lead to offer Certificate, Diploma, Advanced
-						Diploma and B.Voc. degrees as per the guidelines of UGC in respective sectors. These
-						total credits are comprised of Skill Component (60%) and General Education (40%).
-					</p>
-					<!-- <h5 class="pt-4">Our history</h5>
-				<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami
-					suscipit, lectus id efficitur ornare, leo libero convalis nulla, vitae dignissim .
-				</p> -->
-				</div>
-			</div>
-
-			<div class="row about-text pt-5">
-				<div class="col-lg-6">
-					<h5 class="pt-5  pt-lg-0" id="vision">Program Outcomes</h5>
-					<ul class="about-list">
-						<li><i class="fa fa-check-square-o"></i> To produce skilled human resources in respective sector by ensuring the
-							attainment of related skills.</li>
-						<li><i class="fa fa-check-square-o"></i> To provide vertical mobility for aspirants/ graduates and encourage them for
-							Higher studies and research career.</li>
-						<li><i class="fa fa-check-square-o"></i> To endow with the platforms for employment and efforts for entrepreneurship as
-							well.</li>
-					</ul>
-
-				</div>
-				<div class="col-lg-6">
-					<h5 class="pt-5  pt-lg-0" id="mission">Program Specific Outcomes</h5>
-					<ul class="about-list">
-						<li><i class="fa fa-check-square-o"></i> By Introduction of General Education Credits and Skill Component Credits in
-							suitable ratio, the students will be groomed for inculcating skills with expected
-							theoretical base.</li>
-						<li><i class="fa fa-check-square-o"></i> Visits to the Industries regularly, practicals on sites and internship/ project by the
-							end of each semester will enhance the skill orientation and capabilities to work the
-							respective sectors.</li>
-						<li><i class="fa fa-check-square-o"></i> Assessment of the students by Institution as well as by related Sector Skill
-							Council (SSC) will ensure us about the level of skills achieved thereby employing
-							the students and encouraging them for entrepreneurship also.</li>
-					</ul>
-				</div>
-			</div>
-
 			<div class="row about-text pt-5">
 				<div class="col-lg-12">
 					<h5 class="pt-5  pt-lg-0" id="mission">Objectives</h5>

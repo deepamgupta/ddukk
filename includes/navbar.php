@@ -86,4 +86,11 @@
       $(function() {
             $('#bootnavbar').bootnavbar();
       })
+
+      var $nav = $('#bootnavbar');
+      $(document).scroll(function() {
+            $nav.css({
+                  position: $(this).scrollTop() > 300 ? "fixed" : "sticky"
+            });
+      });
 </script>
