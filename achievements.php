@@ -247,6 +247,13 @@
 				<?php display_activity("Eshika Raghuvanshi - Volleyball", "danger"); ?>
 			</div>
 
+			<h5 class="text-center mt-5">Tarun Kumawat - Power Lifting</h5>
+			<hr>
+			<div class="row">
+				<?php display_activity("Tarun Kumawat - Power Lifting", "success"); ?>
+			</div>
+
+
 
 
 		</div>
