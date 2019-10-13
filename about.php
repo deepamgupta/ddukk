@@ -47,24 +47,12 @@
 				<div class="col-lg-12 about-text mt-5">
 					<h5 class="text-center">Message from the Head</h5>
 					<!-- <div class="text-center"><img class="img-fluid img-thumbnail" src="img/head.jpeg" style="height:17rem;"></div> -->
-					<p><img class="img-fluid img-thumbnail" src="img/head.jpeg" style="height:17rem; float:left; margin:1rem;">Devi Ahilya Vishwavidyalaya (DAVV), Indore is situated in the proximity to huge
-						industrial area with wide opportunity of job requirements and youth aspirations of
-						the region. University Grants Commission (UGC) has established Deen Dayal Upadhyay
-						Kaushal Kendra (DDU-KK) (and Community Colleges under it) as the separate entities
-						in Universities and Colleges in India, emphasizing on skill-based education to the
-						large number of individuals of the community, offer low cost and high quality
-						education locally.
+					<p><img class="img-fluid img-thumbnail" src="img/head.jpeg" style="height:17rem; float:left; margin:1rem;">
+						Indian industries are growing exponentially in variety of sectors. On the other hand, India excels in imparting higher education in management, engineering, medical sciences, basic sciences etc. thereby producing graduates at large scale every year. It is evident that the demand of manpower in the industry is able to cope up with the supply in terms of graduate students. Thus, the Ministry has taken the responsibility of co-ordination of all skill development efforts across the country, removal of disconnect between demand and supply of skilled manpower by building up the vocational and technical training framework. In turn, the skill up-gradation/ building of new skills, and innovative thinking among youth will help job providers to get the desired skilled manpower along with the job creators also. A ‘Skilled India’ mission bloomed on a large scale presently by involving high standards in education. Also, it is aided by its functional arms- National Skill Development Agency (NSDA), National Skill Development Corporation (NSDC), National Skill Development Fund (NSDF) and 33 Sector Skill Councils (SSCs) along with 187 training partners registered with NSDC.
+
 						<br>
 						<br>
-						Indore is one of the universities to which UGC has
-						permitted to start presently, B.Voc. (Nutrition & Dietetics), B.Voc. (Landscape
-						Design), B.Voc. (Handicraft), B.Voc. (Interior Design) of three years duration each
-						in DDU-KK and a Diploma Course in Logistics & Supply (Cargo Management) (DLS-CM) of
-						one year duration in Community College. These courses are employment oriented with
-						the demand of NSQF Level 5 and above. Fulfilments of total 30 credits, 60 credits,
-						120 credits and 180 credits will lead to offer Certificate, Diploma, Advanced
-						Diploma and B.Voc. degrees as per the guidelines of UGC in respective sectors. These
-						total credits are comprised of Skill Component (60%) and General Education (40%).
+						Devi Ahilya Vishwavidyalaya (DAVV), Indore is situated in the proximity to huge industrial area with wide opportunity of job requirements and youth aspirations of the region. University Grants Commission (UGC) granted permission to establish Deen Dayal Upadhyay Kaushal Kendra (DDU-KK) (and Community Colleges under it) as the separate entities in Universities and Colleges in India, emphasizing on skill-based education to the large number of individuals of the community, offer low cost and high quality education locally. DAVV, Indore is one of the universities to start B.Voc. (Nutrition & Dietetics), B.Voc. (Landscape Design), B.Voc. (Handicraft), B.Voc. (Interior Design), B.Voc (Fashion Technology) each of three years duration, M.Voc (interior Design) of two years duration in DDU-KK and a Diploma Course in Logistics & Supply (Cargo Management) (DLS-CM) of one year duration in Community College. These courses are employment oriented with the demand of NSQF Level 4 to Level 9. Total credits in each semester/ year are comprised of Skill Component (60%) and General Education (40%). Further, the programmes will be extended up to research level in various sectors as per norms of UGC.
 					</p>
 					<!-- <h5 class="pt-4">Our history</h5>
 				<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami
@@ -99,24 +87,14 @@
 			<div class="row">
 				<div class="col-lg-12 about-text mt-5">
 					<h5 class="text-center">About us</h5>
-					<p>Devi Ahilya Vishwavidyalaya (DAVV), Indore is situated in the proximity to huge
-						industrial area with wide opportunity of job requirements and youth aspirations of
-						the region. University Grants Commission (UGC) has established Deen Dayal Upadhyay
-						Kaushal Kendra (DDU-KK) (and Community Colleges under it) as the separate entities
-						in Universities and Colleges in India, emphasizing on skill-based education to the
-						large number of individuals of the community, offer low cost and high quality
-						education locally.
+					<p>
+						Deen Dayal Upadhyay Kaushal Kendra (DDU-KK) is one of the Schools of studies at DAVV, Indore and has been established by receiving funds from UGC New Delhi under the scheme of Skill Development. Basically, this school aims at providing Skill Based Education under National Skill Qualification Framework (NSQF). It is well known fact that skills and knowledge are the vital driving forces for social development and economic growth of any country. In current scenario, it is evident that there is a huge gap in “demand from industry and supply of graduate skilled workforce”. To fulfill this gap, UGC has implemented the schemes such as Community Colleges, B.Voc Degree Programmes, Deen Dayal Upadhyay Centers for Knowledge Acquisition and Upgradation of Skilled Human Abilities and Livelihood (KAUSHAL). In present, all these schemes have been merged into a single scheme for providing Skill Based Education under National Qualification Framework.
+
+
 						<br>
 						<br>
-						Indore is one of the universities to which UGC has
-						permitted to start presently, B.Voc. (Nutrition & Dietetics), B.Voc. (Landscape
-						Design), B.Voc. (Handicraft), B.Voc. (Interior Design) of three years duration each
-						in DDU-KK and a Diploma Course in Logistics & Supply (Cargo Management) (DLS-CM) of
-						one year duration in Community College. These courses are employment oriented with
-						the demand of NSQF Level 5 and above. Fulfilments of total 30 credits, 60 credits,
-						120 credits and 180 credits will lead to offer Certificate, Diploma, Advanced
-						Diploma and B.Voc. degrees as per the guidelines of UGC in respective sectors. These
-						total credits are comprised of Skill Component (60%) and General Education (40%).
+						Unlike Traditional Education schemes, the courses run under Skilled Based Education schemes follow flexible, multiple entry and exit facilities to the learners. It enables the learners to seek employment after any level of award and join back whenever feasible to upgrade qualifications either to move higher in job profile or in higher educational system. After 10+2, a learner may enter in a specific sector skill, completing 30, 60, 120 and 180 cumulative credits in 6 months, 1 year, 2 years and 3 years thereby awarding Certificate, Diploma, Advanced Diploma and B.Voc Degree at NSQF level 4 to level 7 respectively. After completion of B.Voc degree, the learners may further move to PG Diploma, M.Voc Degree and Research Degree programme mapped at NSQF level 8 to 10 respectively in a specific sector.
+						With the aforementioned Skilled Based Education Scheme, DDU-KK is privileged to run B.Voc (Landscape Design), B.Voc (Nutrition & Dietetics), B.Voc (Handicraft), Diploma in Logistics & Supply (Cargo Management) [at Community College], M.Voc (Interior Design) and B.Voc (Interior Design) and B.Voc (Fashion Technology) [running at DoLLL].
 					</p>
 					<!-- <h5 class="pt-4">Our history</h5>
 				<p>Led at felis arcu. Integer lorem lorem, tincidunt eu congue et, mattis ut ante. Nami
