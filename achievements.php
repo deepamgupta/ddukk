@@ -234,20 +234,23 @@
 
 
 
-			<h5 class="text-center mt-5">Shivani Pawar - Yoga</h5>
+			<h5 class="text-center mt-5">Shivani Pawar - B.Voc.(Nutrition & Dietetics) Student</h5>
+			<h5 class="text-center mt-2">YOGA</h5>
 			<hr>
 			<div class="row">
 				<?php display_activity("Shivani Pawar - Yoga", "warning"); ?>
 			</div>
 
 
-			<h5 class="text-center mt-5">Eshika Raghuvanshi - Volleyball</h5>
+			<h5 class="text-center mt-5">Eshika Raghuvanshi - B.Voc.(Landscape design) Student</h5>
+			<h5 class="text-center mt-2">VOLEYBALL</h5>
 			<hr>
 			<div class="row">
 				<?php display_activity("Eshika Raghuvanshi - Volleyball", "danger"); ?>
 			</div>
 
-			<h5 class="text-center mt-5">Tarun Kumawat - Power Lifting</h5>
+			<h5 class="text-center mt-5">Tarun Kumawat - B.Voc.(Nutrition & Dietetics) Student</h5>
+			<h5 class="text-center mt-2">POWERLIFTING</h5>
 			<hr>
 			<div class="row">
 				<?php display_activity("Tarun Kumawat - Power Lifting", "success"); ?>

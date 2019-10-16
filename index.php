@@ -139,49 +139,7 @@
 				<p>Get updated with the latest and upcoming events at DDU-KK</p>
 			</div>
 			<div class="row">
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/1.jpg"></div>
-						<div class="blog-content">
-							<h5>One Month Training Program on Stepping Stones in "JAVA" in collaboration with Sterling Institute- A Development Venture</h5>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i>2 Sep 2019 - 30 Sep 2019</span>
-								<span><i class="fa fa-user"></i> Sterling Institute</span>
-							</div>
-							<p>
-								<!-- <ul>
-									<li><a href="./docs/latest/Instructions for Java Training.pdf" target="_blank">Instructions</a></li>
-									<li><a href="./docs/latest/Registration Form Java Training.pdf" target="_blank">Registration Form</a></li>
-									<li><a href="./docs/latest/Syllabus Java Training.pdf" target="_blank"></a>Syllabus</li>
-								</ul> -->
-							</p>
-							<div class="btn-group btn-group-sm">
-								<button type="button" class="btn btn-info" onclick="window.open('./docs/latest/Syllabus Java Training.pdf', '_blank')">Syllabus</button>
-								<button type="button" class="btn btn-warning" onclick="window.open('./docs/latest/Instructions Java Training.pdf', '_blank')">Instructions</button>
-								<button type="button" class="btn btn-success" onclick="window.open('./docs/latest/Registration Form Java Training.pdf', '_blank')">Form</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6">
-					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/2.jpg"></div>
-						<div class="blog-content">
-							<h5>Tally (GST version)</h5>
-							<div class="blog-meta">
-								<span><i class="fa fa-calendar-o"></i> coming soon...</span>
-								<span><i class="fa fa-user"></i> coming soon...</span>
-							</div>
-							<div class="btn-group btn-group-sm">
-								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
-								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
-								<button type="button" class="disabled btn btn-success" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Form</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-xl-6">
+			<div class="col-xl-6">
 					<div class="blog-item">
 						<div class="blog-thumb set-bg" data-setbg="img/latest/3.jpg"></div>
 						<div class="blog-content">
@@ -198,6 +156,10 @@
 						</div>
 					</div>
 				</div>
+				
+				
+				
+				
 				<div class="col-xl-6">
 					<div class="blog-item">
 						<div class="blog-thumb set-bg" data-setbg="img/latest/4.jpg"></div>
@@ -227,6 +189,42 @@
 								<span><i class="fa fa-user"></i> coming soon...</span>
 							</div>
 							<p>Hands-on Programming workshop with latest trends in Android.</p>
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
+								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
+								<button type="button" class="disabled btn btn-success" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Form</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/latest/2.jpg"></div>
+						<div class="blog-content">
+							<h5>Tally (GST version)</h5>
+							<div class="blog-meta">
+								<span><i class="fa fa-calendar-o"></i> 25 Sept - 25 Oct 2019</span>
+								<span><i class="fa fa-user"></i> DAVV</span>
+							</div>
+							<div class="btn-group btn-group-sm">
+								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
+								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
+								<button type="button" class="disabled btn btn-success" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Form</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-6">
+					<div class="blog-item">
+						<div class="blog-thumb set-bg" data-setbg="img/latest/1.jpg"></div>
+						<div class="blog-content">
+							<h5>A Short Term Course on PHOTOSHOP</h5></h5>
+							<div class="blog-meta">
+								<span><i class="fa fa-calendar-o"></i> 14 Oct - 18 Oct 2019</span>
+								<span><i class="fa fa-user"></i> New Era Consultancy, Indore</span>
+							</div>
 							<div class="btn-group btn-group-sm">
 								<button type="button" class="disabled btn btn-warning" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Instructions</button>
 								<button type="button" class="disabled btn btn-info" onclick="window.open('./docs/latest/Instructions for Java Training.pdf', '_blank')">Syllabus</button>
@@ -458,7 +456,7 @@
 					</a>
 					<div class="course-info">
 						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
-						<h4>Diploma Course<br> Logistic & Supply (Cargo Management)</h4>
+						<h4>Diploma in<br> Logistic & Supply (Cargo Management)</h4>
 						<!-- <h4 class="cource-price">$180<span>/month</span></h4> -->
 					</div>
 				</div>

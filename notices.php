@@ -96,7 +96,7 @@
 							<td><?php addCounter(); ?>One Month Program on Accounting Software Tally<span class="new"></span></td>
 						</tr>
 						<tr>
-							<td><?php addCounter(); ?>Dummy Row 5</td>
+							<td><?php addCounter(); ?>One Month Training Program on Stepping Stones in "JAVA" in collaboration with Sterling Institute- A Development Venture</td>
 						</tr>
 						<tr>
 							<td><?php addCounter(); ?>Dummy Row 6</td>

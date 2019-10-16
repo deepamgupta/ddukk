@@ -134,8 +134,8 @@
 				<span class="lead col-md-1">Note:</span>
 				<span class="small col-md-11">
 					<ul>
-						<li>In all courses offered by DDU-KK, the leigibility criterion is minimum 12th passes and there is no age limit.</li>
-						<li>A student may be offered Certificate, Diploma, Advanced Diploma and B.Voc. degree im respective sectors after completion of One semester, Two semesters, Four semesters and Six semesters respectively.</li>
+						<li>In all courses offered by DDU-KK, the eligibility criterion is minimum 12th pass and there is no age limit.</li>
+						<li>A student may be offered Certificate, Diploma, Advanced Diploma and B.Voc. degree in respective sectors after completion of One semester, Two semesters, Four semesters and Six semesters respectively.</li>
 					</ul>
 				</span>
 			</div>
@@ -143,10 +143,10 @@
 			<hr>
 			<div class="row">
 				<div class="col-lg-6 mt-4" id="landscape">
-					<div class="card border-light bg-light">
+					<div class="card border-dark bg-light">
 						<h5 class="card-header">B.Voc. Landscape Design</h5>
 						<div class="card-body">
-							<h5 class="card-title">Eligibility</h5>
+							<h5 class="card-title text-secondary">Eligibility</h5>
 							<p class="card-text">Minimum (10+2) pass or equivalent in any stream.</p>
 							<h5 class="card-title">Age Limit</h5>
 							<p class="card-text">No age limit for candidates.</p>
@@ -159,7 +159,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 mt-4" id="nutrition">
-					<div class="card border-light bg-light">
+					<div class="card border-dark bg-light">
 						<h5 class="card-header">B.Voc. Nutrition & Dietetics</h5>
 						<div class="card-body">
 							<h5 class="card-title">Eligibility</h5>
@@ -175,7 +175,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 mt-4" id="logistics">
-					<div class="card border-light bg-light">
+					<div class="card border-dark bg-light">
 						<h5 class="card-header">Diploma in Logistics and Supply</h5>
 						<div class="card-body">
 							<h5 class="card-title">Eligibility</h5>
@@ -191,7 +191,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 mt-4" id="interior">
-					<div class="card border-light bg-light">
+					<div class="card border-dark bg-light">
 						<h5 class="card-header">M.Voc. Interior Design</h5>
 						<div class="card-body">
 							<h5 class="card-title">Eligibility</h5>

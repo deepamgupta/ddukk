@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- Head -->
+
 <head>
 	<?php include 'includes/head.php'; ?>
 	<script src="./js/placements.js"></script>
@@ -61,8 +62,7 @@
 			</ul>
 
 
-			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-				aria-hidden="true">
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-body">
@@ -87,6 +87,14 @@
 						<li>NRO Transports</li>
 						<li>Entrepreneur</li>
 						<li>ICD Dhanbad</li>
+						<li>Safe Express Pvt. Ltd.</li>
+						<li>Ratlam Hospital & Research Center, Ratlam</li>
+						<li>Kwality Transport Carrier, Indore</li>
+						<li>Apple Hospital, Indore</li>
+						<li>Vitan Associates, Indore</li>
+						<li>Prayagee Architects Pvt. Ltd., Indore</li>
+						<li>New-Age Public School, Gadarwara</li>
+						<li>GJ Design Studio, Indore</li>
 					</ul>
 					<ul class="col-sm-6">
 						<li>Flipkart Internet Services</li>
@@ -98,6 +106,19 @@
 						<li>Rivigo Logistics, Mumbai</li>
 						<li>Fairdeal International</li>
 						<li>Higher Studies</li>
+						<li>Harda Indore Transport, Indore
+						</li>
+						<li>Women & Child Development, Center, Timarni</li>
+						<li>Dolphin Academy, Dharampuri</li>
+						<li>Little Agles Higher Secondary, Mhow</li>
+						<li>Genius First Step Prominent School, Indore</li>
+						<li>Udaan: The 7 Habits Foundation School Indore</li>
+						<li>Ali Public School, Khajrana, Indore</li>
+						<li>Studio52, Indore</li>
+
+
+
+
 					</ul>
 				</div>
 			</div>
@@ -115,17 +136,13 @@
 				<p>Where our students lead</p>
 			</div>
 			<div class="row">
-				<div class="nav flex-column nav-pills col-md-2" id="v-pills-tab" role="tablist"
-					aria-orientation="vertical">
+				<div class="nav flex-column nav-pills col-md-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
 
 
-					<a class="nav-link active list-group-item-action" id="tab-2017-18" data-toggle="pill" href="#placement-2017-18"
-						role="tab" aria-controls="placement-2017-18" aria-selected="true">2017-18</a>
-					<a class="nav-link list-group-item-action" id="tab-2016-17" data-toggle="pill" href="#placement-2016-17"
-						role="tab" aria-controls="placement-2016-17" aria-selected="false">2016-17</a>
-					<a class="nav-link list-group-item-action" id="tab-2015-16" data-toggle="pill" href="#placement-2015-16"
-						role="tab" aria-controls="placement-2015-16" aria-selected="false">2015-16</a>
+					<a class="nav-link active list-group-item-action" id="tab-2017-18" data-toggle="pill" href="#placement-2017-18" role="tab" aria-controls="placement-2017-18" aria-selected="true">2017-18</a>
+					<a class="nav-link list-group-item-action" id="tab-2016-17" data-toggle="pill" href="#placement-2016-17" role="tab" aria-controls="placement-2016-17" aria-selected="false">2016-17</a>
+					<a class="nav-link list-group-item-action" id="tab-2015-16" data-toggle="pill" href="#placement-2015-16" role="tab" aria-controls="placement-2015-16" aria-selected="false">2015-16</a>
 
 
 
@@ -135,28 +152,22 @@
 
 
 
-					
-					<div class="tab-pane fade show active" id="placement-2017-18" role="tabpanel"
-						aria-labelledby="tab-2017-18">
+
+					<div class="tab-pane fade show active" id="placement-2017-18" role="tabpanel" aria-labelledby="tab-2017-18">
 						<div class="embed-responsive embed-responsive-1by1">
-							<iframe class="embed-responsive-item rounded"
-								src="docs/placements/5.2.1 placement 2017-18.pdf" allowfullscreen>
+							<iframe class="embed-responsive-item rounded" src="docs/placements/Placements 2017-18.pdf" allowfullscreen>
 							</iframe>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="placement-2016-17" role="tabpanel"
-						aria-labelledby="tab-2016-17">
+					<div class="tab-pane fade" id="placement-2016-17" role="tabpanel" aria-labelledby="tab-2016-17">
 						<div class="embed-responsive embed-responsive-1by1">
-							<iframe class="embed-responsive-item rounded"
-								src="docs/placements/5.2.1 placement 2016-17.pdf" allowfullscreen>
+							<iframe class="embed-responsive-item rounded" src="docs/placements/Placements 2016-17.pdf" allowfullscreen>
 							</iframe>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="placement-2015-16" role="tabpanel"
-						aria-labelledby="tab-2015-16">
+					<div class="tab-pane fade" id="placement-2015-16" role="tabpanel" aria-labelledby="tab-2015-16">
 						<div class="embed-responsive embed-responsive-1by1">
-							<iframe class="embed-responsive-item rounded"
-								src="docs/placements/5.2.1 placement 2015-16.pdf" allowfullscreen>
+							<iframe class="embed-responsive-item rounded" src="docs/placements/Placements 2015-16.pdf" allowfullscreen>
 							</iframe>
 						</div>
 					</div>
@@ -200,7 +211,7 @@
 					</div> -->
 
 
-					
+
 				</div>
 			</div>
 		</div>

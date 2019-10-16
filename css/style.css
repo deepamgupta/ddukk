@@ -15,6 +15,7 @@ html, body {
 	/* font-family: 'Rubik', sans-serif; */
 	font-family: 'Hepta Slab', serif;
 	scroll-behavior: smooth;
+	/* background-color: lightgoldenrodyellow; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	/* font-family: 'Rubik', sans-serif; */
 	font-family: 'Hepta Slab', serif;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 h1 {
@@ -74,8 +82,6 @@ ul, ol {
 	margin: 0;
 }
 
-
-
 /*---------------------
 	Helper CSS
 -----------------------*/
@@ -96,8 +102,8 @@ ul, ol {
 
 .section-title p {
 	margin-bottom: 0;
+	font-size: 20px;
 	color: tomato;
-
 }
 
 .set-bg {
@@ -110,10 +116,11 @@ ul, ol {
 	color: #fff;
 }
 
-.disabled{
+.disabled {
 	pointer-events: none;
 	cursor: default;
 }
+
 /*---------------------
 	Commom elements
 -----------------------*/
@@ -304,6 +311,7 @@ ul, ol {
 
 .ddukk {
 	font-size: 1.6em;
+	color: #275d32;
 }
 
 .ugc {
@@ -323,7 +331,7 @@ ul, ol {
 /* Navbar */
 
 .navigation {
-	background: #020031;
+	background: #0073ca;
 	padding: 0px 23px;
 	font-size: 17px;
 	z-index: 500;
@@ -437,7 +445,7 @@ ul, ol {
 	color: #fff;
 }
 
-.side-nav-title{
+.side-nav-title {
 	font-size: 10px;
 	font-weight: bolder;
 }
@@ -453,7 +461,6 @@ ul, ol {
 	color: white;
 	border-radius: 0px 0px 0px 10px;
 }
-
 
 /*---------------------
 	Back2Top
@@ -695,7 +702,6 @@ ul, ol {
 	margin-bottom: 15px;
 	font-weight: 400;
 }
-
 
 /*---------------------
 	Enroll Section
@@ -1129,7 +1135,7 @@ ul, ol {
 }
 
 #e {
-	background-color: #020031;
+	background-color: #2a5e24;
 }
 
 #cf .row {
@@ -1222,7 +1228,7 @@ ul, ol {
 #cf .col-md-3 {
 	padding-top: 20px;
 	padding-left: 30px;
-	background-color: #020f40;
+	background-color: #f6783a;
 	padding-bottom: 20px;
 }
 
@@ -2198,13 +2204,12 @@ ul, ol {
 	.map-section .map {
 		height: 300px;
 	}
-
 	/*----------Side Nav-----------*/
 	.side-nav a {
 		font-size: 17px;
 	}
-	.side-nav-title{
-		font-size: 9px;	
+	.side-nav-title {
+		font-size: 9px;
 	}
 }
 
@@ -2264,7 +2269,7 @@ ul, ol {
 	.side-nav a {
 		font-size: 14px;
 	}
-	.side-nav-title{
+	.side-nav-title {
 		font-size: 7px;
 	}
 }
