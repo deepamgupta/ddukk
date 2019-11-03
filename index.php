@@ -32,12 +32,6 @@
 								<h2 class="hs-title">An educated person is respected everywhere, it beats the beauty and the youth.
 								</h2>
 								<div class="hs-subtitle">CHANAKYA</div>
-								<!-- <p class="hs-des">Education is not just about going to school and
-									getting a degree. It's
-									about widening your<br> knowledge and absorbing the truth about
-									life. Knowledge is
-									power.</p> -->
-								<!-- <div class="site-btn">GET STARTED</div> -->
 							</div>
 						</div>
 					</div>
@@ -139,9 +133,9 @@
 				<p>Get updated with the latest and upcoming events at DDU-KK</p>
 			</div>
 			<div class="row">
-			<div class="col-xl-6">
+				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/3.jpg"></div>
+					<img class="blog-thumb" src="img/latest/3.jpg">
 						<div class="blog-content">
 							<h5>Digital Marketing</h5>
 							<div class="blog-meta">
@@ -156,13 +150,13 @@
 						</div>
 					</div>
 				</div>
-				
-				
-				
-				
+
+
+
+
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/4.jpg"></div>
+					<img class="blog-thumb" src="img/latest/4.jpg">
 						<div class="blog-content">
 							<h5>Advance Training on Excel</h5>
 							<div class="blog-meta">
@@ -181,7 +175,7 @@
 
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/5.jpg"></div>
+					<img class="blog-thumb" src="img/latest/5.jpg">
 						<div class="blog-content">
 							<h5>Hands-on Android Programming Workshop</h5>
 							<div class="blog-meta">
@@ -200,7 +194,8 @@
 
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/2.jpg"></div>
+						<!-- <div class="blog-thumb set-bg" data-setbg="img/latest/2.jpg"></div> -->
+						<img class="blog-thumb" src="img/latest/2.jpg">
 						<div class="blog-content">
 							<h5>Tally (GST version)</h5>
 							<div class="blog-meta">
@@ -218,9 +213,10 @@
 
 				<div class="col-xl-6">
 					<div class="blog-item">
-						<div class="blog-thumb set-bg" data-setbg="img/latest/1.jpg"></div>
+					<img class="blog-thumb" src="img/latest/1.jpg">
 						<div class="blog-content">
-							<h5>A Short Term Course on PHOTOSHOP</h5></h5>
+							<h5>A Short Term Course on PHOTOSHOP</h5>
+							</h5>
 							<div class="blog-meta">
 								<span><i class="fa fa-calendar-o"></i> 14 Oct - 18 Oct 2019</span>
 								<span><i class="fa fa-user"></i> New Era Consultancy, Indore</span>
@@ -233,7 +229,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
@@ -273,9 +269,9 @@
 								<span>H</span>
 								<h5>Messege from Head</h5>
 							</a>
-							<p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus
-								interdum ultrices
-								augue.</p>
+							<p>India excels in imparting higher education in management,
+								engineering, medical sciences, basic sciences etc. thereby producing
+								graduates at large scale every year...</p>
 						</div>
 					</div>
 				</div>
@@ -333,7 +329,7 @@
 				<p>We provides the opportunity to prepare for life</p>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-md-6 service-item">
 					<div class="service-icon">
 						<img src="img/services-icons/1.png" alt="1">
 					</div>
@@ -344,7 +340,7 @@
 							Aenean dos cursus lania.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-md-6 service-item">
 					<div class="service-icon">
 						<img src="img/services-icons/2.png" alt="1">
 					</div>
@@ -355,7 +351,7 @@
 							Aenean dos cursus lania.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-md-6 service-item">
 					<div class="service-icon">
 						<img src="img/services-icons/3.png" alt="1">
 					</div>
@@ -366,7 +362,7 @@
 							Aenean dos cursus lania.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-md-6 service-item">
 					<div class="service-icon">
 						<img src="img/services-icons/4.png" alt="1">
 					</div>
@@ -377,7 +373,7 @@
 							Aenean dos cursus lania.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-md-6 service-item">
 					<div class="service-icon">
 						<img src="img/services-icons/5.png" alt="1">
 					</div>
@@ -388,7 +384,7 @@
 							Aenean dos cursus lania.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 service-item">
+				<div class="col-md-6 service-item">
 					<div class="service-icon">
 						<img src="img/services-icons/6.png" alt="1">
 					</div>
@@ -412,59 +408,77 @@
 				<p>Building a better world, one course at a time</p>
 			</div>
 			<div class="row">
-				<!-- course item -->
 				<div class="col-md-6 course-item">
-					<a href="admission.php#interior">
+					<a href="admission.php#note">
 						<div class="course-thumb">
-							<img src="img/course/1.jpg" alt="">
+							<img src="img/course/interior_design.jpg" alt="">
 							<div class="course-cat">
 								<span>INTERIOR DESIGN</span>
 							</div>
 						</div>
 					</a>
 					<div class="course-info">
-						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
 						<h4>Master of Vocation<br> in Interior Design</h4>
-						<!-- <h4 class="cource-price">$100<span>/month</span></h4> -->
 					</div>
 				</div>
-				<!-- course item -->
 				<div class="col-md-6 course-item">
-					<a href="admission.php#landscape">
+					<a href="admission.php#note">
 						<div class="course-thumb">
-							<img src="img/course/2.jpg" alt="">
+							<img src="img/course/landscape_design.jpg" alt="">
 							<div class="course-cat">
-								<span>LANDCAPE DESIGN & NUTRITION DIETEICS</span>
+								<span>LANDCAPE DESIGN</span>
 							</div>
 						</div>
 					</a>
 					<div class="course-info">
-						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
-						<h4>Bachelor of Vocation<br> in Landscape Design & Nutrition Dietetics</h4>
-						<!-- <h4 class="cource-price">$150<span>/month</span></h4> -->
+						<h4>Bachelor of Vocation<br> in Landscape Design</h4>
 					</div>
 				</div>
-				<!-- course item -->
 				<div class="col-md-6 course-item">
-					<a href="admission.php#logistics">
+					<a href="admission.php#note">
 						<div class="course-thumb">
-							<img src="img/course/3.jpg" alt="">
+							<img src="img/course/nutrition_dietetics.jpg" alt="">
+							<div class="course-cat">
+								<span>NUTRITION & DIETETICS</span>
+							</div>
+
+						</div>
+					</a>
+					<div class="course-info">
+						<h4>Bachelor of Vocation<br> in Nutrition Dietetics</h4>
+					</div>
+				</div>
+				<div class="col-md-6 course-item">
+					<a href="admission.php#note">
+						<div class="course-thumb">
+							<img src="img/course/handicraft.jpg" alt="">
+							<div class="course-cat">
+								<span>HANDICRAFT</span>
+							</div>
+
+						</div>
+					</a>
+					<div class="course-info">
+						<h4>Bachelor of Vocation<br> in Handicraft</h4>
+					</div>
+				</div>
+				<div class="col-md-6 course-item">
+					<a href="admission.php#note">
+						<div class="course-thumb">
+							<img src="img/course/logistics_supply.jpg" alt="">
 							<div class="course-cat">
 								<span>LOGISTICS & SUPPLY</span>
 							</div>
 						</div>
 					</a>
 					<div class="course-info">
-						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
 						<h4>Diploma in<br> Logistic & Supply (Cargo Management)</h4>
-						<!-- <h4 class="cource-price">$180<span>/month</span></h4> -->
 					</div>
 				</div>
-				<!-- course item -->
 				<div class="col-md-6 course-item">
 					<a href="short_term_courses.php">
 						<div class="course-thumb">
-							<img src="img/course/4.jpg" alt="">
+							<img src="img/course/short_term_skills.jpg" alt="">
 							<div class="course-cat">
 								<span>SHORT TERM COURSES</span>
 							</div>
@@ -472,9 +486,7 @@
 						</div>
 					</a>
 					<div class="course-info">
-						<!-- <div class="date"><i class="fa fa-clock-o"></i> 22 Mar 2018</div> -->
 						<h4>Short Term Courses in various skills</h4>
-						<!-- <h4 class="cource-price">$150<span>/month</span></h4> -->
 					</div>
 				</div>
 			</div>

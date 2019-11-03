@@ -63,12 +63,13 @@
 				<?php
 				$dir = "./img/press_news/";
 				$images = scandir($dir);
+				
 				array_splice($images, 0, 2);
 
 				for ($i = 0; $i < 4 && $i < count($images); ++$i) {
 					echo '<div class="press-news col-lg-3 col-md-3 col-sm-6 col-xs-6">';
 					for ($j = $i; $j < count($images); $j += 4) {
-						echo '<img onclick="modalFun(this)" data-toggle="modal" data-target="#myModal" src="' . $dir . $images[$j] . '" class="imag-fluid img-thumbnail zoom-in">';
+						echo '<img onclick="modalFun(this)" data-toggle="modal" data-target="#myModal" src="' . $dir . $images[$j] . '" class="img-fluid img-thumbnail zoom-in">';
 					}
 					echo '</div>';
 				}

@@ -130,7 +130,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="row mt-5 bg-warning p-4">
+			<div class="row mt-5 bg-warning p-4" id="note">
 				<span class="lead col-md-1">Note:</span>
 				<span class="small col-md-11">
 					<ul>

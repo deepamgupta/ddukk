@@ -24,7 +24,7 @@
                                                 Academic
                                           </a>
                                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                                <li><a class="dropdown-item disabled" href="faculty.php">Faculty</a></li>
+                                                <li><a class="dropdown-item disabled d-none" href="faculty.php">Faculty</a></li>
                                                 <li><a class="dropdown-item" href="activities.php">Activities</a></li>
                                           </ul>
                                     </li>
@@ -61,7 +61,7 @@
                                     <li><a class="dropdown-item" href="remedial.php">Remedial Classes</a></li>
                                     <li><a class="dropdown-item" href="achievements.php">Student Achievements</a></li>
                                     <li><a class="dropdown-item" href="sports.php">Sports</a></li>
-                                    <li><a class="dropdown-item disabled" href="alumni.php">Alumni</a></li>
+                                    <li><a class="dropdown-item disabled d-none" href="alumni.php">Alumni</a></li>
                               </ul>
                         </li>
                         <li class="nav-item">

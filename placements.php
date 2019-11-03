@@ -41,24 +41,80 @@
 			</div>
 
 			<ul class="row training-ul text-center">
-				<li class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-					<img class="img-responsive" src="img/training/1.jpeg">
+
+				<?php
+				$dir = "./img/training/" . "/";
+				$images = scandir($dir);
+				foreach ($images as $image) {
+					if ($image !== "." and $image !== ".." and is_file($dir . $image) and $image != "Thumbs.db") {
+						echo '<li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+								<img class="img-responsive" src="'. $dir.$image .'">
+							</li>';
+					}
+				}
+				?>
+
+				<!-- <li class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<img class="img-responsive" src="img/training/01.jpeg">
 				</li>
 				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
-					<img class="img-responsive" src="img/training/2.jpeg">
+					<img class="img-responsive" src="img/training/02.jpeg">
 				</li>
 				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
-					<img class="img-responsive" src="img/training/3.jpeg">
+					<img class="img-responsive" src="img/training/03.jpeg">
 				</li>
 				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
-					<img class="img-responsive" src="img/training/4.jpeg">
+					<img class="img-responsive" src="img/training/04.jpeg">
 				</li>
 				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
-					<img class="img-responsive" src="img/training/5.jpeg">
+					<img class="img-responsive" src="img/training/05.jpeg">
 				</li>
 				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
-					<img class="img-responsive" src="img/training/6.jpeg">
+					<img class="img-responsive" src="img/training/06.jpeg">
 				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/07.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/08.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/09.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/10.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/11.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/12.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/13.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/14.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/15.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/16.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/17.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/18.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/19.jpeg">
+				</li>
+				<li class="col-lg-4 col-md-4 col-sm-4  col-xs-4">
+					<img class="img-responsive" src="img/training/20.jpeg">
+				</li> -->
+
 			</ul>
 
 
@@ -86,7 +142,7 @@
 						<li>ICD Kheda</li>
 						<li>NRO Transports</li>
 						<li>Entrepreneur</li>
-						<li>ICD Dhanbad</li>
+						<li>ICD Dhannad</li>
 						<li>Safe Express Pvt. Ltd.</li>
 						<li>Ratlam Hospital & Research Center, Ratlam</li>
 						<li>Kwality Transport Carrier, Indore</li>

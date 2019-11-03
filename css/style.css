@@ -1053,7 +1053,7 @@ ul, ol {
 }
 
 .blog-item .blog-thumb {
-	width: 230px;
+	width: auto;
 	height: 170px;
 	float: left;
 }
@@ -1247,6 +1247,7 @@ ul, ol {
 #cf #it {
 	vertical-align: middle;
 	padding-left: 3px;
+	background-color: rgba(0, 115, 202);
 }
 
 #cf #ql {
@@ -2236,8 +2237,9 @@ ul, ol {
 		margin: 0;
 	}
 	.blog-item .blog-thumb {
-		height: 230px;
+		height: auto;
 		width: 100%;
+		padding: 0 30%;
 		margin-bottom: 20px;
 	}
 	.blog-item .blog-content {

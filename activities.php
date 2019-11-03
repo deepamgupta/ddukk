@@ -79,10 +79,11 @@
 			opacity: 1;
 		}
 
-		.card{
+		.card {
 			transition: transform 0.1s linear;
 		}
-		.card:hover{
+
+		.card:hover {
 			transform: scale(0.97);
 		}
 
@@ -182,7 +183,7 @@
 		$folders = scandir($dir);
 		$details = array();
 		foreach ($folders as $folder) {
-			if ($folder !== "." and $folder !== ".." and is_dir($dir . $folder)) {
+			if ($folder !== "." and $folder !== ".." and is_dir($dir . $folder) and $folder != "Thumbs.db") {
 				$name_date = explode("_", $folder);
 				$date = end($name_date);
 				$name = $name_date[0];
@@ -194,7 +195,7 @@
 
 
 		usort($details, function ($a, $b) {
-			return -($a["date"] <= $b["date"]);
+			return -($a["date"] <=> $b["date"]);
 		});
 
 
@@ -228,18 +229,27 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>Activities</h3>
-				<p>70% Pratical 30% Theory</p>
+				<p>60% Pratical 40% Theory</p>
 			</div>
+
 			<h5 class="text-center">EXPERT LECTURES</h5>
 			<hr>
 			<div class="row">
 				<?php display_activity("expert_lectures", "info"); ?>
 			</div>
+
 			<h5 class="text-center mt-5 pt-4">FIELD VISITS</h5>
 			<hr>
 			<div class="row">
 				<?php display_activity("field_visits", "success"); ?>
 			</div>
+
+			<h5 class="text-center mt-5 pt-4">ACADEMIC &amp; CURRICULAR ACTIVITIES</h5>
+			<hr>
+			<div class="row">
+				<?php display_activity("academic_and_curricular_activities", "warning"); ?>
+			</div>
+
 		</div>
 	</section>
 	<!-- Activities section end-->

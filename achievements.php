@@ -256,6 +256,12 @@
 				<?php display_activity("Tarun Kumawat - Power Lifting", "success"); ?>
 			</div>
 
+			<h5 class="text-center mt-5">Shivani Pawar, Twinkle Yadav, Ayush Jangid, Tarun Kumawat, Amit Rathore</h5>
+			<h5 class="text-center mt-2">YOUTH AGAINST LEPROCY</h5>
+			<hr>
+			<div class="row">
+				<?php display_activity("Youth Against Leprosy", "info"); ?>
+			</div>
 
 
 
