@@ -65,7 +65,7 @@
                         <div class="row">
                               <div class="rowstylef">
                                     <ul id="ql">
-                                          <a href="aboutus.php">
+                                          <a href="about.php">
                                                 <li>About Us</li>
                                           </a>
                                           <a href="boac.php">
