@@ -9,3 +9,6 @@
 3. Pratik Mehta
 
 You can download the repo and make changes and if they are interesting, send a pull request and contact us.
+
+
+The website is live here at : http://www.ddukk.dauniv.ac.in/
