@@ -1,6 +1,6 @@
 ## Repo for the site of Deen Dayal Upadhyay Kaushal Kendra, DAVV Indore(M.P.)
 
-### HOD : Dr.Maya Ingle
+### HOD : Dr. Maya Ingle
 
 ## Team Members:
 
