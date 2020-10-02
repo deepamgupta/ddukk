@@ -2,7 +2,10 @@
 <html lang="en">
 
 <!-- Head -->
-<?php include 'includes/head.php'; ?>
+
+<head>
+	<?php include 'includes/head.php'; ?>
+</head>
 
 <body>
 
@@ -15,10 +18,13 @@
 	<!-- Navbar -->
 	<?php include 'includes/navbar.php'; ?>
 
+	<!-- Side Nav -->
+	<?php include 'includes/sidenav.php'; ?>
+
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Board of Advisory Committee</span>
 		</div>
 	</div>
@@ -65,64 +71,64 @@
 					<tbody>
 						<tr>
 							<th scope="row">1</th>
-							<td>Vice Chancellor</td> 
+							<td>Vice Chancellor</td>
 							<td>Chairperson</td>
 						</tr>
 						<tr>
 							<th scope="row">2</th>
 							<td>Dr. Kumud Khanna <br>
-								(Experts nominated by Chairman, UGC)</td> 
+								(Experts nominated by Chairman, UGC)</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">3</th>
 							<td>Dr. Madhumita Roy <br>
-								(Experts nominated by Chairman, UGC)</td> 
+								(Experts nominated by Chairman, UGC)</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">4</th>
 							<td>Dr. R. S. Sharma <br>
-								(Academician nominated by Honorable VC)</td> 
+								(Academician nominated by Honorable VC)</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">5</th>
 							<td>Prof. Heena Zia <br>
-								(Academician nominated by Honorable VC)</td> 
+								(Academician nominated by Honorable VC)</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">6</th>
 							<td>Dr. Shashi Rai <br>
-								(Nominee of State Higher Education Council)	
-								</td> 
+								(Nominee of State Higher Education Council)
+							</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">7</th>
 							<td>Sweta Sharma Joshi <br>
-								(Representative of industries)</td> 
+								(Representative of industries)</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">8</th>
 							<td>Mr. Alok Dave <br>
-								(Representative of industries)</td> 
+								(Representative of industries)</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">9</th>
 							<td>Dr. Nikhil Kumar <br>
-								(UGC nominee)</td> 
+								(UGC nominee)</td>
 							<td>Member</td>
 						</tr>
 						<tr>
 							<th scope="row">10</th>
-							<td>Director, DDU-KK</td> 
+							<td>Director, DDU-KK</td>
 							<td>Member-secretary</td>
 						</tr>
-						
+
 					</tbody>
 				</table>
 			</div>

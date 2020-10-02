@@ -2,7 +2,10 @@
 <html lang="en">
 
 <!-- Head -->
-<?php include 'includes/head.php'; ?>
+
+<head>
+	<?php include 'includes/head.php'; ?>
+</head>
 
 <body>
 
@@ -15,11 +18,14 @@
 	<!-- Navbar -->
 	<?php include 'includes/navbar.php'; ?>
 
+	<!-- Side Nav -->
+	<?php include 'includes/sidenav.php'; ?>
+
 
 	<!-- Breadcrumb section -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="index.html"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
+			<a href="index.php"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-right"></i>
 			<span>Facilities</span>
 		</div>
 	</div>
@@ -36,111 +42,29 @@
 			<div class="row">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
-							<div class="card no-border">
-								<div class="card-body">
-									<h5 class="card-title">SEMINAR HALL</h5>
-									<!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-									<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-								</div>
-								<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap">
-								<!-- Modal -->
-								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-									<div class="modal-dialog modal-dialog-centered" role="document">
-										<div class="modal-content">
-											<div class="modal-body" style="padding: 0px !important;margin: 0px;">
-												<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap" style="padding: 0px;">
-											</div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="card no-border">
-								<div class="card-body">
-									<h5 class="card-title">COMPUTER LAB</h5>
-									<!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-									<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-								</div>
-								<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap">
-								<!-- Modal -->
-								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-									<div class="modal-dialog modal-dialog-centered" role="document">
-										<div class="modal-content">
-											<div class="modal-body" style="padding: 0px !important;margin: 0px;">
-												<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap" style="padding: 0px;">
-											</div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="card no-border">
-								<div class="card-body">
-									<h5 class="card-title">DESIGN LAB</h5>
-									<!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-									<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-								</div>
-								<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap">
-								<!-- Modal -->
-								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-									<div class="modal-dialog modal-dialog-centered" role="document">
-										<div class="modal-content">
-											<div class="modal-body" style="padding: 0px !important;margin: 0px;">
-												<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap" style="padding: 0px;">
-											</div>
 
-										</div>
+						<?php
+							$dir = opendir('./img/facilities');
+							while(($file = readdir($dir)) !== FALSE){
+								if( $file !== '.' and $file !== '..')
+								echo '<div class="col-md-6" style="margin-bottom: 30px;">
+								<div class="card no-border">
+									<div class="card-body">
+										<h5 class="card-title">'.pathinfo($file)['filename'].'</h5>
+										<!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+										<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 									</div>
+									<img class="card-img-bottom" style="height:20rem;" src="./img/facilities/'.$file.'" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap">
 								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="card no-border">
-								<div class="card-body">
-									<h5 class="card-title">NUTRITION LAB</h5>
-									<!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-									<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-								</div>
-								<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap">
-								<!-- Modal -->
-								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-									<div class="modal-dialog modal-dialog-centered" role="document">
-										<div class="modal-content">
-											<div class="modal-body" style="padding: 0px !important;margin: 0px;">
-												<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap" style="padding: 0px;">
-											</div>
+							</div>';
+							}
+						?>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="card no-border">
-								<div class="card-body">
-									<h5 class="card-title">LIBRARY</h5>
-									<!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-									<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-								</div>
-								<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap">
-								<!-- Modal -->
-								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-									<div class="modal-dialog modal-dialog-centered" role="document">
-										<div class="modal-content">
-											<div class="modal-body" style="padding: 0px !important;margin: 0px;">
-												<img class="card-img-bottom" src="img/gallery/8.jpg" data-toggle="modal" data-target="#exampleModalCenter" alt="Card image cap" style="padding: 0px;">
-											</div>
 
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+
+
 					</div>
 				</div>
 			</div>
